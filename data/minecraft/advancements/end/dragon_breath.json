@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:dragon_breath"
+            "items": [
+              "minecraft:dragon_breath"
+            ]
           }
         ]
       },
@@ -13,14 +15,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.dragon_breath.description"
     },
     "frame": "goal",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:dragon_breath"
+      "item": "minecraft:dragon_breath"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.end.dragon_breath.title"
     }

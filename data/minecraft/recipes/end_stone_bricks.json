@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:end_stone_bricks"
-  }
+    "item": "minecraft:end_stone_bricks"
+  },
+  "show_notification": true
 }

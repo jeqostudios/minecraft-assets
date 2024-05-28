@@ -15,7 +15,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:wooden_sword"
-  }
+    "item": "minecraft:wooden_sword"
+  },
+  "show_notification": true
 }

@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:yellow_terracotta"
+            "items": [
+              "minecraft:yellow_terracotta"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_yellow_terracotta"
+      "has_yellow_terracotta",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:yellow_glazed_terracotta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

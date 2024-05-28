@@ -16,7 +16,7 @@
     " | "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:magenta_banner"
-  }
+    "item": "minecraft:magenta_banner"
+  },
+  "show_notification": true
 }

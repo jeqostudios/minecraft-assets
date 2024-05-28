@@ -15,7 +15,7 @@
     " #"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:golden_axe"
-  }
+    "item": "minecraft:golden_axe"
+  },
+  "show_notification": true
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:oak_logs"
+            "tag": "minecraft:oak_logs"
           }
         ]
       },
@@ -20,13 +20,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_logs"
+      "has_logs",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:oak_planks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:birch_logs"
+            "tag": "minecraft:birch_logs"
           }
         ]
       },
@@ -20,13 +20,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_logs"
+      "has_logs",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:birch_planks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

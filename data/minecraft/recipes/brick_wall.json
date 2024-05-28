@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:brick_wall"
-  }
+    "item": "minecraft:brick_wall"
+  },
+  "show_notification": true
 }

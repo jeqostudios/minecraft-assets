@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:carved_pumpkin"
+            "items": [
+              "minecraft:carved_pumpkin"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_carved_pumpkin"
+      "has_carved_pumpkin",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:jack_o_lantern"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

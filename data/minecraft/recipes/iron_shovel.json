@@ -15,7 +15,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:iron_shovel"
-  }
+    "item": "minecraft:iron_shovel"
+  },
+  "show_notification": true
 }

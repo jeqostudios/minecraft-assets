@@ -17,6 +17,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:spruce_hanging_sign"
-  }
+    "item": "minecraft:spruce_hanging_sign"
+  },
+  "show_notification": true
 }

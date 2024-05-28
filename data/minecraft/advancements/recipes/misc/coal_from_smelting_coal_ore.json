@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:coal_ore"
+            "items": [
+              "minecraft:coal_ore"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_coal_ore"
+      "has_coal_ore",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:coal_from_smelting_coal_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

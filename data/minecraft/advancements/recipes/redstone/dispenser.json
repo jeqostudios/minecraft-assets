@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bow"
+            "items": [
+              "minecraft:bow"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_bow"
+      "has_bow",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:dispenser"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

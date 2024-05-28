@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:deepslate_gold_ore"
   },
-  "result": {
-    "id": "minecraft:gold_ingot"
-  }
+  "result": "minecraft:gold_ingot"
 }

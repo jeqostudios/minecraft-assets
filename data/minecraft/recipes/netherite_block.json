@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:netherite_ingot"
-    }
-  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:netherite_block"
+    "item": "minecraft:netherite_block"
   }
 }

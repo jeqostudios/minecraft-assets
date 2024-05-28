@@ -10,8 +10,7 @@
       "translate": "advancements.nether.brew_potion.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:potion"
+      "item": "minecraft:potion"
     },
     "title": {
       "translate": "advancements.nether.brew_potion.title"

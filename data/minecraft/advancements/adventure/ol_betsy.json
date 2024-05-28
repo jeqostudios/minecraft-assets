@@ -4,7 +4,9 @@
     "shot_crossbow": {
       "conditions": {
         "item": {
-          "items": "minecraft:crossbow"
+          "items": [
+            "minecraft:crossbow"
+          ]
         }
       },
       "trigger": "minecraft:shot_crossbow"
@@ -15,8 +17,8 @@
       "translate": "advancements.adventure.ol_betsy.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:crossbow"
+      "item": "minecraft:crossbow",
+      "nbt": "{Damage:0}"
     },
     "title": {
       "translate": "advancements.adventure.ol_betsy.title"

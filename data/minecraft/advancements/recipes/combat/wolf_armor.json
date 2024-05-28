@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:armadillo_scute"
+            "items": [
+              "minecraft:armadillo_scute"
+            ]
           }
         ]
       },

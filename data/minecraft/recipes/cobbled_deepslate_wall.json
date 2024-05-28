@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:cobbled_deepslate"
     }
   },
-  "pattern": [
-    "###",
-    "###"
-  ],
   "result": {
-    "count": 6,
-    "id": "minecraft:cobbled_deepslate_wall"
+    "item": "minecraft:cobbled_deepslate_wall",
+    "count": 6
   }
 }

@@ -1,7 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
   "key": {
     "#": {
       "item": "minecraft:pink_wool"
@@ -10,12 +13,7 @@
       "tag": "minecraft:planks"
     }
   },
-  "pattern": [
-    "###",
-    "XXX"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:pink_bed"
+    "item": "minecraft:pink_bed"
   }
 }

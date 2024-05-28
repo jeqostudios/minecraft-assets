@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:beetroot"
+            "items": [
+              "minecraft:beetroot"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_beetroot"
+      "has_beetroot",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

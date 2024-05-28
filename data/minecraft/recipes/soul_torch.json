@@ -24,6 +24,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:soul_torch"
-  }
+    "item": "minecraft:soul_torch"
+  },
+  "show_notification": true
 }

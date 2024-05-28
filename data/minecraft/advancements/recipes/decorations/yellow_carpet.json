@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:yellow_wool"
+            "items": [
+              "minecraft:yellow_wool"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_yellow_wool"
+      "has_yellow_wool",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

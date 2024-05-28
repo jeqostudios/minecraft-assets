@@ -15,6 +15,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:nether_brick_fence"
-  }
+    "item": "minecraft:nether_brick_fence"
+  },
+  "show_notification": true
 }

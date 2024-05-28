@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:ender_chest"
-  }
+    "item": "minecraft:ender_chest"
+  },
+  "show_notification": true
 }

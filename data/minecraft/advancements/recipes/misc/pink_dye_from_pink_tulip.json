@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_tulip"
+            "items": [
+              "minecraft:pink_tulip"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:pink_dye_from_pink_tulip"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

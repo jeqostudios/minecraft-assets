@@ -11,6 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:dark_prismarine_slab"
-  }
+    "item": "minecraft:dark_prismarine_slab"
+  },
+  "show_notification": true
 }

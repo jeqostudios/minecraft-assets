@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:egg"
+            "items": [
+              "minecraft:egg"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:cake"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

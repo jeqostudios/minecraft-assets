@@ -15,7 +15,7 @@
     "iii"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:anvil"
-  }
+    "item": "minecraft:anvil"
+  },
+  "show_notification": true
 }

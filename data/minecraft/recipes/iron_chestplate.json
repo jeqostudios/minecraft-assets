@@ -12,7 +12,7 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:iron_chestplate"
-  }
+    "item": "minecraft:iron_chestplate"
+  },
+  "show_notification": true
 }

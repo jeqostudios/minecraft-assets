@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glass"
+            "items": [
+              "minecraft:glass"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:orange_stained_glass"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

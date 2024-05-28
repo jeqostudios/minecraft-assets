@@ -12,7 +12,7 @@
     " # "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:decorated_pot"
-  }
+    "item": "minecraft:decorated_pot"
+  },
+  "show_notification": true
 }

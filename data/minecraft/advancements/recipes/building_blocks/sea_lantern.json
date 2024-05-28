@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:prismarine_crystals"
+            "items": [
+              "minecraft:prismarine_crystals"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:sea_lantern"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

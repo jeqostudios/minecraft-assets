@@ -1,16 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:wheat"
     }
   },
-  "pattern": [
-    "###"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:bread"
+    "item": "minecraft:bread"
   }
 }

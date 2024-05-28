@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "wooden_slab",
   "key": {
     "#": {
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:jungle_slab"
+    "item": "minecraft:jungle_slab"
   }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
   "key": {
     "X": {
       "item": "minecraft:leather"
@@ -12,7 +11,6 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:leather_chestplate"
+    "item": "minecraft:leather_chestplate"
   }
 }

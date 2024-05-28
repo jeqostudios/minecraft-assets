@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "#minecraft:base_stone_overworld",
     "#minecraft:dirt",
@@ -8,7 +9,6 @@
     "#minecraft:copper_ores",
     "minecraft:water",
     "minecraft:gravel",
-    "minecraft:suspicious_gravel",
     "minecraft:sandstone",
     "minecraft:red_sandstone",
     "minecraft:calcite",

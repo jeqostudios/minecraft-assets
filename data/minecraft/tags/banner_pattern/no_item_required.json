@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:square_bottom_left",
     "minecraft:square_bottom_right",

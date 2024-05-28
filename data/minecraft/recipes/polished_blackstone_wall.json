@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:polished_blackstone"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:polished_blackstone_wall"
+    "item": "minecraft:polished_blackstone_wall"
   }
 }

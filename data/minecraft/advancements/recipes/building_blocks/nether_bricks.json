@@ -1,11 +1,13 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_nether_brick": {
+    "has_netherbrick": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nether_brick"
+            "items": [
+              "minecraft:nether_brick"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_nether_brick"
+      "has_netherbrick",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

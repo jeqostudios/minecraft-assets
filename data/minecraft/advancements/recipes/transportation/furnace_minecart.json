@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:minecart"
+            "items": [
+              "minecraft:minecart"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_minecart"
+      "has_minecart",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

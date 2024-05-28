@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:glass"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 16,
-    "id": "minecraft:glass_pane"
+    "item": "minecraft:glass_pane"
   }
 }

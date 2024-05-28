@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:stone",
     "minecraft:granite",
@@ -302,6 +303,7 @@
     "minecraft:ice",
     "minecraft:packed_ice",
     "minecraft:blue_ice",
+    "minecraft:stone_button",
     "minecraft:piston",
     "minecraft:sticky_piston",
     "minecraft:piston_head",
@@ -318,7 +320,6 @@
     "minecraft:infested_stone",
     "minecraft:infested_mossy_stone_bricks",
     "minecraft:infested_stone_bricks",
-    "#minecraft:stone_buttons",
     "#minecraft:walls",
     "#minecraft:shulker_boxes",
     "#minecraft:anvil",

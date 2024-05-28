@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:gunpowder"
@@ -19,6 +18,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "minecraft:fire_charge"
+    "item": "minecraft:fire_charge"
   }
 }

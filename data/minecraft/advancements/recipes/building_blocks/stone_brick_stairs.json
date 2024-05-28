@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:stone_bricks"
+            "tag": "minecraft:stone_bricks"
           }
         ]
       },
@@ -20,8 +20,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_stone_bricks"
+      "has_stone_bricks",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

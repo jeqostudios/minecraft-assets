@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:oak_chest_boat",
     "minecraft:spruce_chest_boat",
@@ -6,8 +7,6 @@
     "minecraft:jungle_chest_boat",
     "minecraft:acacia_chest_boat",
     "minecraft:dark_oak_chest_boat",
-    "minecraft:mangrove_chest_boat",
-    "minecraft:bamboo_chest_raft",
-    "minecraft:cherry_chest_boat"
+    "minecraft:mangrove_chest_boat"
   ]
 }

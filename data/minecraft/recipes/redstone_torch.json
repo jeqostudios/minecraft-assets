@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -14,7 +13,6 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:redstone_torch"
+    "item": "minecraft:redstone_torch"
   }
 }

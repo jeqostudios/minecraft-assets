@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:blaze_rod"
+            "items": [
+              "minecraft:blaze_rod"
+            ]
           }
         ]
       },
@@ -13,13 +15,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.obtain_blaze_rod.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:blaze_rod"
+      "item": "minecraft:blaze_rod"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.obtain_blaze_rod.title"
     }
@@ -28,6 +33,5 @@
     [
       "blaze_rod"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

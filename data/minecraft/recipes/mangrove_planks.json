@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
   "group": "planks",
   "ingredients": [
     {
@@ -9,6 +8,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:mangrove_planks"
+    "item": "minecraft:mangrove_planks"
   }
 }

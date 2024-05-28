@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "bed",
   "key": {
     "#": {
@@ -15,7 +14,6 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:black_bed"
+    "item": "minecraft:black_bed"
   }
 }

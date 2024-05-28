@@ -8,11 +8,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_components",
-              "include": [
-                "minecraft:profile",
-                "minecraft:note_block_sound",
-                "minecraft:custom_name"
+              "function": "minecraft:copy_nbt",
+              "ops": [
+                {
+                  "op": "replace",
+                  "source": "SkullOwner",
+                  "target": "SkullOwner"
+                }
               ],
               "source": "block_entity"
             }
@@ -22,6 +24,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:blocks/player_head"
+  ]
 }

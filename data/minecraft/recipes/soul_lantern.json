@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:soul_torch"
@@ -15,7 +14,6 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:soul_lantern"
+    "item": "minecraft:soul_lantern"
   }
 }

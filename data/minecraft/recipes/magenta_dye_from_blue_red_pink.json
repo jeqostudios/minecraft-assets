@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "group": "magenta_dye",
   "ingredients": [
     {
@@ -15,6 +14,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "minecraft:magenta_dye"
+    "item": "minecraft:magenta_dye"
   }
 }

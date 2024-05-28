@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": [
       {
@@ -16,6 +15,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:red_sandstone_slab"
+    "item": "minecraft:red_sandstone_slab"
   }
 }

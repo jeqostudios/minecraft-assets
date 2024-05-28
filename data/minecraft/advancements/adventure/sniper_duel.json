@@ -18,26 +18,23 @@
           }
         ],
         "killing_blow": {
-          "tags": [
-            {
-              "expected": true,
-              "id": "minecraft:is_projectile"
-            }
-          ]
+          "is_projectile": true
         }
       },
       "trigger": "minecraft:player_killed_entity"
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.sniper_duel.description"
     },
     "frame": "challenge",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:arrow"
+      "item": "minecraft:arrow"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.sniper_duel.title"
     }
@@ -49,6 +46,5 @@
   ],
   "rewards": {
     "experience": 50
-  },
-  "sends_telemetry_event": true
+  }
 }

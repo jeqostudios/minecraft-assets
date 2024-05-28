@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:brick"
@@ -11,7 +10,6 @@
     " # "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:flower_pot"
+    "item": "minecraft:flower_pot"
   }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "stained_glass",
   "key": {
     "#": {
@@ -17,6 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:yellow_stained_glass"
+    "item": "minecraft:yellow_stained_glass"
   }
 }

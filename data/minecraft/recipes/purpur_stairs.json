@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": [
       {
@@ -18,6 +17,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:purpur_stairs"
+    "item": "minecraft:purpur_stairs"
   }
 }

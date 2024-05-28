@@ -8,12 +8,7 @@
             "direct_entity": {
               "type": "minecraft:trident"
             },
-            "tags": [
-              {
-                "expected": true,
-                "id": "minecraft:is_projectile"
-              }
-            ]
+            "is_projectile": true
           }
         }
       },
@@ -21,13 +16,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.throw_trident.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:trident"
+      "item": "minecraft:trident",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.throw_trident.title"
     }
@@ -36,6 +35,5 @@
     [
       "shot_trident"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

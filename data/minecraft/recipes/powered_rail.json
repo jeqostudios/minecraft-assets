@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -19,6 +18,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:powered_rail"
+    "item": "minecraft:powered_rail"
   }
 }

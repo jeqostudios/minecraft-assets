@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:fishing_rod"
@@ -14,7 +13,6 @@
     " X"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:warped_fungus_on_a_stick"
+    "item": "minecraft:warped_fungus_on_a_stick"
   }
 }

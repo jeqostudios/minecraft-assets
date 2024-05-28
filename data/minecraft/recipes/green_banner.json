@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "banner",
   "key": {
     "#": {
@@ -16,7 +15,6 @@
     " | "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:green_banner"
+    "item": "minecraft:green_banner"
   }
 }

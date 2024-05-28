@@ -5,12 +5,7 @@
       "conditions": {
         "damage": {
           "type": {
-            "tags": [
-              {
-                "expected": true,
-                "id": "minecraft:is_projectile"
-              }
-            ]
+            "is_projectile": true
           },
           "blocked": true
         }
@@ -19,13 +14,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.deflect_arrow.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:shield"
+      "item": "minecraft:shield",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.story.deflect_arrow.title"
     }
@@ -34,6 +33,5 @@
     [
       "deflected_projectile"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

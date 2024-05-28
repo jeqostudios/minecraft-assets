@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "P": {
       "item": "minecraft:piston"
@@ -14,7 +13,6 @@
     "P"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:sticky_piston"
+    "item": "minecraft:sticky_piston"
   }
 }

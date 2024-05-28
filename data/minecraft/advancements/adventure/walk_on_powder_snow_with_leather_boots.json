@@ -10,12 +10,16 @@
             "predicate": {
               "equipment": {
                 "feet": {
-                  "items": "minecraft:leather_boots"
+                  "items": [
+                    "minecraft:leather_boots"
+                  ]
                 }
               },
               "stepping_on": {
                 "block": {
-                  "blocks": "minecraft:powder_snow"
+                  "blocks": [
+                    "minecraft:powder_snow"
+                  ]
                 }
               }
             }
@@ -26,13 +30,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:leather_boots"
+      "item": "minecraft:leather_boots",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.title"
     }
@@ -41,6 +49,5 @@
     [
       "walk_on_powder_snow_with_leather_boots"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

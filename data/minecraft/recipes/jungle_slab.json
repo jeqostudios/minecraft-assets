@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:jungle_planks"
     }
   },
-  "pattern": [
-    "###"
-  ],
   "result": {
-    "count": 6,
-    "id": "minecraft:jungle_slab"
+    "item": "minecraft:jungle_slab",
+    "count": 6
   }
 }

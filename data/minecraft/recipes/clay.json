@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:clay"
-  }
+    "item": "minecraft:clay"
+  },
+  "show_notification": true
 }

@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:nether_quartz_ore"
   },
-  "result": {
-    "id": "minecraft:quartz"
-  }
+  "result": "minecraft:quartz"
 }

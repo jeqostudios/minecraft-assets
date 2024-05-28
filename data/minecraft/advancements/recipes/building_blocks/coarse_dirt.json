@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:gravel"
+            "items": [
+              "minecraft:gravel"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:coarse_dirt"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

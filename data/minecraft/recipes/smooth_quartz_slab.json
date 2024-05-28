@@ -11,6 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:smooth_quartz_slab"
-  }
+    "item": "minecraft:smooth_quartz_slab"
+  },
+  "show_notification": true
 }

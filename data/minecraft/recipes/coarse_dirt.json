@@ -15,6 +15,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:coarse_dirt"
-  }
+    "item": "minecraft:coarse_dirt"
+  },
+  "show_notification": true
 }

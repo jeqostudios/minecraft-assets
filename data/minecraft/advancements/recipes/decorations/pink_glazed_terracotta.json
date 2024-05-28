@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_terracotta"
+            "items": [
+              "minecraft:pink_terracotta"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:pink_glazed_terracotta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

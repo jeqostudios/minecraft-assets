@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:netherrack"
   },
-  "result": {
-    "id": "minecraft:nether_brick"
-  }
+  "result": "minecraft:nether_brick"
 }

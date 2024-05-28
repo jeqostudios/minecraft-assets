@@ -15,7 +15,7 @@
     " #"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:diamond_hoe"
-  }
+    "item": "minecraft:diamond_hoe"
+  },
+  "show_notification": true
 }

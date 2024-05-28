@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:deepslate_tile_wall"
-  }
+    "item": "minecraft:deepslate_tile_wall"
+  },
+  "show_notification": true
 }

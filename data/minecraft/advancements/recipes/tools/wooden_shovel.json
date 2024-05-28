@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stick"
+            "items": [
+              "minecraft:stick"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:wooden_shovel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

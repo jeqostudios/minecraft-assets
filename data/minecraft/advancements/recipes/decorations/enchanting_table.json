@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian"
+            "items": [
+              "minecraft:obsidian"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:enchanting_table"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

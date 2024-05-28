@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:shaper_armor_trim_smithing_template"
+            "items": [
+              "minecraft:shaper_armor_trim_smithing_template"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:shaper_armor_trim_smithing_template_smithing_trim"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_wool"
+            "items": [
+              "minecraft:pink_wool"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:pink_banner"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cactus"
+            "items": [
+              "minecraft:cactus"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:green_dye"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

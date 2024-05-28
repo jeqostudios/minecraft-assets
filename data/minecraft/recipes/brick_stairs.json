@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:bricks"
-    }
-  },
   "pattern": [
     "#  ",
     "## ",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:bricks"
+    }
+  },
   "result": {
-    "count": 4,
-    "id": "minecraft:brick_stairs"
+    "item": "minecraft:brick_stairs",
+    "count": 4
   }
 }

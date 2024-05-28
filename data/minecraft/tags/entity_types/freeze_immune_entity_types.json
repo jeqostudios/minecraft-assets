@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:stray",
     "minecraft:polar_bear",

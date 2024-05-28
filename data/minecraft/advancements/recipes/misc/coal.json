@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:coal_block"
+            "items": [
+              "minecraft:coal_block"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_coal_block"
+      "has_coal_block",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:coal"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

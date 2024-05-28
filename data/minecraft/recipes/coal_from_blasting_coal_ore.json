@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:coal_ore"
   },
-  "result": {
-    "id": "minecraft:coal"
-  }
+  "result": "minecraft:coal"
 }

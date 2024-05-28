@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:diorite_wall"
-  }
+    "item": "minecraft:diorite_wall"
+  },
+  "show_notification": true
 }

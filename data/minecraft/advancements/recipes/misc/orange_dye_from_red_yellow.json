@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_dye"
+            "items": [
+              "minecraft:red_dye"
+            ]
           }
         ]
       },
@@ -21,7 +23,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:yellow_dye"
+            "items": [
+              "minecraft:yellow_dye"
+            ]
           }
         ]
       },
@@ -30,14 +34,15 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_red_dye",
-      "has_yellow_dye"
+      "has_yellow_dye",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:orange_dye_from_red_yellow"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

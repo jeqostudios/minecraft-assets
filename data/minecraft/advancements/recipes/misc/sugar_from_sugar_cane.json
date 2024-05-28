@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sugar_cane"
+            "items": [
+              "minecraft:sugar_cane"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_sugar_cane"
+      "has_sugar_cane",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:sugar_from_sugar_cane"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

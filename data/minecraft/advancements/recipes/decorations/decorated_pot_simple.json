@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:decorated_pot_ingredients"
+            "tag": "minecraft:decorated_pot_ingredients"
           }
         ]
       },
@@ -20,13 +20,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_brick"
+      "has_brick",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:decorated_pot_simple"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

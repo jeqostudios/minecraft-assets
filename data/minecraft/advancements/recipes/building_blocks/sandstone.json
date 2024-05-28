@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sand"
+            "items": [
+              "minecraft:sand"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:sandstone"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

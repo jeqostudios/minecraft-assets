@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ink_sac"
+            "items": [
+              "minecraft:ink_sac"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:black_dye"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

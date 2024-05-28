@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:warped_fungus"
+            "items": [
+              "minecraft:warped_fungus"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:warped_fungus_on_a_stick"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

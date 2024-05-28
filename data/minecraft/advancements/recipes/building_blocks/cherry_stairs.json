@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cherry_planks"
+            "items": [
+              "minecraft:cherry_planks"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:cherry_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

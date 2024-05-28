@@ -8,7 +8,9 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": "minecraft:respawn_anchor",
+                "blocks": [
+                  "minecraft:respawn_anchor"
+                ],
                 "state": {
                   "charges": "4"
                 }
@@ -18,7 +20,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "minecraft:glowstone"
+              "items": [
+                "minecraft:glowstone"
+              ]
             }
           }
         ]
@@ -27,13 +31,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.charge_respawn_anchor.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:respawn_anchor"
+      "item": "minecraft:respawn_anchor"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.charge_respawn_anchor.title"
     }

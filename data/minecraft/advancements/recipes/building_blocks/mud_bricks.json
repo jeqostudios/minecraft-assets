@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:packed_mud"
+            "items": [
+              "minecraft:packed_mud"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:mud_bricks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

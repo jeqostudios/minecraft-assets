@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:beetroot"
+            "items": [
+              "minecraft:beetroot"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:red_dye_from_beetroot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

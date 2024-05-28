@@ -19,6 +19,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:waxed_weathered_copper_bulb"
-  }
+    "item": "minecraft:waxed_weathered_copper_bulb"
+  },
+  "show_notification": true
 }

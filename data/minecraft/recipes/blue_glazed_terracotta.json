@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:blue_terracotta"
   },
-  "result": {
-    "id": "minecraft:blue_glazed_terracotta"
-  }
+  "result": "minecraft:blue_glazed_terracotta"
 }

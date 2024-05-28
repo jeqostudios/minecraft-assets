@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cocoa_beans"
+            "items": [
+              "minecraft:cocoa_beans"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:brown_dye"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

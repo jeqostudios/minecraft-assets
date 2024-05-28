@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:granite"
+            "items": [
+              "minecraft:granite"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:polished_granite_stairs_from_granite_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

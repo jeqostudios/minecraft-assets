@@ -18,7 +18,7 @@
     "OOO"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:beacon"
-  }
+    "item": "minecraft:beacon"
+  },
+  "show_notification": true
 }

@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:tuff"
+            "items": [
+              "minecraft:tuff"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:tuff_stairs_from_tuff_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

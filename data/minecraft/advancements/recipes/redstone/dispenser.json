@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bow"
+            "items": [
+              "minecraft:bow"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dispenser"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

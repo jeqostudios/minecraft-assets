@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sea_pickle"
+            "items": [
+              "minecraft:sea_pickle"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:lime_dye_from_smelting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

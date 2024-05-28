@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:deepslate_tiles"
-  }
+    "item": "minecraft:deepslate_tiles"
+  },
+  "show_notification": true
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherrack"
+            "items": [
+              "minecraft:netherrack"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:nether_brick"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

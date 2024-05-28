@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stripped_warped_stem"
+            "items": [
+              "minecraft:stripped_warped_stem"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:warped_hanging_sign"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

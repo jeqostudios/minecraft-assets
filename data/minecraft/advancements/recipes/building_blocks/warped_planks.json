@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:warped_stems"
+            "tag": "minecraft:warped_stems"
           }
         ]
       },
@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:warped_planks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

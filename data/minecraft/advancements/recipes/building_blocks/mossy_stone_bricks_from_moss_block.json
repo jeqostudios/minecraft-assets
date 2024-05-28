@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:moss_block"
+            "items": [
+              "minecraft:moss_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:mossy_stone_bricks_from_moss_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

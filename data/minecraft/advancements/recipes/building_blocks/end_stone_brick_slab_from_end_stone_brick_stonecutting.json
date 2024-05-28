@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:end_stone_bricks"
+            "items": [
+              "minecraft:end_stone_bricks"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:end_stone_brick_slab_from_end_stone_brick_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:weathered_copper"
+            "items": [
+              "minecraft:weathered_copper"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:weathered_cut_copper_slab_from_weathered_copper_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

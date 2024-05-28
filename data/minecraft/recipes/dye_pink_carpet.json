@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:pink_carpet"
+    "item": "minecraft:pink_carpet"
   }
 }

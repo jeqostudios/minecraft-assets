@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:sandstone"
-  }
+    "item": "minecraft:sandstone"
+  },
+  "show_notification": true
 }

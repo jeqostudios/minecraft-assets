@@ -4,8 +4,7 @@
         "particle": "block/pitcher_crop_top",
 		"stage_3_bottom": "block/pitcher_crop_bottom_stage_3",
 		"pitcher_top": "block/pitcher_crop_top",
-		"pitcher_side": "block/pitcher_crop_side",
-        "pitcher_bottom": "block/pitcher_crop_bottom"
+		"pitcher_side": "block/pitcher_crop_side"
 	},
 	"elements": [
 		{
@@ -39,8 +38,7 @@
 				"east": {"uv": [3, 10, 13, 16], "texture": "#pitcher_side"},
 				"south": {"uv": [3, 10, 13, 16], "texture": "#pitcher_side"},
 				"west": {"uv": [3, 10, 13, 16], "texture": "#pitcher_side"},
-				"up": {"uv": [3, 3, 13, 13], "texture": "#pitcher_top"},
-				"down": {"uv": [3, 3, 13, 13], "texture": "#pitcher_bottom"}
+				"up": {"uv": [3, 3, 13, 13], "texture": "#pitcher_top"}
 			}
 		}
 	]

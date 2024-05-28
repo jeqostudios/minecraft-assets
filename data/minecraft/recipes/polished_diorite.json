@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:polished_diorite"
-  }
+    "item": "minecraft:polished_diorite"
+  },
+  "show_notification": true
 }

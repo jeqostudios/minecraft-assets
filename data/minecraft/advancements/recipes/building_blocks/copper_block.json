@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:copper_ingot"
+            "items": [
+              "minecraft:copper_ingot"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_copper_ingot"
+      "has_copper_ingot",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

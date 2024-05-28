@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_boots"
+            "items": [
+              "minecraft:iron_boots"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_chestplate"
+            "items": [
+              "minecraft:iron_chestplate"
+            ]
           }
         ]
       },
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_helmet"
+            "items": [
+              "minecraft:iron_helmet"
+            ]
           }
         ]
       },
@@ -35,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_leggings"
+            "items": [
+              "minecraft:iron_leggings"
+            ]
           }
         ]
       },
@@ -43,13 +51,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.obtain_armor.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:iron_chestplate"
+      "item": "minecraft:iron_chestplate",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.story.obtain_armor.title"
     }
@@ -61,6 +73,5 @@
       "iron_leggings",
       "iron_boots"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

@@ -17,6 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:purple_terracotta"
-  }
+    "item": "minecraft:purple_terracotta"
+  },
+  "show_notification": true
 }

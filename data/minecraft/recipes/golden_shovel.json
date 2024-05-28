@@ -15,7 +15,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:golden_shovel"
-  }
+    "item": "minecraft:golden_shovel"
+  },
+  "show_notification": true
 }

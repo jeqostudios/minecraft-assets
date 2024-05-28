@@ -15,7 +15,7 @@
     "SCS"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:sea_lantern"
-  }
+    "item": "minecraft:sea_lantern"
+  },
+  "show_notification": true
 }

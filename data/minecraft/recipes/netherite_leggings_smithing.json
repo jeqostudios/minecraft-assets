@@ -7,8 +7,7 @@
     "item": "minecraft:diamond_leggings"
   },
   "result": {
-    "count": 1,
-    "id": "minecraft:netherite_leggings"
+    "item": "minecraft:netherite_leggings"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"

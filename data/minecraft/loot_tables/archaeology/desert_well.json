@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:arms_up_pottery_sherd",
+          "name": "minecraft:arms_up_pottery_shard",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brewer_pottery_sherd",
+          "name": "minecraft:brewer_pottery_shard",
           "weight": 2
         },
         {
@@ -88,6 +88,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:archaeology/desert_well"
+  ]
 }

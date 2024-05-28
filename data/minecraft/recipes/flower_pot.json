@@ -11,7 +11,7 @@
     " # "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:flower_pot"
-  }
+    "item": "minecraft:flower_pot"
+  },
+  "show_notification": true
 }

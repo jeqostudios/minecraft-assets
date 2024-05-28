@@ -8,7 +8,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:pink_dye"
+    "item": "minecraft:pink_dye"
   }
 }

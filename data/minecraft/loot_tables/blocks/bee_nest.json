@@ -7,16 +7,14 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantment": "minecraft:silk_touch",
-                  "levels": {
-                    "min": 1
-                  }
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
                 }
-              ]
-            }
+              }
+            ]
           }
         }
       ],
@@ -25,10 +23,10 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_components",
-              "include": [
+              "components": [
                 "minecraft:bees"
               ],
+              "function": "minecraft:copy_components",
               "source": "block_entity"
             },
             {

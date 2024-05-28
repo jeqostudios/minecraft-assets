@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:copper_ingot"
-    }
-  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:copper_block"
+    "item": "minecraft:copper_block"
   }
 }

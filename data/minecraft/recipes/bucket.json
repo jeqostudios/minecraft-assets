@@ -1,17 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "# #",
+    " # "
+  ],
   "key": {
     "#": {
       "item": "minecraft:iron_ingot"
     }
   },
-  "pattern": [
-    "# #",
-    " # "
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:bucket"
+    "item": "minecraft:bucket"
   }
 }

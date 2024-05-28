@@ -1,7 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "stained_terracotta",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:terracotta"
@@ -10,13 +14,8 @@
       "item": "minecraft:green_dye"
     }
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "result": {
-    "count": 8,
-    "id": "minecraft:green_terracotta"
+    "item": "minecraft:green_terracotta",
+    "count": 8
   }
 }

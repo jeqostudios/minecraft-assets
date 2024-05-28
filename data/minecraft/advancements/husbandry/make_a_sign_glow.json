@@ -1,44 +1,40 @@
 {
   "parent": "minecraft:husbandry/root",
-  "criteria": {
-    "make_a_sign_glow": {
-      "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "#minecraft:all_signs"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:glow_ink_sac"
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:item_used_on_block"
-    }
-  },
   "display": {
-    "description": {
-      "translate": "advancements.husbandry.make_a_sign_glow.description"
-    },
     "icon": {
-      "count": 1,
-      "id": "minecraft:glow_ink_sac"
+      "item": "minecraft:glow_ink_sac"
     },
     "title": {
       "translate": "advancements.husbandry.make_a_sign_glow.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.make_a_sign_glow.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_a_sign_glow": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:signs"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:glow_ink_sac"
+          ]
+        }
+      }
     }
   },
   "requirements": [
     [
       "make_a_sign_glow"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

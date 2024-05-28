@@ -1,13 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:raw_copper_block"
     }
   ],
   "result": {
-    "count": 9,
-    "id": "minecraft:raw_copper"
+    "item": "minecraft:raw_copper",
+    "count": 9
   }
 }

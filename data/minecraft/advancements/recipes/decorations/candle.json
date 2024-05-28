@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:honeycomb"
+            "items": [
+              "minecraft:honeycomb"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:string"
+            "items": [
+              "minecraft:string"
+            ]
           }
         ]
       },

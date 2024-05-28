@@ -15,8 +15,7 @@
       "translate": "advancements.nether.create_beacon.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:beacon"
+      "item": "minecraft:beacon"
     },
     "title": {
       "translate": "advancements.nether.create_beacon.title"

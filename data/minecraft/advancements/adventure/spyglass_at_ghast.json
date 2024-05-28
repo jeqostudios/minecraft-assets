@@ -1,45 +1,48 @@
 {
   "parent": "minecraft:adventure/spyglass_at_parrot",
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.adventure.spyglass_at_ghast.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.spyglass_at_ghast.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
   "criteria": {
     "spyglass_at_ghast": {
+      "trigger": "minecraft:using_item",
       "conditions": {
-        "item": {
-          "items": "minecraft:spyglass"
-        },
         "player": [
           {
             "condition": "minecraft:entity_properties",
-            "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
+              "player": {
                 "looking_at": {
                   "type": "minecraft:ghast"
                 }
               }
-            }
+            },
+            "entity": "this"
           }
-        ]
-      },
-      "trigger": "minecraft:using_item"
-    }
-  },
-  "display": {
-    "description": {
-      "translate": "advancements.adventure.spyglass_at_ghast.description"
-    },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:spyglass"
-    },
-    "title": {
-      "translate": "advancements.adventure.spyglass_at_ghast.title"
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
     }
   },
   "requirements": [
     [
       "spyglass_at_ghast"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

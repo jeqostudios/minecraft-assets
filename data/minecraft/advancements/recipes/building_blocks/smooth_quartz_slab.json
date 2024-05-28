@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smooth_quartz"
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:smooth_quartz_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

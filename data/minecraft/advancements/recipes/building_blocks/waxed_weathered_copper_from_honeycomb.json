@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:weathered_copper"
+            "items": [
+              "minecraft:weathered_copper"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:waxed_weathered_copper_from_honeycomb"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

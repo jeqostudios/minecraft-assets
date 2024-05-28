@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:gold_nugget"
+            "items": [
+              "minecraft:gold_nugget"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:gold_ingot_from_nuggets"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

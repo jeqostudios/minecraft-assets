@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:orange_dye"
+            "items": [
+              "minecraft:orange_dye"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dye_orange_wool"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

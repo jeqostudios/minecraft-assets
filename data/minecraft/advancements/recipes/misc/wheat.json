@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:hay_block"
+            "items": [
+              "minecraft:hay_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:wheat"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

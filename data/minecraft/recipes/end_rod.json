@@ -15,6 +15,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:end_rod"
-  }
+    "item": "minecraft:end_rod"
+  },
+  "show_notification": true
 }

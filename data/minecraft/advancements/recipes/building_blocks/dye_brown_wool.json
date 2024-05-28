@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:brown_dye"
+            "items": [
+              "minecraft:brown_dye"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dye_brown_wool"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

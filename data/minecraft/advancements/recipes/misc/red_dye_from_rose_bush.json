@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:rose_bush"
+            "items": [
+              "minecraft:rose_bush"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:red_dye_from_rose_bush"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

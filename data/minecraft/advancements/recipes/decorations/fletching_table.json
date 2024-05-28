@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:flint"
+            "items": [
+              "minecraft:flint"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:fletching_table"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

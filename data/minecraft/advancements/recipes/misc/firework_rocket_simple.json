@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:gunpowder"
+            "items": [
+              "minecraft:gunpowder"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:firework_rocket_simple"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

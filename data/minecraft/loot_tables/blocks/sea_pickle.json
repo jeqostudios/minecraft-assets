@@ -2,52 +2,49 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "block": "minecraft:sea_pickle",
                   "condition": "minecraft:block_state_property",
+                  "block": "minecraft:sea_pickle",
                   "properties": {
                     "pickles": "2"
                   }
                 }
               ],
-              "count": 2.0,
-              "function": "minecraft:set_count"
+              "count": 2
             },
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "block": "minecraft:sea_pickle",
                   "condition": "minecraft:block_state_property",
+                  "block": "minecraft:sea_pickle",
                   "properties": {
                     "pickles": "3"
                   }
                 }
               ],
-              "count": 3.0,
-              "function": "minecraft:set_count"
+              "count": 3
             },
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "block": "minecraft:sea_pickle",
                   "condition": "minecraft:block_state_property",
+                  "block": "minecraft:sea_pickle",
                   "properties": {
                     "pickles": "4"
                   }
                 }
               ],
-              "count": 4.0,
-              "function": "minecraft:set_count"
+              "count": 4
             },
             {
               "function": "minecraft:explosion_decay"
@@ -55,9 +52,7 @@
           ],
           "name": "minecraft:sea_pickle"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/sea_pickle"
+  ]
 }

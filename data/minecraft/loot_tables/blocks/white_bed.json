@@ -2,19 +2,14 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "minecraft:white_bed",
               "condition": "minecraft:block_state_property",
+              "block": "minecraft:white_bed",
               "properties": {
                 "part": "head"
               }
@@ -23,8 +18,11 @@
           "name": "minecraft:white_bed"
         }
       ],
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/white_bed"
+  ]
 }

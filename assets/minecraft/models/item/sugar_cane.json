@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/sugar_cane"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/sugar_cane"
+    }
 }

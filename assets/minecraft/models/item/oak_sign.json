@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/oak_sign"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/oak_sign"
+    }
 }

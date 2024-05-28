@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/cornflower"
-  }
+    "parent": "block/cross",
+    "textures": {
+        "cross": "block/cornflower"
+    }
 }

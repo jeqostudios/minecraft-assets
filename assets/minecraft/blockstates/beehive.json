@@ -1,94 +1,28 @@
 {
-  "variants": {
-    "facing=east,honey_level=0": {
-      "model": "minecraft:block/beehive",
-      "y": 90
-    },
-    "facing=east,honey_level=1": {
-      "model": "minecraft:block/beehive",
-      "y": 90
-    },
-    "facing=east,honey_level=2": {
-      "model": "minecraft:block/beehive",
-      "y": 90
-    },
-    "facing=east,honey_level=3": {
-      "model": "minecraft:block/beehive",
-      "y": 90
-    },
-    "facing=east,honey_level=4": {
-      "model": "minecraft:block/beehive",
-      "y": 90
-    },
-    "facing=east,honey_level=5": {
-      "model": "minecraft:block/beehive_honey",
-      "y": 90
-    },
-    "facing=north,honey_level=0": {
-      "model": "minecraft:block/beehive"
-    },
-    "facing=north,honey_level=1": {
-      "model": "minecraft:block/beehive"
-    },
-    "facing=north,honey_level=2": {
-      "model": "minecraft:block/beehive"
-    },
-    "facing=north,honey_level=3": {
-      "model": "minecraft:block/beehive"
-    },
-    "facing=north,honey_level=4": {
-      "model": "minecraft:block/beehive"
-    },
-    "facing=north,honey_level=5": {
-      "model": "minecraft:block/beehive_honey"
-    },
-    "facing=south,honey_level=0": {
-      "model": "minecraft:block/beehive",
-      "y": 180
-    },
-    "facing=south,honey_level=1": {
-      "model": "minecraft:block/beehive",
-      "y": 180
-    },
-    "facing=south,honey_level=2": {
-      "model": "minecraft:block/beehive",
-      "y": 180
-    },
-    "facing=south,honey_level=3": {
-      "model": "minecraft:block/beehive",
-      "y": 180
-    },
-    "facing=south,honey_level=4": {
-      "model": "minecraft:block/beehive",
-      "y": 180
-    },
-    "facing=south,honey_level=5": {
-      "model": "minecraft:block/beehive_honey",
-      "y": 180
-    },
-    "facing=west,honey_level=0": {
-      "model": "minecraft:block/beehive",
-      "y": 270
-    },
-    "facing=west,honey_level=1": {
-      "model": "minecraft:block/beehive",
-      "y": 270
-    },
-    "facing=west,honey_level=2": {
-      "model": "minecraft:block/beehive",
-      "y": 270
-    },
-    "facing=west,honey_level=3": {
-      "model": "minecraft:block/beehive",
-      "y": 270
-    },
-    "facing=west,honey_level=4": {
-      "model": "minecraft:block/beehive",
-      "y": 270
-    },
-    "facing=west,honey_level=5": {
-      "model": "minecraft:block/beehive_honey",
-      "y": 270
+    "variants": {
+        "facing=north,honey_level=0": { "model": "block/beehive" },
+        "facing=south,honey_level=0": { "model": "block/beehive", "y": 180 },
+        "facing=west,honey_level=0":  { "model": "block/beehive", "y": 270 },
+        "facing=east,honey_level=0":  { "model": "block/beehive", "y": 90 },
+        "facing=north,honey_level=1": { "model": "block/beehive" },
+        "facing=south,honey_level=1": { "model": "block/beehive", "y": 180 },
+        "facing=west,honey_level=1":  { "model": "block/beehive", "y": 270 },
+        "facing=east,honey_level=1":  { "model": "block/beehive", "y": 90 },
+        "facing=north,honey_level=2": { "model": "block/beehive" },
+        "facing=south,honey_level=2": { "model": "block/beehive", "y": 180 },
+        "facing=west,honey_level=2":  { "model": "block/beehive", "y": 270 },
+        "facing=east,honey_level=2":  { "model": "block/beehive", "y": 90 },
+        "facing=north,honey_level=3": { "model": "block/beehive" },
+        "facing=south,honey_level=3": { "model": "block/beehive", "y": 180 },
+        "facing=west,honey_level=3":  { "model": "block/beehive", "y": 270 },
+        "facing=east,honey_level=3":  { "model": "block/beehive", "y": 90 },
+        "facing=north,honey_level=4": { "model": "block/beehive" },
+        "facing=south,honey_level=4": { "model": "block/beehive", "y": 180 },
+        "facing=west,honey_level=4":  { "model": "block/beehive", "y": 270 },
+        "facing=east,honey_level=4":  { "model": "block/beehive", "y": 90 },
+        "facing=north,honey_level=5": { "model": "block/beehive_honey" },
+        "facing=south,honey_level=5": { "model": "block/beehive_honey", "y": 180 },
+        "facing=west,honey_level=5":  { "model": "block/beehive_honey", "y": 270 },
+        "facing=east,honey_level=5":  { "model": "block/beehive_honey", "y": 90 }
     }
-  }
 }

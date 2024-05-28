@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/wither_rose"
-  }
+    "parent": "block/cross",
+    "textures": {
+        "cross": "block/wither_rose"
+    }
 }

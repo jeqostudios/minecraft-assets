@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:block/fern"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "block/fern"
+    }
 }

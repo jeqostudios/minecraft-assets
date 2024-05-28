@@ -1,21 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "tag": "minecraft:stone_tool_materials"
-    }
-  },
   "pattern": [
     "XX",
     " #",
     " #"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:cobblestone"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:stone_hoe"
+    "item": "minecraft:stone_hoe"
   }
 }

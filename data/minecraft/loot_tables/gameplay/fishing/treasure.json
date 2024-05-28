@@ -2,8 +2,12 @@
   "type": "minecraft:fishing",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1.0,
       "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad"
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag"
@@ -16,17 +20,15 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_damage",
               "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.25,
-                "min": 0.0
-              },
-              "function": "minecraft:set_damage"
+                "min": 0.0,
+                "max": 0.25
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "levels": 30,
               "treasure": true
             }
           ],
@@ -36,17 +38,15 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_damage",
               "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.25,
-                "min": 0.0
-              },
-              "function": "minecraft:set_damage"
+                "min": 0.0,
+                "max": 0.25
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "levels": 30,
               "treasure": true
             }
           ],
@@ -57,7 +57,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "levels": 30,
               "treasure": true
             }
           ],
@@ -67,9 +67,7 @@
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:gameplay/fishing/treasure"
+  ]
 }

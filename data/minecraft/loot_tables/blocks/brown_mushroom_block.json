@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -13,16 +13,14 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantment": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
                         }
-                      ]
-                    }
+                      }
+                    ]
                   }
                 }
               ],
@@ -32,18 +30,17 @@
               "type": "minecraft:item",
               "functions": [
                 {
-                  "add": false,
+                  "function": "minecraft:set_count",
                   "count": {
-                    "type": "minecraft:uniform",
+                    "min": -6.0,
                     "max": 2.0,
-                    "min": -6.0
-                  },
-                  "function": "minecraft:set_count"
+                    "type": "minecraft:uniform"
+                  }
                 },
                 {
                   "function": "minecraft:limit_count",
                   "limit": {
-                    "min": 0.0
+                    "min": 0
                   }
                 },
                 {
@@ -54,9 +51,7 @@
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/brown_mushroom_block"
+  ]
 }

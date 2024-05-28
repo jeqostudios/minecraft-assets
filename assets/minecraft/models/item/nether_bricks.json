@@ -1,3 +1,3 @@
 {
-  "parent": "minecraft:block/nether_bricks"
+    "parent": "block/nether_bricks"
 }

@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/ink_sac"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/ink_sac"
+    }
 }

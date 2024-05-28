@@ -1,57 +1,60 @@
 {
   "parent": "minecraft:story/mine_diamond",
-  "criteria": {
-    "diamond_boots": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:diamond_boots"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "diamond_chestplate": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:diamond_chestplate"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "diamond_helmet": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:diamond_helmet"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "diamond_leggings": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:diamond_leggings"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
   "display": {
-    "description": {
-      "translate": "advancements.story.shiny_gear.description"
-    },
     "icon": {
-      "count": 1,
-      "id": "minecraft:diamond_chestplate"
+      "item": "minecraft:diamond_chestplate"
     },
     "title": {
       "translate": "advancements.story.shiny_gear.title"
+    },
+    "description": {
+      "translate": "advancements.story.shiny_gear.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_helmet"
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_chestplate"
+          }
+        ]
+      }
+    },
+    "diamond_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_leggings"
+          }
+        ]
+      }
+    },
+    "diamond_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_boots"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -61,6 +64,5 @@
       "diamond_leggings",
       "diamond_boots"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

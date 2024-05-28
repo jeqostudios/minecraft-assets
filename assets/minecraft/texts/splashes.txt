@@ -3,7 +3,7 @@ Awesome!
 100% pure!
 May contain nuts!
 More polygons!
-Moderately attractive!
+Sexy!
 Limited edition!
 Flashing letters!
 It's here!
@@ -26,6 +26,7 @@ Minecraft!
 Yaaay!
 Singleplayer!
 Keyboard compatible!
+Undocumented!
 Ingots!
 Exploding creepers!
 That's no moon!
@@ -35,6 +36,7 @@ Survive!
 Dungeon!
 Exclusive!
 The bee's knees!
+Down with O.P.P.!
 Closed source!
 Classy!
 Wow!
@@ -69,7 +71,7 @@ Herregud!
 Complex cellular automata!
 Yes, sir!
 Played by cowboys!
-Now on OpenGL 3.2 core profile!
+OpenGL 2.1 (if supported)!
 Thousands of colors!
 Try it!
 Age of Wonders is better!
@@ -121,9 +123,10 @@ Synecdoche!
 Let's danec!
 Seecret Friday update!
 Reference implementation!
+Lewd with two dudes with food!
 Kiss the sky!
 20 GOTO 10!
-Verlet integration!
+Verlet intregration!
 Peter Griffin!
 Do not distribute!
 Cogito ergo sum!
@@ -163,6 +166,7 @@ Kick it root down!
 Regional resources!
 Woo, facepunch!
 Woo, somethingawful!
+Woo, /v/!
 Woo, tigsource!
 Woo, worldofminecraft!
 Woo, reddit!
@@ -184,6 +188,7 @@ Jag känner en bot!
 This text is hard to read if you play the game at the default resolution, but at 1080p it's fine!
 Haha, LOL!
 Hampsterdance!
+Switches and ores!
 Menger sponge!
 idspispopd!
 Eple (original edit)!
@@ -199,7 +204,7 @@ Twittered about!
 Jump up, jump up, and get down!
 Joel is neat!
 A riddle, wrapped in a mystery!
-This parrot is no more! It has ceased to be!
+Huge tracts of land!
 Welcome to your Doom!
 Stay a while, stay forever!
 Stay a while and listen!
@@ -244,6 +249,7 @@ Bigger than a bread box!
 Millions of peaches!
 Fnord!
 This is my true form!
+Totally forgot about Dre!
 Don't bother with the clones!
 Pumpkinhead!
 Made by Jeb!
@@ -279,6 +285,7 @@ Pumpa kungen!
 Helo Cymru!
 Cześć Polsko!
 你好中国！
+Привет Россия!
 Γεια σου Ελλάδα!
 My life for Aiur!
 Lennart lennart = new Lennart();
@@ -300,7 +307,7 @@ Put that cookie down!
 Pretty scary!
 I have a suggestion.
 Now with extra hugs!
-Java 16 + 1 + 4 = 21!
+Now Java 8!
 Woah.
 HURNERJSGER?
 What's up, Doc?
@@ -315,6 +322,7 @@ Now with additional stuff!
 Extra things!
 Yay, puppies for everyone!
 So sweet, like a nice bon bon!
+Popping tags!
 Very influential in its circle!
 Now With Multiplayer!
 Rise from your grave!
@@ -324,6 +332,12 @@ Run, coward! I hunger!
 Flavor with no seasoning!
 Strange, but not a stranger!
 Tougher than diamonds, rich like cream!
+Getting ready to show!
+Getting ready to know!
+Getting ready to drop!
+Getting ready to shock!
+Getting ready to freak!
+Getting ready to speak!
 It swings, it jives!
 Cruising streets for gold!
 Take an eggbeater and beat it against a skillet!
@@ -371,76 +385,3 @@ Awesome game design right there!
 Ph1lza had a good run!
 10 years of Mining and Crafting!
 Ping the human!
-In case it isn't obvious, foxes aren't players.
-Buzzy Bees!
-Minecraft Java Edition presents: Disgusting Bugs
-Wash your hands!
-Soap and water!
-Support local businesses!
-Stay home and play games!
-Stay safe!
-Stay strong!
-Cough or sneeze into your elbow!
-Don’t touch your face!
-Support elderly relatives and friends!
-Prepare, but don’t hoard!
-Gamers unite – separately in your own homes!
-Save the world – stay inside!
-Shop for your elders!
-Hang out with your friends online!
-Honey, I grew the bees!
-Find your claw!
-Everybody do the Leif!
-<3 Max & 99 & Ducky!
-Bushy eyebrows!
-Edit is a name!
-From free range developers!
-Music by Lena Raine!
-Aww man!
-#minecraftfarms
-And my pickaxe!
-Envision! Create! Share!
-Fabulous graphics!
-Also try Minecraft Dungeons!
-Vanilla!
-May contain traces of citrus!
-Zoglin!?
-Black lives matter!
-Be anti-racist!
-Learn about allyship!
-Speak OUT against injustice and UP for equality!
-Amplify and listen to BIPOC voices!
-Educate your friends on anti-racism!
-Support the BIPOC community and creators!
-Stand up for equality in your community!
-[this splash text is now available]
-Contains simulated goats!
-Home-made!
-There's <<a cat on ,my keyboard!~
-The cutest predator you'll ever meet!
-Now you are thinking with pistons!
-Get to the coppah!
-Board game version also available!
-Honey, I waxed the copper!
-Plant-based light sources!
-Made by "real" people!
-Shriek like a Sculk Shrieker!
-Who let the frogs out?
-RIBBIT!
-Croak team!
-Nooooooooooooo!
-Flower forest TM perfume
-Hat Fridays!
-Technoblade never dies!
-You are valid!
-I'm glad you're here!
-You are welcome here!
-Your gender is valid!
-Contains infinite genders!
-Made with lave!
-This sand is sus
-Remember to brush your... ...teeth
-Has working bookshelves!
-Sniff sniff...
-Place hanging sign here
-Joule is neat too!

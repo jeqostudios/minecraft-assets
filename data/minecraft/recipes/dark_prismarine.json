@@ -1,21 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "I": {
-      "item": "minecraft:black_dye"
-    },
-    "S": {
-      "item": "minecraft:prismarine_shard"
-    }
-  },
   "pattern": [
     "SSS",
     "SIS",
     "SSS"
   ],
+  "key": {
+    "S": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "I": {
+      "item": "minecraft:ink_sac"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:dark_prismarine"
+    "item": "minecraft:dark_prismarine"
   }
 }

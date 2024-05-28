@@ -2,87 +2,86 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+      },
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 6,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:white_wool",
-          "weight": 6
+          "name": "minecraft:white_wool"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:black_wool",
-          "weight": 3
+          "name": "minecraft:black_wool"
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:gray_wool",
-          "weight": 2
+          "name": "minecraft:gray_wool"
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:brown_wool",
-          "weight": 2
+          "name": "minecraft:brown_wool"
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:light_gray_wool",
-          "weight": 2
+          "name": "minecraft:light_gray_wool"
         },
         {
           "type": "minecraft:item",
@@ -94,27 +93,20 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 6,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 6.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:wheat",
-          "weight": 6
+          "name": "minecraft:wheat"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
-      }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/village/village_shepherd"
+  ]
 }

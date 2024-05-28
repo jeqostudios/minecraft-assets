@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:barrier",
     "minecraft:bedrock",
@@ -12,10 +13,7 @@
     "minecraft:jigsaw",
     "minecraft:moving_piston",
     "minecraft:obsidian",
-    "minecraft:crying_obsidian",
     "minecraft:end_stone",
-    "minecraft:iron_bars",
-    "minecraft:respawn_anchor",
-    "minecraft:reinforced_deepslate"
+    "minecraft:iron_bars"
   ]
 }

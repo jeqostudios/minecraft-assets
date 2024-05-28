@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/cake"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cake"
+    }
 }

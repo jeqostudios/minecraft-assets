@@ -2,33 +2,36 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": {
+        "min": 2.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:coal",
-          "weight": 10
+          "name": "minecraft:coal"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_axe",
-          "weight": 2
+          "weight": 2,
+          "name": "minecraft:stone_axe"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
-          "weight": 5
+          "weight": 5,
+          "name": "minecraft:rotten_flesh"
         },
         {
           "type": "minecraft:item",
@@ -36,29 +39,23 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 2.0,
                 "max": 3.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:wheat",
-          "weight": 10
+          "name": "minecraft:wheat"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 2.0
-      }
+      ]
     },
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -70,37 +67,29 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:fishing_rod",
-          "weight": 5
+          "name": "minecraft:fishing_rod"
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
-              "decoration": "minecraft:red_x",
               "function": "minecraft:exploration_map",
-              "skip_existing_chunks": false,
-              "zoom": 1
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "filled_map.buried_treasure"
-              },
-              "target": "item_name"
+              "destination": "buried_treasure",
+              "decoration": "red_x",
+              "zoom": 1,
+              "skip_existing_chunks": false
             }
           ],
-          "name": "minecraft:map",
-          "weight": 5
+          "name": "minecraft:map"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/underwater_ruin_small"
+  ]
 }

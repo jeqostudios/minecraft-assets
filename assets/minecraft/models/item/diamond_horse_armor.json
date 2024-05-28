@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/diamond_horse_armor"
-  }
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/diamond_horse_armor"
+    }
 }

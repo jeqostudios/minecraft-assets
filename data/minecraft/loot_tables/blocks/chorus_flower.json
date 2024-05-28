@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -12,15 +12,13 @@
             },
             {
               "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {}
+              "predicate": {},
+              "entity": "this"
             }
           ],
           "name": "minecraft:chorus_flower"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/chorus_flower"
+  ]
 }

@@ -1,6 +1,6 @@
-#version 150
+#version 120
 
-in vec4 Position;
+attribute vec4 Position;
 
 uniform mat4 ProjMat;
 uniform vec2 InSize;
@@ -11,8 +11,8 @@ uniform vec2 InOffset;
 uniform float InRotation;
 uniform float Time;
 
-out vec2 texCoord;
-out vec2 scaledCoord;
+varying vec2 texCoord;
+varying vec2 scaledCoord;
 
 void main(){
     vec4 outPos = ProjMat * vec4(Position.xy, 0.0, 1.0);

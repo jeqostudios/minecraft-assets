@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:carved_pumpkin"
+            "items": [
+              "minecraft:carved_pumpkin"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pumpkin"
+            "items": [
+              "minecraft:pumpkin"
+            ]
           }
         ]
       },
@@ -39,5 +43,6 @@
     "recipes": [
       "minecraft:pumpkin_pie"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

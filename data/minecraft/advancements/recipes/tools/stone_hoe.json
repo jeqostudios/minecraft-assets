@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:stone_tool_materials"
+            "tag": "minecraft:stone_tool_materials"
           }
         ]
       },
@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:stone_hoe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

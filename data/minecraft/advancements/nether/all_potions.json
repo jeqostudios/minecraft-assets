@@ -23,14 +23,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.all_potions.description"
     },
     "frame": "challenge",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:milk_bucket"
+      "item": "minecraft:milk_bucket"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.all_potions.title"
     }

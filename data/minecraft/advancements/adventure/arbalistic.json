@@ -9,15 +9,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.arbalistic.description"
     },
     "frame": "challenge",
     "hidden": true,
     "icon": {
-      "count": 1,
-      "id": "minecraft:crossbow"
+      "item": "minecraft:crossbow",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.arbalistic.title"
     }

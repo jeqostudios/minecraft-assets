@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:melon_slice"
+            "items": [
+              "minecraft:melon_slice"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:glistering_melon_slice"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

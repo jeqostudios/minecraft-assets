@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:stone_tool_materials"
+            "tag": "minecraft:stone_tool_materials"
           }
         ]
       },
@@ -13,13 +13,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.mine_stone.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:wooden_pickaxe"
+      "item": "minecraft:wooden_pickaxe",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.story.mine_stone.title"
     }

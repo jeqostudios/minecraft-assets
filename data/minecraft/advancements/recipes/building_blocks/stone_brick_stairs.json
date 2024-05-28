@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:stone_bricks"
+            "tag": "minecraft:stone_bricks"
           }
         ]
       },
@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:stone_brick_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

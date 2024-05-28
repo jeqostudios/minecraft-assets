@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:boats"
+            "tag": "minecraft:boats"
           }
         ]
       },
@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:bamboo_chest_raft"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

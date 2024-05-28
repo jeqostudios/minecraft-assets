@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glow_ink_sac"
+            "items": [
+              "minecraft:glow_ink_sac"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:item_frame"
+            "items": [
+              "minecraft:item_frame"
+            ]
           }
         ]
       },
@@ -39,5 +43,6 @@
     "recipes": [
       "minecraft:glow_item_frame"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

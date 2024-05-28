@@ -6,13 +6,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.trade.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:emerald"
+      "item": "minecraft:emerald"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.trade.title"
     }

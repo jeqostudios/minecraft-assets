@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:beef"
+            "items": [
+              "minecraft:beef"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:cooked_beef_from_smoking"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

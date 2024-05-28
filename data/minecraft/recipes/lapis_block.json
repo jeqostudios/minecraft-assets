@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:lapis_lazuli"
-    }
-  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:lapis_block"
+    "item": "minecraft:lapis_block"
   }
 }

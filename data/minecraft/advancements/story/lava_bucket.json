@@ -1,33 +1,35 @@
 {
   "parent": "minecraft:story/smelt_iron",
-  "criteria": {
-    "lava_bucket": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:lava_bucket"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
   "display": {
-    "description": {
-      "translate": "advancements.story.lava_bucket.description"
-    },
     "icon": {
-      "count": 1,
-      "id": "minecraft:lava_bucket"
+      "item": "minecraft:lava_bucket"
     },
     "title": {
       "translate": "advancements.story.lava_bucket.title"
+    },
+    "description": {
+      "translate": "advancements.story.lava_bucket.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lava_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lava_bucket"
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
       "lava_bucket"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

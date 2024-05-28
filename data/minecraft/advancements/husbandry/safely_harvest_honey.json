@@ -8,7 +8,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": "#minecraft:beehives"
+                "tag": "minecraft:beehives"
               },
               "smokey": true
             }
@@ -16,7 +16,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "minecraft:glass_bottle"
+              "items": [
+                "minecraft:glass_bottle"
+              ]
             }
           }
         ]
@@ -29,8 +31,7 @@
       "translate": "advancements.husbandry.safely_harvest_honey.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:honey_bottle"
+      "item": "minecraft:honey_bottle"
     },
     "title": {
       "translate": "advancements.husbandry.safely_harvest_honey.title"

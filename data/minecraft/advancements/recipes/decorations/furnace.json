@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:stone_crafting_materials"
+            "tag": "minecraft:stone_crafting_materials"
           }
         ]
       },

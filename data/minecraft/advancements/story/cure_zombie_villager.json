@@ -11,8 +11,7 @@
     },
     "frame": "goal",
     "icon": {
-      "count": 1,
-      "id": "minecraft:golden_apple"
+      "item": "minecraft:golden_apple"
     },
     "title": {
       "translate": "advancements.story.cure_zombie_villager.title"

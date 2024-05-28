@@ -10,14 +10,16 @@
             "predicate": {
               "type": "minecraft:frog",
               "type_specific": {
-                "type": "minecraft:frog",
+                "type": "frog",
                 "variant": "minecraft:cold"
               }
             }
           }
         ],
         "item": {
-          "items": "minecraft:lead"
+          "items": [
+            "minecraft:lead"
+          ]
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
@@ -31,14 +33,16 @@
             "predicate": {
               "type": "minecraft:frog",
               "type_specific": {
-                "type": "minecraft:frog",
+                "type": "frog",
                 "variant": "minecraft:temperate"
               }
             }
           }
         ],
         "item": {
-          "items": "minecraft:lead"
+          "items": [
+            "minecraft:lead"
+          ]
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
@@ -52,14 +56,16 @@
             "predicate": {
               "type": "minecraft:frog",
               "type_specific": {
-                "type": "minecraft:frog",
+                "type": "frog",
                 "variant": "minecraft:warm"
               }
             }
           }
         ],
         "item": {
-          "items": "minecraft:lead"
+          "items": [
+            "minecraft:lead"
+          ]
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
@@ -70,8 +76,7 @@
       "translate": "advancements.husbandry.leash_all_frog_variants.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:lead"
+      "item": "minecraft:lead"
     },
     "title": {
       "translate": "advancements.husbandry.leash_all_frog_variants.title"

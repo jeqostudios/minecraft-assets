@@ -10,7 +10,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:packed_mud"
+    "item": "minecraft:packed_mud"
   }
 }

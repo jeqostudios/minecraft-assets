@@ -385,8 +385,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "count": 1,
-      "id": "minecraft:golden_carrot"
+      "item": "minecraft:golden_carrot"
     },
     "title": {
       "translate": "advancements.husbandry.breed_all_animals.title"

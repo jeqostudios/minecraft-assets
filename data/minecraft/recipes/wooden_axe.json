@@ -15,7 +15,6 @@
     " #"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:wooden_axe"
+    "item": "minecraft:wooden_axe"
   }
 }

@@ -21,10 +21,6 @@
         },
         {
             "type": "single",
-            "resource": "entity/decorated_pot/decorated_pot_side"
-        },
-        {
-            "type": "single",
             "resource": "entity/enchanting_table_book"
         },
         {
@@ -46,11 +42,7 @@
                 "copper": "trims/color_palettes/copper",
                 "emerald": "trims/color_palettes/emerald",
                 "lapis": "trims/color_palettes/lapis",
-                "amethyst": "trims/color_palettes/amethyst",
-                "iron_darker": "trims/color_palettes/iron_darker",
-                "gold_darker": "trims/color_palettes/gold_darker",
-                "diamond_darker": "trims/color_palettes/diamond_darker",
-                "netherite_darker": "trims/color_palettes/netherite_darker"
+                "amethyst": "trims/color_palettes/amethyst"
             }
         }
     ]

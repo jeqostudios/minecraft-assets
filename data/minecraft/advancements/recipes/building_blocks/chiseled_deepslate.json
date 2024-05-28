@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cobbled_deepslate_slab"
+            "items": [
+              "minecraft:cobbled_deepslate_slab"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cobbled_deepslate_slab"
+      "has_cobbled_deepslate_slab",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

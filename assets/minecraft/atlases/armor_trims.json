@@ -24,21 +24,7 @@
                 "trims/models/armor/rib",
                 "trims/models/armor/rib_leggings",
                 "trims/models/armor/spire",
-                "trims/models/armor/spire_leggings",
-                "trims/models/armor/wayfinder",
-                "trims/models/armor/wayfinder_leggings",
-                "trims/models/armor/shaper",
-                "trims/models/armor/shaper_leggings",
-                "trims/models/armor/silence",
-                "trims/models/armor/silence_leggings",
-                "trims/models/armor/raiser",
-                "trims/models/armor/raiser_leggings",
-                "trims/models/armor/host",
-                "trims/models/armor/host_leggings",
-                "trims/models/armor/flow",
-                "trims/models/armor/flow_leggings",
-                "trims/models/armor/bolt",
-                "trims/models/armor/bolt_leggings"
+                "trims/models/armor/spire_leggings"
             ],
             "palette_key": "trims/color_palettes/trim_palette",
             "permutations": {
@@ -51,11 +37,7 @@
                 "copper": "trims/color_palettes/copper",
                 "emerald": "trims/color_palettes/emerald",
                 "lapis": "trims/color_palettes/lapis",
-                "amethyst": "trims/color_palettes/amethyst",
-                "iron_darker": "trims/color_palettes/iron_darker",
-                "gold_darker": "trims/color_palettes/gold_darker",
-                "diamond_darker": "trims/color_palettes/diamond_darker",
-                "netherite_darker": "trims/color_palettes/netherite_darker"
+                "amethyst": "trims/color_palettes/amethyst"
             }
         }
     ]

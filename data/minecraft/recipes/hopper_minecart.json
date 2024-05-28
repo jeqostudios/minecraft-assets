@@ -10,7 +10,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:hopper_minecart"
+    "item": "minecraft:hopper_minecart"
   }
 }

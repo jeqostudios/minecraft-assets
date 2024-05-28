@@ -6,7 +6,5 @@
   "ingredient": {
     "tag": "minecraft:logs_that_burn"
   },
-  "result": {
-    "id": "minecraft:charcoal"
-  }
+  "result": "minecraft:charcoal"
 }

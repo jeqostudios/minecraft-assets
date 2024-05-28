@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:polished_diorite"
+            "items": [
+              "minecraft:polished_diorite"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_polished_diorite"
+      "has_polished_diorite",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

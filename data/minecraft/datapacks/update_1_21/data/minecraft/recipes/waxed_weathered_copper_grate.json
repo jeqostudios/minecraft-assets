@@ -13,6 +13,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:waxed_weathered_copper_grate"
-  }
+    "item": "minecraft:waxed_weathered_copper_grate"
+  },
+  "show_notification": true
 }

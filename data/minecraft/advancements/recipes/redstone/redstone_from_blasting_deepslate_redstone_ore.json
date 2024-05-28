@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:deepslate_redstone_ore"
+            "items": [
+              "minecraft:deepslate_redstone_ore"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:redstone_from_blasting_deepslate_redstone_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

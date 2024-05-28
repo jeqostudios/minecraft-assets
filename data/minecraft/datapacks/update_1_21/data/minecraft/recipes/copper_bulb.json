@@ -19,6 +19,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:copper_bulb"
-  }
+    "item": "minecraft:copper_bulb"
+  },
+  "show_notification": true
 }

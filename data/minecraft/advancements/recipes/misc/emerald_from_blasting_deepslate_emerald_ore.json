@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:deepslate_emerald_ore"
+            "items": [
+              "minecraft:deepslate_emerald_ore"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:emerald_from_blasting_deepslate_emerald_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

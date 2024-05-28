@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:honey_bottle"
+            "items": [
+              "minecraft:honey_bottle"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:sugar_from_honey_bottle"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

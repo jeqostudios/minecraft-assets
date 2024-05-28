@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pointed_dripstone"
+            "items": [
+              "minecraft:pointed_dripstone"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dripstone_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

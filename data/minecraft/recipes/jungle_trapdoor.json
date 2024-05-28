@@ -13,6 +13,7 @@
   ],
   "result": {
     "count": 2,
-    "id": "minecraft:jungle_trapdoor"
-  }
+    "item": "minecraft:jungle_trapdoor"
+  },
+  "show_notification": true
 }

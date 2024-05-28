@@ -17,6 +17,7 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:orange_stained_glass"
-  }
+    "item": "minecraft:orange_stained_glass"
+  },
+  "show_notification": true
 }

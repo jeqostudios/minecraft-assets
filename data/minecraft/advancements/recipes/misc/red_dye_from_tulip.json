@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_tulip"
+            "items": [
+              "minecraft:red_tulip"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:red_dye_from_tulip"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -15,7 +15,7 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:recovery_compass"
-  }
+    "item": "minecraft:recovery_compass"
+  },
+  "show_notification": true
 }

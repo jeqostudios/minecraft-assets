@@ -15,7 +15,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:iron_sword"
-  }
+    "item": "minecraft:iron_sword"
+  },
+  "show_notification": true
 }

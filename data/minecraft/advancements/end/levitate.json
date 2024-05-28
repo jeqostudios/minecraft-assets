@@ -13,14 +13,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.levitate.description"
     },
     "frame": "challenge",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:shulker_shell"
+      "item": "minecraft:shulker_shell"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.end.levitate.title"
     }

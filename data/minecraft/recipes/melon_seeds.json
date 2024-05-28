@@ -7,7 +7,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:melon_seeds"
+    "item": "minecraft:melon_seeds"
   }
 }

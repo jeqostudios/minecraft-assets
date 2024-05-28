@@ -13,6 +13,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:oxidized_copper_grate"
-  }
+    "item": "minecraft:oxidized_copper_grate"
+  },
+  "show_notification": true
 }

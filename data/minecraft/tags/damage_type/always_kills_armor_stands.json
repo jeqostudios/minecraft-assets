@@ -2,6 +2,7 @@
   "values": [
     "minecraft:arrow",
     "minecraft:trident",
+    "minecraft:mob_projectile",
     "minecraft:fireball",
     "minecraft:wither_skull"
   ]

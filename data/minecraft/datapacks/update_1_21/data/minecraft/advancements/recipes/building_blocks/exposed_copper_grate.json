@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:exposed_copper"
+            "items": [
+              "minecraft:exposed_copper"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:exposed_copper_grate"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

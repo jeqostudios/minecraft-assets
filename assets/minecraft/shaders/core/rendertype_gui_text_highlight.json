@@ -6,6 +6,9 @@
     },
     "vertex": "rendertype_gui_text_highlight",
     "fragment": "rendertype_gui_text_highlight",
+    "attributes": [
+        "Color"
+    ],
     "samplers": [
     ],
     "uniforms": [

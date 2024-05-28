@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:white_wool"
+            "items": [
+              "minecraft:white_wool"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:white_bed"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

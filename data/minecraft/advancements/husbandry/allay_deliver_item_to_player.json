@@ -22,8 +22,7 @@
     },
     "hidden": true,
     "icon": {
-      "count": 1,
-      "id": "minecraft:cookie"
+      "item": "minecraft:cookie"
     },
     "title": {
       "translate": "advancements.husbandry.allay_deliver_item_to_player.title"

@@ -5,16 +5,24 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_helmet"
+            "items": [
+              "minecraft:netherite_helmet"
+            ]
           },
           {
-            "items": "minecraft:netherite_chestplate"
+            "items": [
+              "minecraft:netherite_chestplate"
+            ]
           },
           {
-            "items": "minecraft:netherite_leggings"
+            "items": [
+              "minecraft:netherite_leggings"
+            ]
           },
           {
-            "items": "minecraft:netherite_boots"
+            "items": [
+              "minecraft:netherite_boots"
+            ]
           }
         ]
       },
@@ -27,8 +35,8 @@
     },
     "frame": "challenge",
     "icon": {
-      "count": 1,
-      "id": "minecraft:netherite_chestplate"
+      "item": "minecraft:netherite_chestplate",
+      "nbt": "{Damage:0}"
     },
     "title": {
       "translate": "advancements.nether.netherite_armor.title"

@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:shipwreck",
     "minecraft:shipwreck_beached"

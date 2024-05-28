@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:mushroom_fields",
     "minecraft:deep_frozen_ocean",
@@ -12,7 +13,6 @@
     "minecraft:warm_ocean",
     "minecraft:stony_shore",
     "minecraft:swamp",
-    "minecraft:mangrove_swamp",
     "minecraft:snowy_slopes",
     "minecraft:snowy_plains",
     "minecraft:snowy_beach",
@@ -34,6 +34,7 @@
     "minecraft:savanna",
     "minecraft:jungle",
     "minecraft:badlands",
+    "minecraft:eroded_badlands",
     "minecraft:desert",
     "minecraft:wooded_badlands",
     "minecraft:jagged_peaks",
@@ -46,9 +47,7 @@
     "minecraft:old_growth_birch_forest",
     "minecraft:sparse_jungle",
     "minecraft:bamboo_jungle",
-    "minecraft:eroded_badlands",
     "minecraft:windswept_savanna",
-    "minecraft:cherry_grove",
     "minecraft:frozen_peaks",
     "minecraft:dripstone_caves",
     "minecraft:lush_caves",

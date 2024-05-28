@@ -1,54 +1,60 @@
 {
   "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_chiseled_sandstone": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:chiseled_sandstone"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_cut_sandstone": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:cut_sandstone"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_sandstone": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:sandstone"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "minecraft:sandstone_stairs"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    }
-  },
-  "requirements": [
-    [
-      "has_the_recipe",
-      "has_sandstone",
-      "has_chiseled_sandstone",
-      "has_cut_sandstone"
-    ]
-  ],
   "rewards": {
     "recipes": [
       "minecraft:sandstone_stairs"
     ]
-  }
+  },
+  "criteria": {
+    "has_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_chiseled_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_cut_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:sandstone_stairs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sandstone",
+      "has_chiseled_sandstone",
+      "has_cut_sandstone",
+      "has_the_recipe"
+    ]
+  ]
 }

@@ -2,7 +2,11 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -10,31 +14,29 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:cod",
-          "weight": 2
+          "name": "minecraft:cod"
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:salmon"
@@ -43,13 +45,12 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:water_bucket"
@@ -58,56 +59,47 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
           "name": "minecraft:barrel"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:wheat_seeds",
-          "weight": 3
+          "name": "minecraft:wheat_seeds"
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:coal",
-          "weight": 2
+          "name": "minecraft:coal"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 1.0
-      }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/village/village_fisher"
+  ]
 }

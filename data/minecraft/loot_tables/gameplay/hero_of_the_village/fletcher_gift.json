@@ -2,28 +2,27 @@
   "type": "minecraft:gift",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:arrow",
-          "weight": 26
+          "weight": 26,
+          "name": "minecraft:arrow"
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:swiftness"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:swiftness\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -32,17 +31,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:slowness"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -51,17 +49,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:strength"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strength\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -70,17 +67,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:healing"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -89,17 +85,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:harming"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:harming\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -108,17 +103,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:leaping"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:leaping\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -127,17 +121,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:regeneration"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:regeneration\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -146,17 +139,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:fire_resistance"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:fire_resistance\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -165,17 +157,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:water_breathing"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water_breathing\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -184,17 +175,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:invisibility"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:invisibility\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -203,17 +193,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:night_vision"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:night_vision\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -222,17 +211,16 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:weakness"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
@@ -241,24 +229,21 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 0.0,
                 "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:poison"
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:poison\"}"
             }
           ],
           "name": "minecraft:tipped_arrow"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/fletcher_gift"
+  ]
 }

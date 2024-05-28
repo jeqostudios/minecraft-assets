@@ -1,7 +1,7 @@
 {
   "renderer" : [],
   "version" : [
-    "\\bMetal\\b"
+    "^([0-2]\\.[0-9])"
   ],
   "vendor" : []
 }

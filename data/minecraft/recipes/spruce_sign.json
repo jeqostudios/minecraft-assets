@@ -1,7 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "group": "wooden_sign",
+  "group": "sign",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
   "key": {
     "#": {
       "item": "minecraft:spruce_planks"
@@ -10,13 +14,8 @@
       "item": "minecraft:stick"
     }
   },
-  "pattern": [
-    "###",
-    "###",
-    " X "
-  ],
   "result": {
-    "count": 3,
-    "id": "minecraft:spruce_sign"
+    "item": "minecraft:spruce_sign",
+    "count": 3
   }
 }

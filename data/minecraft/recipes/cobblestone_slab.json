@@ -11,6 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:cobblestone_slab"
-  }
+    "item": "minecraft:cobblestone_slab"
+  },
+  "show_notification": true
 }

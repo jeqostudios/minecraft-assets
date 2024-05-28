@@ -15,7 +15,7 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:yellow_bed"
-  }
+    "item": "minecraft:yellow_bed"
+  },
+  "show_notification": true
 }

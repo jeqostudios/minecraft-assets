@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:yellow_dye"
+            "items": [
+              "minecraft:yellow_dye"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dye_yellow_carpet"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

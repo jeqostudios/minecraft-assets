@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:clay_ball"
   },
-  "result": {
-    "id": "minecraft:brick"
-  }
+  "result": "minecraft:brick"
 }

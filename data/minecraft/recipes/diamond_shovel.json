@@ -15,7 +15,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:diamond_shovel"
-  }
+    "item": "minecraft:diamond_shovel"
+  },
+  "show_notification": true
 }

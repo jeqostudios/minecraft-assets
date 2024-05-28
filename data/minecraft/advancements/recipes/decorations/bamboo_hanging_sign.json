@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stripped_bamboo_block"
+            "items": [
+              "minecraft:stripped_bamboo_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:bamboo_hanging_sign"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

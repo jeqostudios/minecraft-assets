@@ -15,7 +15,7 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:soul_lantern"
-  }
+    "item": "minecraft:soul_lantern"
+  },
+  "show_notification": true
 }

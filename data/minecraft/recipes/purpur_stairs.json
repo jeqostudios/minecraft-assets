@@ -18,6 +18,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:purpur_stairs"
-  }
+    "item": "minecraft:purpur_stairs"
+  },
+  "show_notification": true
 }

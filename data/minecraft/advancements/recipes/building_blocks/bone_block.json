@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bone_meal"
+            "items": [
+              "minecraft:bone_meal"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:bone_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:white_dye"
+            "items": [
+              "minecraft:white_dye"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dye_white_wool"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

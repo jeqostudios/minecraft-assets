@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:popped_chorus_fruit"
+            "items": [
+              "minecraft:popped_chorus_fruit"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:end_rod"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:redstone_torch"
+            "items": [
+              "minecraft:redstone_torch"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:repeater"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

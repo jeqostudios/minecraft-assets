@@ -12,7 +12,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:slime_block"
+    "item": "minecraft:slime_block"
   }
 }

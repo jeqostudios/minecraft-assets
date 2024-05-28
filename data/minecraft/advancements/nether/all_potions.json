@@ -28,8 +28,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "count": 1,
-      "id": "minecraft:milk_bucket"
+      "item": "minecraft:milk_bucket"
     },
     "title": {
       "translate": "advancements.nether.all_potions.title"

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stripped_crimson_stem"
+            "items": [
+              "minecraft:stripped_crimson_stem"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_stripped_logs"
+      "has_stripped_logs",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:crimson_hanging_sign"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:snowball"
+            "items": [
+              "minecraft:snowball"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_snowball"
+      "has_snowball",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:snow_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

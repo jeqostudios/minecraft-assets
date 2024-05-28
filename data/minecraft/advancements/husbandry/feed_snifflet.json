@@ -16,21 +16,23 @@
           }
         ],
         "item": {
-          "items": "#minecraft:sniffer_food"
+          "tag": "minecraft:sniffer_food"
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.feed_snifflet.description"
     },
+    "frame": "task",
     "hidden": true,
     "icon": {
-      "count": 1,
-      "id": "minecraft:torchflower_seeds"
+      "item": "minecraft:torchflower_seeds"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.feed_snifflet.title"
     }

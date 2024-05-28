@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:mossy_stone_bricks"
+            "items": [
+              "minecraft:mossy_stone_bricks"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_mossy_stone_bricks"
+      "has_mossy_stone_bricks",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:mossy_stone_brick_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

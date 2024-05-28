@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nether_wart"
+            "items": [
+              "minecraft:nether_wart"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_nether_wart"
+      "has_nether_wart",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:nether_wart_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

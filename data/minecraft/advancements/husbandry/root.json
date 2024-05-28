@@ -1,6 +1,7 @@
 {
   "criteria": {
     "consumed_item": {
+      "conditions": {},
       "trigger": "minecraft:consume_item"
     }
   },
@@ -10,9 +11,10 @@
     "description": {
       "translate": "advancements.husbandry.root.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:hay_block"
+      "item": "minecraft:hay_block"
     },
     "show_toast": false,
     "title": {

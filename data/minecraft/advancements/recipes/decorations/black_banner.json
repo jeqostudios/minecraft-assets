@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:black_wool"
+            "items": [
+              "minecraft:black_wool"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_black_wool"
+      "has_black_wool",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:black_banner"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

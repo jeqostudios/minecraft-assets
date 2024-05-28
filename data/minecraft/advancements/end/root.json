@@ -13,9 +13,10 @@
     "description": {
       "translate": "advancements.end.root.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:end_stone"
+      "item": "minecraft:end_stone"
     },
     "show_toast": false,
     "title": {

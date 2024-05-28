@@ -17,6 +17,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:cherry_hanging_sign"
-  }
+    "item": "minecraft:cherry_hanging_sign"
+  },
+  "show_notification": true
 }

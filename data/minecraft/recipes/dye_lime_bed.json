@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "bed",
+  "group": "lime_bed",
   "ingredients": [
     {
       "item": "minecraft:lime_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:lime_bed"
+    "item": "minecraft:lime_bed"
   }
 }

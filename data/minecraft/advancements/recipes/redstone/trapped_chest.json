@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:tripwire_hook"
+            "items": [
+              "minecraft:tripwire_hook"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_tripwire_hook"
+      "has_tripwire_hook",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:trapped_chest"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

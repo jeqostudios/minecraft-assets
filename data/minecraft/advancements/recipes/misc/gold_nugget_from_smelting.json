@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_axe"
+            "items": [
+              "minecraft:golden_axe"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_boots"
+            "items": [
+              "minecraft:golden_boots"
+            ]
           }
         ]
       },
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_chestplate"
+            "items": [
+              "minecraft:golden_chestplate"
+            ]
           }
         ]
       },
@@ -35,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_helmet"
+            "items": [
+              "minecraft:golden_helmet"
+            ]
           }
         ]
       },
@@ -45,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_hoe"
+            "items": [
+              "minecraft:golden_hoe"
+            ]
           }
         ]
       },
@@ -55,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_horse_armor"
+            "items": [
+              "minecraft:golden_horse_armor"
+            ]
           }
         ]
       },
@@ -65,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_leggings"
+            "items": [
+              "minecraft:golden_leggings"
+            ]
           }
         ]
       },
@@ -75,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_pickaxe"
+            "items": [
+              "minecraft:golden_pickaxe"
+            ]
           }
         ]
       },
@@ -85,7 +101,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_shovel"
+            "items": [
+              "minecraft:golden_shovel"
+            ]
           }
         ]
       },
@@ -95,7 +113,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:golden_sword"
+            "items": [
+              "minecraft:golden_sword"
+            ]
           }
         ]
       },
@@ -110,7 +130,6 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_golden_pickaxe",
       "has_golden_shovel",
       "has_golden_axe",
@@ -120,12 +139,14 @@
       "has_golden_chestplate",
       "has_golden_leggings",
       "has_golden_boots",
-      "has_golden_horse_armor"
+      "has_golden_horse_armor",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:gold_nugget_from_smelting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

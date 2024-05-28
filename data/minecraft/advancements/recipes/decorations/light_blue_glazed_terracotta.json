@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:light_blue_terracotta"
+            "items": [
+              "minecraft:light_blue_terracotta"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_light_blue_terracotta"
+      "has_light_blue_terracotta",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

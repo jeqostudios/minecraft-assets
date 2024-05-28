@@ -15,7 +15,6 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:fletching_table"
+    "item": "minecraft:fletching_table"
   }
 }

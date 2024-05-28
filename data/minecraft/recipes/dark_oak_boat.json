@@ -12,7 +12,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:dark_oak_boat"
+    "item": "minecraft:dark_oak_boat"
   }
 }

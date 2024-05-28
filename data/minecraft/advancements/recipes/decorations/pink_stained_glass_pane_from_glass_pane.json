@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glass_pane"
+            "items": [
+              "minecraft:glass_pane"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_dye"
+            "items": [
+              "minecraft:pink_dye"
+            ]
           }
         ]
       },
@@ -30,9 +34,9 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_glass_pane",
-      "has_pink_dye"
+      "has_pink_dye",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

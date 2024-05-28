@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:oxidized_chiseled_copper"
+            "items": [
+              "minecraft:oxidized_chiseled_copper"
+            ]
           }
         ]
       },

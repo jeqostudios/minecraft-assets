@@ -11,8 +11,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "count": 1,
-      "id": "minecraft:sculk_catalyst"
+      "item": "minecraft:sculk_catalyst"
     },
     "title": {
       "translate": "advancements.adventure.kill_mob_near_sculk_catalyst.title"

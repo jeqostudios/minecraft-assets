@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:granite"
   },
-  "result": {
-    "count": 1,
-    "id": "minecraft:granite_wall"
-  }
+  "result": "minecraft:granite_wall",
+  "count": 1
 }

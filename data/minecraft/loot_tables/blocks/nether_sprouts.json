@@ -2,23 +2,22 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "items": "minecraft:shears"
-          }
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:nether_sprouts"
         }
       ],
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "item": "minecraft:shears"
+          }
+        }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/nether_sprouts"
+  ]
 }

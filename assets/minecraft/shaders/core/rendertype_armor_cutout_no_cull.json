@@ -6,8 +6,17 @@
     },
     "vertex": "rendertype_armor_cutout_no_cull",
     "fragment": "rendertype_armor_cutout_no_cull",
+    "attributes": [
+        "Position",
+        "Color",
+        "UV0",
+        "UV1",
+        "UV2",
+        "Normal"
+    ],
     "samplers": [
         { "name": "Sampler0" },
+        { "name": "Sampler1" },
         { "name": "Sampler2" }
     ],
     "uniforms": [
@@ -18,7 +27,6 @@
         { "name": "Light1_Direction", "type": "float", "count": 3, "values": [0.0, 0.0, 0.0] },
         { "name": "FogStart", "type": "float", "count": 1, "values": [ 0.0 ] },
         { "name": "FogEnd", "type": "float", "count": 1, "values": [ 1.0 ] },
-        { "name": "FogColor", "type": "float", "count": 4, "values": [ 0.0, 0.0, 0.0, 0.0 ] },
-        { "name": "FogShape", "type": "int", "count": 1, "values": [ 0 ] }
+        { "name": "FogColor", "type": "float", "count": 4, "values": [ 0.0, 0.0, 0.0, 0.0 ] }
     ]
 }

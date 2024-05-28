@@ -1,35 +1,35 @@
 {
-  "criteria": {
-    "crafting_table": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:crafting_table"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
   "display": {
-    "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancements.story.root.title"
+    },
     "description": {
       "translate": "advancements.story.root.description"
     },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:grass_block"
-    },
+    "frame": "task",
     "show_toast": false,
-    "title": {
-      "translate": "advancements.story.root.title"
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
       "crafting_table"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

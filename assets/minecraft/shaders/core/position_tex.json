@@ -6,6 +6,10 @@
     },
     "vertex": "position_tex",
     "fragment": "position_tex",
+    "attributes": [
+        "Position",
+        "UV0"
+    ],
     "samplers": [
         { "name": "Sampler0" }
     ],

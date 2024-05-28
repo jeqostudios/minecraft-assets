@@ -10,12 +10,16 @@
             "predicate": {
               "equipment": {
                 "feet": {
-                  "items": "minecraft:leather_boots"
+                  "items": [
+                    "minecraft:leather_boots"
+                  ]
                 }
               },
               "stepping_on": {
                 "block": {
-                  "blocks": "minecraft:powder_snow"
+                  "blocks": [
+                    "minecraft:powder_snow"
+                  ]
                 }
               }
             }
@@ -30,8 +34,8 @@
       "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:leather_boots"
+      "item": "minecraft:leather_boots",
+      "nbt": "{Damage:0}"
     },
     "title": {
       "translate": "advancements.adventure.walk_on_powder_snow_with_leather_boots.title"

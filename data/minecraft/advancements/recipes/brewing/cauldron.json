@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:water_bucket"
+            "items": [
+              "minecraft:water_bucket"
+            ]
           }
         ]
       },

@@ -4,7 +4,9 @@
     "used_totem": {
       "conditions": {
         "item": {
-          "items": "minecraft:totem_of_undying"
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
         }
       },
       "trigger": "minecraft:used_totem"
@@ -16,8 +18,7 @@
     },
     "frame": "goal",
     "icon": {
-      "count": 1,
-      "id": "minecraft:totem_of_undying"
+      "item": "minecraft:totem_of_undying"
     },
     "title": {
       "translate": "advancements.adventure.totem_of_undying.title"

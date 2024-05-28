@@ -1,7 +1,13 @@
 {
-  "renderer" : [],
-  "version" : [
-    "\\bMetal\\b"
+  "renderer" : [
+    "\\bMesa\\b",
+    "\\bGallium\\b"
   ],
-  "vendor" : []
+  "version" : [
+    "^([0-2]\\.[0-9])",
+    "\\bMesa\\b"
+  ],
+  "vendor" : [
+    "\\bX\\.Org\\b"
+  ]
 }

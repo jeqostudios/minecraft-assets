@@ -2,38 +2,26 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "predicates": {
-              "minecraft:enchantments": [
-                {
-                  "enchantment": "minecraft:silk_touch",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_components",
-              "include": [
-                "minecraft:bees"
-              ],
-              "source": "block_entity"
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Bees",
+                  "target": "BlockEntityTag.Bees",
+                  "op": "replace"
+                }
+              ]
             },
             {
-              "block": "minecraft:bee_nest",
               "function": "minecraft:copy_state",
+              "block": "minecraft:bee_nest",
               "properties": [
                 "honey_level"
               ]
@@ -42,8 +30,21 @@
           "name": "minecraft:bee_nest"
         }
       ],
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/bee_nest"
+  ]
 }

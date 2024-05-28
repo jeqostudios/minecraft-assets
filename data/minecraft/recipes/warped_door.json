@@ -1,19 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "group": "wooden_door",
-  "key": {
-    "#": {
-      "item": "minecraft:warped_planks"
-    }
-  },
   "pattern": [
     "##",
     "##",
     "##"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:warped_planks"
+    }
+  },
   "result": {
-    "count": 3,
-    "id": "minecraft:warped_door"
+    "item": "minecraft:warped_door",
+    "count": 3
   }
 }

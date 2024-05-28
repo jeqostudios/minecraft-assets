@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:mossy_cobblestone"
-    }
-  },
   "pattern": [
     "#  ",
     "## ",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
   "result": {
-    "count": 4,
-    "id": "minecraft:mossy_cobblestone_stairs"
+    "item": "minecraft:mossy_cobblestone_stairs",
+    "count": 4
   }
 }

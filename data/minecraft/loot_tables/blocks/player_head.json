@@ -8,12 +8,11 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_components",
-              "include": [
+              "components": [
                 "minecraft:profile",
-                "minecraft:note_block_sound",
-                "minecraft:custom_name"
+                "minecraft:note_block_sound"
               ],
+              "function": "minecraft:copy_components",
               "source": "block_entity"
             }
           ],

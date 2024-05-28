@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:granite_wall"
-  }
+    "item": "minecraft:granite_wall"
+  },
+  "show_notification": true
 }

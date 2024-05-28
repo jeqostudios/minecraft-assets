@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_sandstone"
+            "items": [
+              "minecraft:red_sandstone"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_red_sandstone"
+      "has_red_sandstone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cut_red_sandstone_slab_from_red_sandstone_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

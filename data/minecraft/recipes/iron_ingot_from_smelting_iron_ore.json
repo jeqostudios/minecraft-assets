@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:iron_ore"
   },
-  "result": {
-    "id": "minecraft:iron_ingot"
-  }
+  "result": "minecraft:iron_ingot"
 }

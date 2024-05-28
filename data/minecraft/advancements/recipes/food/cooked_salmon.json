@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:salmon"
+            "items": [
+              "minecraft:salmon"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_salmon"
+      "has_salmon",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cooked_salmon"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

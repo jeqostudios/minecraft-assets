@@ -15,7 +15,7 @@
     " #"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:wooden_hoe"
-  }
+    "item": "minecraft:wooden_hoe"
+  },
+  "show_notification": true
 }

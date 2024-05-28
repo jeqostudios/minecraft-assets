@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:bamboo_raft"
-  }
+    "item": "minecraft:bamboo_raft"
+  },
+  "show_notification": true
 }

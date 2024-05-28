@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:beef"
+            "items": [
+              "minecraft:beef"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_beef"
+      "has_beef",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cooked_beef_from_campfire_cooking"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

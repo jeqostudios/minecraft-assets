@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian"
+            "items": [
+              "minecraft:obsidian"
+            ]
           }
         ]
       },
@@ -13,13 +15,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.form_obsidian.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:obsidian"
+      "item": "minecraft:obsidian"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.story.form_obsidian.title"
     }

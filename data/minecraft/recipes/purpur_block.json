@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:purpur_block"
-  }
+    "item": "minecraft:purpur_block"
+  },
+  "show_notification": true
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:rail"
+            "items": [
+              "minecraft:rail"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_rail"
+      "has_rail",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:activator_rail"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -4,7 +4,9 @@
     "cod": {
       "conditions": {
         "item": {
-          "items": "minecraft:cod"
+          "items": [
+            "minecraft:cod"
+          ]
         }
       },
       "trigger": "minecraft:fishing_rod_hooked"
@@ -12,7 +14,9 @@
     "pufferfish": {
       "conditions": {
         "item": {
-          "items": "minecraft:pufferfish"
+          "items": [
+            "minecraft:pufferfish"
+          ]
         }
       },
       "trigger": "minecraft:fishing_rod_hooked"
@@ -20,7 +24,9 @@
     "salmon": {
       "conditions": {
         "item": {
-          "items": "minecraft:salmon"
+          "items": [
+            "minecraft:salmon"
+          ]
         }
       },
       "trigger": "minecraft:fishing_rod_hooked"
@@ -28,20 +34,26 @@
     "tropical_fish": {
       "conditions": {
         "item": {
-          "items": "minecraft:tropical_fish"
+          "items": [
+            "minecraft:tropical_fish"
+          ]
         }
       },
       "trigger": "minecraft:fishing_rod_hooked"
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.fishy_business.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:fishing_rod"
+      "item": "minecraft:fishing_rod",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.fishy_business.title"
     }
@@ -53,6 +65,5 @@
       "pufferfish",
       "salmon"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

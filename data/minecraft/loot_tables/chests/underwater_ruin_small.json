@@ -82,7 +82,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "decoration": "minecraft:red_x",
+              "decoration": "red_x",
               "function": "minecraft:exploration_map",
               "skip_existing_chunks": false,
               "zoom": 1
@@ -91,8 +91,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "filled_map.buried_treasure"
-              },
-              "target": "item_name"
+              }
             }
           ],
           "name": "minecraft:map",
@@ -101,6 +100,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:chests/underwater_ruin_small"
+  ]
 }

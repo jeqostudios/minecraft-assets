@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:coal_block"
-  }
+    "item": "minecraft:coal_block"
+  },
+  "show_notification": true
 }

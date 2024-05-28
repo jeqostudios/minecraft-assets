@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:jukebox"
-  }
+    "item": "minecraft:jukebox"
+  },
+  "show_notification": true
 }

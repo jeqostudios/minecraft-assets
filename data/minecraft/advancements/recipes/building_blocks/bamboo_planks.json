@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:bamboo_blocks"
+            "tag": "minecraft:bamboo_blocks"
           }
         ]
       },
@@ -20,13 +20,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_logs"
+      "has_logs",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:bamboo_planks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

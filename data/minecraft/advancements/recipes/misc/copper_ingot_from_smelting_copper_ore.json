@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:copper_ore"
+            "items": [
+              "minecraft:copper_ore"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_copper_ore"
+      "has_copper_ore",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:copper_ingot_from_smelting_copper_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

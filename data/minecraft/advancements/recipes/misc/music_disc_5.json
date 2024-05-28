@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:disc_fragment_5"
+            "items": [
+              "minecraft:disc_fragment_5"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_disc_fragment_5"
+      "has_disc_fragment_5",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:music_disc_5"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

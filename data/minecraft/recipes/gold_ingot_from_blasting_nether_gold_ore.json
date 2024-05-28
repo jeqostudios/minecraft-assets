@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:nether_gold_ore"
   },
-  "result": {
-    "id": "minecraft:gold_ingot"
-  }
+  "result": "minecraft:gold_ingot"
 }

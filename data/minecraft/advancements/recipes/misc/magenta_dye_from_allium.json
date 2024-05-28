@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:allium"
+            "items": [
+              "minecraft:allium"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_allium"
+      "has_allium",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:magenta_dye_from_allium"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

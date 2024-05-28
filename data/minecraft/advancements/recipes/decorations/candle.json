@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:honeycomb"
+            "items": [
+              "minecraft:honeycomb"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:string"
+            "items": [
+              "minecraft:string"
+            ]
           }
         ]
       },
@@ -30,14 +34,15 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_string",
-      "has_honeycomb"
+      "has_honeycomb",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:candle"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

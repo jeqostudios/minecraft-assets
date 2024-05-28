@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nether_gold_ore"
+            "items": [
+              "minecraft:nether_gold_ore"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_nether_gold_ore"
+      "has_nether_gold_ore",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:gold_ingot_from_blasting_nether_gold_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

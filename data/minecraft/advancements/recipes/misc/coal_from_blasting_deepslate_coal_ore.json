@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:deepslate_coal_ore"
+            "items": [
+              "minecraft:deepslate_coal_ore"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_deepslate_coal_ore"
+      "has_deepslate_coal_ore",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:coal_from_blasting_deepslate_coal_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

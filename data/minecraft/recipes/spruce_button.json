@@ -8,7 +8,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:spruce_button"
+    "item": "minecraft:spruce_button"
   }
 }

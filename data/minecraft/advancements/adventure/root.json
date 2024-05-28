@@ -1,25 +1,28 @@
 {
-  "criteria": {
-    "killed_by_something": {
-      "trigger": "minecraft:entity_killed_player"
-    },
-    "killed_something": {
-      "trigger": "minecraft:player_killed_entity"
-    }
-  },
   "display": {
-    "announce_to_chat": false,
-    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "title": {
+      "translate": "advancements.adventure.root.title"
+    },
     "description": {
       "translate": "advancements.adventure.root.description"
     },
-    "icon": {
-      "count": 1,
-      "id": "minecraft:map"
-    },
+    "frame": "task",
     "show_toast": false,
-    "title": {
-      "translate": "advancements.adventure.root.title"
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "killed_something": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {}
+    },
+    "killed_by_something": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {}
     }
   },
   "requirements": [
@@ -27,6 +30,5 @@
       "killed_something",
       "killed_by_something"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

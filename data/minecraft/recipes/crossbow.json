@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -21,7 +20,6 @@
     " # "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:crossbow"
+    "item": "minecraft:crossbow"
   }
 }

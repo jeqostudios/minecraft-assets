@@ -21,7 +21,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:short_grass",
+          "name": "minecraft:grass",
           "weight": 5
         },
         {
@@ -123,6 +123,5 @@
         "min": 3.0
       }
     }
-  ],
-  "random_sequence": "minecraft:chests/village/village_savanna_house"
+  ]
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:polished_blackstone"
@@ -10,7 +9,6 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:polished_blackstone_pressure_plate"
+    "item": "minecraft:polished_blackstone_pressure_plate"
   }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "H": {
       "item": "minecraft:honeycomb"
@@ -14,7 +13,6 @@
     "H"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:candle"
+    "item": "minecraft:candle"
   }
 }

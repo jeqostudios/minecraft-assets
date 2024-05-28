@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
   "group": "mossy_cobblestone",
   "ingredients": [
     {
@@ -11,7 +10,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:mossy_cobblestone"
+    "item": "minecraft:mossy_cobblestone"
   }
 }

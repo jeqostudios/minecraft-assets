@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "H": {
       "item": "minecraft:honeycomb"
@@ -15,7 +14,6 @@
     "PPP"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:beehive"
+    "item": "minecraft:beehive"
   }
 }

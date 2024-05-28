@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:prismarine_crystals"
+            "items": [
+              "minecraft:prismarine_crystals"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_prismarine_crystals"
+      "has_prismarine_crystals",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

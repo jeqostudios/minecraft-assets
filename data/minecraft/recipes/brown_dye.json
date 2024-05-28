@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "group": "brown_dye",
   "ingredients": [
     {
@@ -8,7 +7,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:brown_dye"
+    "item": "minecraft:brown_dye"
   }
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wither_skeleton_skull"
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
           }
         ]
       },
@@ -13,13 +15,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.get_wither_skull.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:wither_skeleton_skull"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.get_wither_skull.title"
     }
@@ -28,6 +33,5 @@
     [
       "wither_skull"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

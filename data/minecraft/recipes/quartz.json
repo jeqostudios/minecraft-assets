@@ -1,12 +1,9 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
   "cookingtime": 200,
   "experience": 0.2,
   "ingredient": {
     "item": "minecraft:nether_quartz_ore"
   },
-  "result": {
-    "id": "minecraft:quartz"
-  }
+  "result": "minecraft:quartz"
 }

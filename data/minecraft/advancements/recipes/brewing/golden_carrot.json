@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:gold_nugget"
+            "items": [
+              "minecraft:gold_nugget"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_gold_nugget"
+      "has_gold_nugget",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

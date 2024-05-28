@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:wheat"
@@ -14,6 +13,6 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:cookie"
+    "item": "minecraft:cookie"
   }
 }

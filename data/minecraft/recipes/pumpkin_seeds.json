@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:pumpkin"
@@ -8,6 +7,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:pumpkin_seeds"
+    "item": "minecraft:pumpkin_seeds"
   }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "P": {
       "tag": "minecraft:planks"
@@ -15,7 +14,6 @@
     "PSP"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:barrel"
+    "item": "minecraft:barrel"
   }
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_hoe"
+            "items": [
+              "minecraft:netherite_hoe"
+            ]
           }
         ]
       },
@@ -13,14 +15,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.netherite_hoe.description"
     },
     "frame": "challenge",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:netherite_hoe"
+      "item": "minecraft:netherite_hoe",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.netherite_hoe.title"
     }
@@ -32,6 +37,5 @@
   ],
   "rewards": {
     "experience": 100
-  },
-  "sends_telemetry_event": true
+  }
 }

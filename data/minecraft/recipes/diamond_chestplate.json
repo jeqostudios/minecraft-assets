@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "X": {
-      "item": "minecraft:diamond"
-    }
-  },
   "pattern": [
     "X X",
     "XXX",
     "XXX"
   ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:diamond_chestplate"
+    "item": "minecraft:diamond_chestplate"
   }
 }

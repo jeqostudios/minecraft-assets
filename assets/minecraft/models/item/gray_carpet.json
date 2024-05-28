@@ -1,3 +1,3 @@
 {
-  "parent": "minecraft:block/gray_carpet"
+    "parent": "block/gray_carpet"
 }

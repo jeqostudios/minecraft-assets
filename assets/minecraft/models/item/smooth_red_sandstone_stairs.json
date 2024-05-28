@@ -1,3 +1,3 @@
 {
-  "parent": "minecraft:block/smooth_red_sandstone_stairs"
+    "parent": "block/smooth_red_sandstone_stairs"
 }

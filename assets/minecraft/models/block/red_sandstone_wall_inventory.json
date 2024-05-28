@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/wall_inventory",
-  "textures": {
-    "wall": "minecraft:block/red_sandstone"
-  }
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "block/red_sandstone"
+    }
 }

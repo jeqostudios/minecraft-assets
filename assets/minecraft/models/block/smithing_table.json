@@ -1,12 +1,12 @@
 {
-  "parent": "minecraft:block/cube",
-  "textures": {
-    "down": "minecraft:block/smithing_table_bottom",
-    "east": "minecraft:block/smithing_table_side",
-    "north": "minecraft:block/smithing_table_front",
-    "particle": "minecraft:block/smithing_table_front",
-    "south": "minecraft:block/smithing_table_front",
-    "up": "minecraft:block/smithing_table_top",
-    "west": "minecraft:block/smithing_table_side"
-  }
+    "parent": "block/cube",
+    "textures": {
+        "particle": "block/smithing_table_front",
+        "down": "block/smithing_table_bottom",
+        "up": "block/smithing_table_top",
+        "north": "block/smithing_table_front",
+        "east": "block/smithing_table_side",
+        "south": "block/smithing_table_front",
+        "west": "block/smithing_table_side"
+    }
 }

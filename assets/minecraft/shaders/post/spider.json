@@ -7,10 +7,9 @@
     ],
     "passes": [
         {
-            "name": "box_blur",
+            "name": "blur",
             "intarget": "minecraft:main",
             "outtarget": "temp",
-            "use_linear_filter": true,
             "uniforms": [
                 {
                     "name": "BlurDir",
@@ -23,10 +22,9 @@
             ]
         },
         {
-            "name": "box_blur",
+            "name": "blur",
             "intarget": "temp",
             "outtarget": "largeBlur",
-            "use_linear_filter": true,
             "uniforms": [
                 {
                     "name": "BlurDir",
@@ -39,10 +37,9 @@
             ]
         },
         {
-            "name": "box_blur",
+            "name": "blur",
             "intarget": "minecraft:main",
             "outtarget": "temp",
-            "use_linear_filter": true,
             "uniforms": [
                 {
                     "name": "BlurDir",
@@ -55,10 +52,9 @@
             ]
         },
         {
-            "name": "box_blur",
+            "name": "blur",
             "intarget": "temp",
             "outtarget": "smallBlur",
-            "use_linear_filter": true,
             "uniforms": [
                 {
                     "name": "BlurDir",

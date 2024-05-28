@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:sculk_sensor_tendrils_clicking"
   ]

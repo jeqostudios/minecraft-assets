@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": {
-    "count": 1,
-    "id": "minecraft:chiseled_stone_bricks"
-  }
+  "result": "minecraft:chiseled_stone_bricks",
+  "count": 1
 }

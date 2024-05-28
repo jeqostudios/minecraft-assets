@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:oak_pressure_plate",
     "minecraft:spruce_pressure_plate",
@@ -8,8 +9,6 @@
     "minecraft:dark_oak_pressure_plate",
     "minecraft:crimson_pressure_plate",
     "minecraft:warped_pressure_plate",
-    "minecraft:mangrove_pressure_plate",
-    "minecraft:bamboo_pressure_plate",
-    "minecraft:cherry_pressure_plate"
+    "minecraft:mangrove_pressure_plate"
   ]
 }

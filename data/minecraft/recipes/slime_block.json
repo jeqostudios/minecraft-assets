@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:slime_ball"
-    }
-  },
   "pattern": [
     "###",
     "###",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:slime_block"
+    "item": "minecraft:slime_block"
   }
 }

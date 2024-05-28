@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:blackstone"
-    }
-  },
   "pattern": [
     "#  ",
     "## ",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    }
+  },
   "result": {
-    "count": 4,
-    "id": "minecraft:blackstone_stairs"
+    "item": "minecraft:blackstone_stairs",
+    "count": 4
   }
 }

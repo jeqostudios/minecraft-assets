@@ -2,20 +2,24 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            }
+          ],
+          "name": "minecraft:lectern"
+        }
+      ],
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lectern"
-        }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/lectern"
+  ]
 }

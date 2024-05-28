@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:beef"
   },
-  "result": {
-    "id": "minecraft:cooked_beef"
-  }
+  "result": "minecraft:cooked_beef"
 }

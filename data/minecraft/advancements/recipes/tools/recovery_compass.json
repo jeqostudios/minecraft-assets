@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": [
+              "minecraft:echo_shard"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_echo_shard"
+      "has_echo_shard",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

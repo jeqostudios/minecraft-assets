@@ -4,21 +4,25 @@
     "used_totem": {
       "conditions": {
         "item": {
-          "items": "minecraft:totem_of_undying"
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
         }
       },
       "trigger": "minecraft:used_totem"
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.totem_of_undying.description"
     },
     "frame": "goal",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:totem_of_undying"
+      "item": "minecraft:totem_of_undying"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.totem_of_undying.title"
     }
@@ -27,6 +31,5 @@
     [
       "used_totem"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

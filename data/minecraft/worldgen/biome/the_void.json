@@ -28,7 +28,7 @@
       "minecraft:void_start_platform"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
     "ambient": [],

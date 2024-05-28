@@ -1,6 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "pattern": [
+    "DG",
+    "GD"
+  ],
   "key": {
     "D": {
       "item": "minecraft:dirt"
@@ -9,12 +12,8 @@
       "item": "minecraft:gravel"
     }
   },
-  "pattern": [
-    "DG",
-    "GD"
-  ],
   "result": {
-    "count": 4,
-    "id": "minecraft:coarse_dirt"
+    "item": "minecraft:coarse_dirt",
+    "count": 4
   }
 }

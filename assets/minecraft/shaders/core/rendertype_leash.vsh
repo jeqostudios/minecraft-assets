@@ -10,8 +10,8 @@ uniform sampler2D Sampler2;
 
 uniform mat4 ModelViewMat;
 uniform mat4 ProjMat;
+uniform mat3 IViewRotMat;
 uniform vec4 ColorModulator;
-uniform int FogShape;
 
 out float vertexDistance;
 flat out vec4 vertexColor;
@@ -19,6 +19,6 @@ flat out vec4 vertexColor;
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
-    vertexDistance = fog_distance(Position, FogShape);
+    vertexDistance = cylindrical_distance(ModelViewMat, IViewRotMat * Position);
     vertexColor = Color * ColorModulator * texelFetch(Sampler2, UV2 / 16, 0);
 }

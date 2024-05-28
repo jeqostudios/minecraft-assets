@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:copper_block"
-  }
+    "item": "minecraft:copper_block"
+  },
+  "show_notification": true
 }

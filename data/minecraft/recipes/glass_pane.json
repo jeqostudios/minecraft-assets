@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 16,
-    "id": "minecraft:glass_pane"
-  }
+    "item": "minecraft:glass_pane"
+  },
+  "show_notification": true
 }

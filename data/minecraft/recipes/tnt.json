@@ -20,7 +20,7 @@
     "X#X"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:tnt"
-  }
+    "item": "minecraft:tnt"
+  },
+  "show_notification": true
 }

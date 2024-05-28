@@ -6,6 +6,11 @@
     },
     "vertex": "position_tex_color",
     "fragment": "position_tex_color",
+    "attributes": [
+        "Position",
+        "UV0",
+        "Color"
+    ],
     "samplers": [
         { "name": "Sampler0" }
     ],

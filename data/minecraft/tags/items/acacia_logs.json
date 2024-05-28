@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:acacia_log",
     "minecraft:acacia_wood",

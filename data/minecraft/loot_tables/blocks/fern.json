@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -13,7 +13,7 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:shears"
+                    "item": "minecraft:shears"
                   }
                 }
               ],
@@ -23,15 +23,15 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "chance": 0.125,
-                  "condition": "minecraft:random_chance"
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.125
                 }
               ],
               "functions": [
                 {
+                  "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
                   "parameters": {
                     "bonusMultiplier": 2
                   }
@@ -44,9 +44,7 @@
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/fern"
+  ]
 }

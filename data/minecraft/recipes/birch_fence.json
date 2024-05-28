@@ -1,7 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "wooden_fence",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -10,12 +13,8 @@
       "item": "minecraft:birch_planks"
     }
   },
-  "pattern": [
-    "W#W",
-    "W#W"
-  ],
   "result": {
-    "count": 3,
-    "id": "minecraft:birch_fence"
+    "item": "minecraft:birch_fence",
+    "count": 3
   }
 }

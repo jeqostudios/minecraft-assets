@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "#": [
       {
@@ -20,7 +19,6 @@
     "X#X"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:tnt"
+    "item": "minecraft:tnt"
   }
 }

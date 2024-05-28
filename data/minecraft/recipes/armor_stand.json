@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "/": {
       "item": "minecraft:stick"
@@ -15,7 +14,6 @@
     "/_/"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:armor_stand"
+    "item": "minecraft:armor_stand"
   }
 }

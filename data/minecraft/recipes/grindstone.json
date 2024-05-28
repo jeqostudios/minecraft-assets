@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "tag": "minecraft:planks"
@@ -17,7 +16,6 @@
     "# #"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:grindstone"
+    "item": "minecraft:grindstone"
   }
 }

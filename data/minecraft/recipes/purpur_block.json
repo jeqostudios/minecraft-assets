@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "F": {
       "item": "minecraft:popped_chorus_fruit"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:purpur_block"
+    "item": "minecraft:purpur_block"
   }
 }

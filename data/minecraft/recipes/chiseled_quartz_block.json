@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:quartz_slab"
@@ -11,7 +10,6 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:chiseled_quartz_block"
+    "item": "minecraft:chiseled_quartz_block"
   }
 }

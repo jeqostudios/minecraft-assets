@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:cobblestone"
@@ -21,7 +20,6 @@
     "#R#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:piston"
+    "item": "minecraft:piston"
   }
 }

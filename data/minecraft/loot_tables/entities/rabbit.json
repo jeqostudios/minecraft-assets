@@ -38,7 +38,11 @@
           "functions": [
             {
               "add": false,
-              "count": 1.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
               "function": "minecraft:set_count"
             },
             {
@@ -89,6 +93,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:entities/rabbit"
+  ]
 }

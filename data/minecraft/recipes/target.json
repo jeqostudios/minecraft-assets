@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "H": {
       "item": "minecraft:hay_block"
@@ -15,7 +14,6 @@
     " R "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:target"
+    "item": "minecraft:target"
   }
 }

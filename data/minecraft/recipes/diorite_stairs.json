@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:diorite"
@@ -13,6 +12,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:diorite_stairs"
+    "item": "minecraft:diorite_stairs"
   }
 }

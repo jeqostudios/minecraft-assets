@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:mossy_stone_bricks"
@@ -13,6 +12,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:mossy_stone_brick_stairs"
+    "item": "minecraft:mossy_stone_brick_stairs"
   }
 }

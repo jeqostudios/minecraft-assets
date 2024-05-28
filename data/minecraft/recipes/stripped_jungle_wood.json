@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "bark",
   "key": {
     "#": {
@@ -13,6 +12,6 @@
   ],
   "result": {
     "count": 3,
-    "id": "minecraft:stripped_jungle_wood"
+    "item": "minecraft:stripped_jungle_wood"
   }
 }

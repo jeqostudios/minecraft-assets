@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:gold_nugget"
@@ -15,7 +14,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:golden_carrot"
+    "item": "minecraft:golden_carrot"
   }
 }

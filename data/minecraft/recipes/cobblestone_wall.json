@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:cobblestone"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:cobblestone_wall"
+    "item": "minecraft:cobblestone_wall"
   }
 }

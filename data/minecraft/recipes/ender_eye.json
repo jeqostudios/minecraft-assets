@@ -10,7 +10,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:ender_eye"
+    "item": "minecraft:ender_eye"
   }
 }

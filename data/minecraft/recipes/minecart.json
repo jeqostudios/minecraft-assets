@@ -11,7 +11,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:minecart"
-  }
+    "item": "minecraft:minecart"
+  },
+  "show_notification": true
 }

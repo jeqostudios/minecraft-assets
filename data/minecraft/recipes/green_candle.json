@@ -11,7 +11,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:green_candle"
+    "item": "minecraft:green_candle"
   }
 }

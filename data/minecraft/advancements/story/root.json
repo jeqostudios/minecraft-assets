@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crafting_table"
+            "items": [
+              "minecraft:crafting_table"
+            ]
           }
         ]
       },
@@ -17,9 +19,10 @@
     "description": {
       "translate": "advancements.story.root.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:grass_block"
+      "item": "minecraft:grass_block"
     },
     "show_toast": false,
     "title": {
@@ -30,6 +33,5 @@
     [
       "crafting_table"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

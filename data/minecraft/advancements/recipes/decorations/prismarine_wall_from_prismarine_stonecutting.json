@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:prismarine"
+            "items": [
+              "minecraft:prismarine"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:prismarine_wall_from_prismarine_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

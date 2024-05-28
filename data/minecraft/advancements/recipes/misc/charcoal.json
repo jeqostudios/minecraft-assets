@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:logs_that_burn"
+            "tag": "minecraft:logs_that_burn"
           }
         ]
       },
@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:charcoal"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:oxidized_copper"
+            "items": [
+              "minecraft:oxidized_copper"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:waxed_oxidized_copper_from_honeycomb"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

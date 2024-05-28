@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glass_pane"
+            "items": [
+              "minecraft:glass_pane"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lime_dye"
+            "items": [
+              "minecraft:lime_dye"
+            ]
           }
         ]
       },
@@ -39,5 +43,6 @@
     "recipes": [
       "minecraft:lime_stained_glass_pane_from_glass_pane"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ice"
+            "items": [
+              "minecraft:ice"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:packed_ice"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

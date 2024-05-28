@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:hay_block"
+            "items": [
+              "minecraft:hay_block"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:redstone"
+            "items": [
+              "minecraft:redstone"
+            ]
           }
         ]
       },
@@ -39,5 +43,6 @@
     "recipes": [
       "minecraft:target"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 2,
-    "id": "minecraft:spectral_arrow"
-  }
+    "item": "minecraft:spectral_arrow"
+  },
+  "show_notification": true
 }

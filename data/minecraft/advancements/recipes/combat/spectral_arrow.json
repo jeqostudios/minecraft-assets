@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glowstone_dust"
+            "items": [
+              "minecraft:glowstone_dust"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:spectral_arrow"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:decorated_pot_sherds"
+            "tag": "minecraft:decorated_pot_sherds"
           }
         ]
       },
@@ -49,25 +49,29 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.salvage_sherd.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:brush"
+      "item": "minecraft:brush",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.salvage_sherd.title"
     }
   },
   "requirements": [
     [
-      "desert_pyramid",
-      "desert_well",
-      "ocean_ruin_cold",
       "ocean_ruin_warm",
+      "trail_ruins_common",
+      "desert_well",
       "trail_ruins_rare",
-      "trail_ruins_common"
+      "ocean_ruin_cold",
+      "desert_pyramid"
     ],
     [
       "has_sherd"

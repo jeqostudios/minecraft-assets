@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:mangrove_roots"
+            "items": [
+              "minecraft:mangrove_roots"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:muddy_mangrove_roots"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

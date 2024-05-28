@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:magma_cream"
+            "items": [
+              "minecraft:magma_cream"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:magma_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

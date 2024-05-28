@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:emerald_block"
+            "items": [
+              "minecraft:emerald_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:emerald"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

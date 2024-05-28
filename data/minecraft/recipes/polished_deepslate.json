@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:polished_deepslate"
-  }
+    "item": "minecraft:polished_deepslate"
+  },
+  "show_notification": true
 }

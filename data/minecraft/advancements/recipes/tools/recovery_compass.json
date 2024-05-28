@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:echo_shard"
+            "items": [
+              "minecraft:echo_shard"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:recovery_compass"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

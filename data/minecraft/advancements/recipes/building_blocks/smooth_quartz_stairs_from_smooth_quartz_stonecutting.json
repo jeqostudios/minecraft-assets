@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smooth_quartz"
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_smooth_quartz"
+      "has_smooth_quartz",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

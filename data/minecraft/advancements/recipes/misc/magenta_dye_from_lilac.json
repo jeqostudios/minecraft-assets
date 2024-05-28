@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lilac"
+            "items": [
+              "minecraft:lilac"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_lilac"
+      "has_lilac",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

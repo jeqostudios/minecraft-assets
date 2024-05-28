@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:deepslate_lapis_ore"
+            "items": [
+              "minecraft:deepslate_lapis_ore"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_deepslate_lapis_ore"
+      "has_deepslate_lapis_ore",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

@@ -64,7 +64,7 @@
       "minecraft:spring_lava"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {
     "minecraft:enderman": {
       "charge": 0.7,

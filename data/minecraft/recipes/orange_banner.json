@@ -16,7 +16,7 @@
     " | "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:orange_banner"
-  }
+    "item": "minecraft:orange_banner"
+  },
+  "show_notification": true
 }

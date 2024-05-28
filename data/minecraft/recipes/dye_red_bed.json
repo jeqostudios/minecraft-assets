@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "bed",
+  "group": "red_bed",
   "ingredients": [
     {
       "item": "minecraft:red_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:red_bed"
+    "item": "minecraft:red_bed"
   }
 }

@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:torchflower"
+            "items": [
+              "minecraft:torchflower"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_torchflower"
+      "has_torchflower",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:orange_dye_from_torchflower"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

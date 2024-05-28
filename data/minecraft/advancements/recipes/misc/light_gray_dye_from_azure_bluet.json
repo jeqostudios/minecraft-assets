@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:azure_bluet"
+            "items": [
+              "minecraft:azure_bluet"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_azure_bluet"
+      "has_azure_bluet",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:light_gray_dye_from_azure_bluet"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

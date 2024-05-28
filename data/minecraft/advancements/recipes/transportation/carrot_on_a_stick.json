@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:carrot"
+            "items": [
+              "minecraft:carrot"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_carrot"
+      "has_carrot",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:carrot_on_a_stick"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:deepslate_diamond_ore"
   },
-  "result": {
-    "id": "minecraft:diamond"
-  }
+  "result": "minecraft:diamond"
 }

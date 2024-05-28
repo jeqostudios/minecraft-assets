@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:purpur_slab"
-  }
+    "item": "minecraft:purpur_slab"
+  },
+  "show_notification": true
 }

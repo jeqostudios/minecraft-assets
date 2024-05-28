@@ -20,13 +20,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_lots_of_items"
+      "has_lots_of_items",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:chest"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

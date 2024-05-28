@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:raw_copper"
+            "items": [
+              "minecraft:raw_copper"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_raw_copper"
+      "has_raw_copper",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:copper_ingot_from_smelting_raw_copper"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

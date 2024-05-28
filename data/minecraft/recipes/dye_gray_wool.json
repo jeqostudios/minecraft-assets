@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "wool",
+  "group": "gray_wool",
   "ingredients": [
     {
       "item": "minecraft:gray_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:gray_wool"
+    "item": "minecraft:gray_wool"
   }
 }

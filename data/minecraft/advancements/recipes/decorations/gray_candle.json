@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:gray_dye"
+            "items": [
+              "minecraft:gray_dye"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_gray_dye"
+      "has_gray_dye",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:gray_candle"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

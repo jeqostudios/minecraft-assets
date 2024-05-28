@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:dandelion"
+            "items": [
+              "minecraft:dandelion"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_dandelion"
+      "has_dandelion",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:yellow_dye_from_dandelion"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

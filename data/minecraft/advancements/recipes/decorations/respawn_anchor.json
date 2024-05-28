@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crying_obsidian"
+            "items": [
+              "minecraft:crying_obsidian"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_obsidian"
+      "has_obsidian",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:respawn_anchor"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

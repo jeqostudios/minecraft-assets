@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:light_gray_terracotta"
+            "items": [
+              "minecraft:light_gray_terracotta"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_light_gray_terracotta"
+      "has_light_gray_terracotta",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:light_gray_glazed_terracotta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

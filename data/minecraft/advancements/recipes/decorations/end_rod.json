@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:popped_chorus_fruit"
+            "items": [
+              "minecraft:popped_chorus_fruit"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_chorus_fruit_popped"
+      "has_chorus_fruit_popped",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:end_rod"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:raw_iron_block"
+            "items": [
+              "minecraft:raw_iron_block"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_raw_iron_block"
+      "has_raw_iron_block",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

@@ -5,16 +5,14 @@
       "conditions": {
         "block": "minecraft:bee_nest",
         "item": {
-          "predicates": {
-            "minecraft:enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
-                }
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
               }
-            ]
-          }
+            }
+          ]
         },
         "num_bees_inside": 3
       },
@@ -22,13 +20,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.silk_touch_nest.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:bee_nest"
+      "item": "minecraft:bee_nest"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.silk_touch_nest.title"
     }
@@ -37,6 +38,5 @@
     [
       "silk_touch_nest"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

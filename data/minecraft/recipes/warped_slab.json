@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:warped_slab"
-  }
+    "item": "minecraft:warped_slab"
+  },
+  "show_notification": true
 }

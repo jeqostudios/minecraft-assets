@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:andesite"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:andesite_wall"
+    "item": "minecraft:andesite_wall"
   }
 }

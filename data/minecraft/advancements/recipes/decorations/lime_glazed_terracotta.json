@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lime_terracotta"
+            "items": [
+              "minecraft:lime_terracotta"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_lime_terracotta"
+      "has_lime_terracotta",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

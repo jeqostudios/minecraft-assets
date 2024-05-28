@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:packed_mud"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:mud_bricks"
+    "item": "minecraft:mud_bricks"
   }
 }

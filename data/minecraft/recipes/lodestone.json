@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:netherite_ingot"
@@ -15,7 +14,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:lodestone"
+    "item": "minecraft:lodestone"
   }
 }

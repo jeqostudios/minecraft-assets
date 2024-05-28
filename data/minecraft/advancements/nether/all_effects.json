@@ -37,15 +37,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.all_effects.description"
     },
     "frame": "challenge",
     "hidden": true,
     "icon": {
-      "count": 1,
-      "id": "minecraft:bucket"
+      "item": "minecraft:bucket"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.all_effects.title"
     }
@@ -57,6 +58,5 @@
   ],
   "rewards": {
     "experience": 1000
-  },
-  "sends_telemetry_event": true
+  }
 }

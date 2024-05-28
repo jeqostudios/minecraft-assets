@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chorus_fruit"
+            "items": [
+              "minecraft:chorus_fruit"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_chorus_fruit"
+      "has_chorus_fruit",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

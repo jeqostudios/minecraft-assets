@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:smooth_quartz"
@@ -13,6 +12,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:smooth_quartz_stairs"
+    "item": "minecraft:smooth_quartz_stairs"
   }
 }

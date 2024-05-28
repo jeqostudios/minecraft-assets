@@ -1,7 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "banner",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
   "key": {
     "#": {
       "item": "minecraft:magenta_wool"
@@ -10,13 +14,7 @@
       "item": "minecraft:stick"
     }
   },
-  "pattern": [
-    "###",
-    "###",
-    " | "
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:magenta_banner"
+    "item": "minecraft:magenta_banner"
   }
 }

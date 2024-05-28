@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lily_of_the_valley"
+            "items": [
+              "minecraft:lily_of_the_valley"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_lily_of_the_valley"
+      "has_lily_of_the_valley",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:white_dye_from_lily_of_the_valley"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

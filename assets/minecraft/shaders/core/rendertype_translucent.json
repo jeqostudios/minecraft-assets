@@ -6,6 +6,13 @@
     },
     "vertex": "rendertype_translucent",
     "fragment": "rendertype_translucent",
+    "attributes": [
+        "Position",
+        "Color",
+        "UV0",
+        "UV2",
+        "Normal"
+    ],
     "samplers": [
         { "name": "Sampler0" },
         { "name": "Sampler2" }

@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:white_carpet"
+    "item": "minecraft:white_carpet"
   }
 }

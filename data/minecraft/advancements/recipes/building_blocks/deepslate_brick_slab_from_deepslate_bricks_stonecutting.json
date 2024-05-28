@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:deepslate_bricks"
+            "items": [
+              "minecraft:deepslate_bricks"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_deepslate_bricks"
+      "has_deepslate_bricks",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

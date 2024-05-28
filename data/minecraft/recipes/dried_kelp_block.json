@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:dried_kelp_block"
-  }
+    "item": "minecraft:dried_kelp_block"
+  },
+  "show_notification": true
 }

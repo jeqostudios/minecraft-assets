@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:magma_block"
-  }
+    "item": "minecraft:magma_block"
+  },
+  "show_notification": true
 }

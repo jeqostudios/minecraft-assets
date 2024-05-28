@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smooth_sandstone"
+            "items": [
+              "minecraft:smooth_sandstone"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_smooth_sandstone"
+      "has_smooth_sandstone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:smooth_sandstone_slab_from_smooth_sandstone_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

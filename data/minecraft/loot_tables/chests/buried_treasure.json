@@ -2,132 +2,137 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:heart_of_the_sea"
         }
-      ],
-      "rolls": 1.0
+      ]
     },
     {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5.0,
+        "max": 8.0
+      },
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 20,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 4.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:iron_ingot",
-          "weight": 20
+          "name": "minecraft:iron_ingot"
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 4.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:gold_ingot",
-          "weight": 10
+          "name": "minecraft:gold_ingot"
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 2.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:tnt",
-          "weight": 5
+          "name": "minecraft:tnt"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 5.0
-      }
+      ]
     },
     {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+      },
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
+                "min": 4.0,
+                "max": 8.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:emerald",
-          "weight": 5
+          "name": "minecraft:emerald"
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 2.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:diamond",
-          "weight": 5
+          "name": "minecraft:diamond"
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 5.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:prismarine_crystals",
-          "weight": 5
+          "name": "minecraft:prismarine_crystals"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
-      }
+      ]
     },
     {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0.0,
+        "max": 1.0
+      },
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -138,27 +143,23 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_sword"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 1.0,
-        "min": 0.0
-      }
+      ]
     },
     {
+      "rolls": 2.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 4.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:cooked_cod"
@@ -167,40 +168,18 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 4.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:cooked_salmon"
         }
-      ],
-      "rolls": 2.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:potion"
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_potion",
-          "id": "minecraft:water_breathing"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 2.0,
-        "min": 0.0
-      }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/buried_treasure"
+  ]
 }

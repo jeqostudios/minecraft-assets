@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sand"
+            "items": [
+              "minecraft:sand"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_sand"
+      "has_sand",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

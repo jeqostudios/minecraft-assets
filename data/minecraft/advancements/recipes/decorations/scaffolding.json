@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bamboo"
+            "items": [
+              "minecraft:bamboo"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_bamboo"
+      "has_bamboo",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

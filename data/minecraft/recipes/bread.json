@@ -10,7 +10,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:bread"
-  }
+    "item": "minecraft:bread"
+  },
+  "show_notification": true
 }

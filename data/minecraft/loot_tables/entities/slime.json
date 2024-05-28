@@ -9,7 +9,7 @@
           "entity": "this",
           "predicate": {
             "type_specific": {
-              "type": "minecraft:slime",
+              "type": "slime",
               "size": 1
             }
           }
@@ -76,6 +76,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:entities/slime"
+  ]
 }

@@ -15,7 +15,7 @@
     " #"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:stone_axe"
-  }
+    "item": "minecraft:stone_axe"
+  },
+  "show_notification": true
 }

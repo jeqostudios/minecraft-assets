@@ -8,7 +8,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:dark_oak_button"
+    "item": "minecraft:dark_oak_button"
   }
 }

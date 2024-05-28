@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:cobblestone_wall"
-  }
+    "item": "minecraft:cobblestone_wall"
+  },
+  "show_notification": true
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:feather"
+            "items": [
+              "minecraft:feather"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:flint"
+            "items": [
+              "minecraft:flint"
+            ]
           }
         ]
       },
@@ -30,9 +34,9 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_feather",
-      "has_flint"
+      "has_flint",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

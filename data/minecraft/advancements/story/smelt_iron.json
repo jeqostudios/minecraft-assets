@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_ingot"
+            "items": [
+              "minecraft:iron_ingot"
+            ]
           }
         ]
       },
@@ -13,13 +15,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.story.smelt_iron.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:iron_ingot"
+      "item": "minecraft:iron_ingot"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.story.smelt_iron.title"
     }
@@ -28,6 +33,5 @@
     [
       "iron"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

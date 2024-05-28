@@ -1,6 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "X",
+    "#"
+  ],
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -14,12 +17,8 @@
       }
     ]
   },
-  "pattern": [
-    "X",
-    "#"
-  ],
   "result": {
-    "count": 4,
-    "id": "minecraft:torch"
+    "item": "minecraft:torch",
+    "count": 4
   }
 }

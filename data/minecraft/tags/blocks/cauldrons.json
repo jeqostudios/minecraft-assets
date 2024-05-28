@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:cauldron",
     "minecraft:water_cauldron",

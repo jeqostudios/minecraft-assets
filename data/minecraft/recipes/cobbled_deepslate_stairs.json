@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:cobbled_deepslate"
-    }
-  },
   "pattern": [
     "#  ",
     "## ",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
   "result": {
-    "count": 4,
-    "id": "minecraft:cobbled_deepslate_stairs"
+    "item": "minecraft:cobbled_deepslate_stairs",
+    "count": 4
   }
 }

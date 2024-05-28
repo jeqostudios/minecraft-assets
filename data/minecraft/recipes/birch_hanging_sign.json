@@ -17,6 +17,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:birch_hanging_sign"
-  }
+    "item": "minecraft:birch_hanging_sign"
+  },
+  "show_notification": true
 }

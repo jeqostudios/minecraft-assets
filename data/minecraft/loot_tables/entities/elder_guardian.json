@@ -129,7 +129,7 @@
               "function": "minecraft:furnace_smelt"
             }
           ],
-          "value": "minecraft:gameplay/fishing/fish"
+          "name": "minecraft:gameplay/fishing/fish"
         }
       ],
       "rolls": 1.0
@@ -148,6 +148,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:entities/elder_guardian"
+  ]
 }

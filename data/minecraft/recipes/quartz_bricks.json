@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:quartz_bricks"
-  }
+    "item": "minecraft:quartz_bricks"
+  },
+  "show_notification": true
 }

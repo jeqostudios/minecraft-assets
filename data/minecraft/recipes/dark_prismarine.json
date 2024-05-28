@@ -15,7 +15,7 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:dark_prismarine"
-  }
+    "item": "minecraft:dark_prismarine"
+  },
+  "show_notification": true
 }

@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:bricks"
-  }
+    "item": "minecraft:bricks"
+  },
+  "show_notification": true
 }

@@ -14,7 +14,7 @@
     "B"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:jack_o_lantern"
-  }
+    "item": "minecraft:jack_o_lantern"
+  },
+  "show_notification": true
 }

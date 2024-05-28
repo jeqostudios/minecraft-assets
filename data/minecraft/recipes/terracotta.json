@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:clay"
   },
-  "result": {
-    "id": "minecraft:terracotta"
-  }
+  "result": "minecraft:terracotta"
 }

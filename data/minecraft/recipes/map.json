@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:map"
-  }
+    "item": "minecraft:map"
+  },
+  "show_notification": true
 }

@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:deepslate_bricks"
-  }
+    "item": "minecraft:deepslate_bricks"
+  },
+  "show_notification": true
 }

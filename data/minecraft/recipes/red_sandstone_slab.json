@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:red_sandstone_slab"
-  }
+    "item": "minecraft:red_sandstone_slab"
+  },
+  "show_notification": true
 }

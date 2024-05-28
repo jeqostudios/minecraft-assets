@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:cherry_slab"
-  }
+    "item": "minecraft:cherry_slab"
+  },
+  "show_notification": true
 }

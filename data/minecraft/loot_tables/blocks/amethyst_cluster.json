@@ -2,6 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -13,16 +14,14 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantment": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
                         }
-                      ]
-                    }
+                      }
+                    ]
                   }
                 }
               ],
@@ -37,20 +36,20 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "items": "#minecraft:cluster_max_harvestables"
+                        "tag": "minecraft:cluster_max_harvestables"
                       }
                     }
                   ],
                   "functions": [
                     {
-                      "add": false,
+                      "function": "minecraft:set_count",
                       "count": 4.0,
-                      "function": "minecraft:set_count"
+                      "add": false
                     },
                     {
+                      "function": "minecraft:apply_bonus",
                       "enchantment": "minecraft:fortune",
-                      "formula": "minecraft:ore_drops",
-                      "function": "minecraft:apply_bonus"
+                      "formula": "minecraft:ore_drops"
                     }
                   ],
                   "name": "minecraft:amethyst_shard"
@@ -59,9 +58,9 @@
                   "type": "minecraft:item",
                   "functions": [
                     {
-                      "add": false,
+                      "function": "minecraft:set_count",
                       "count": 2.0,
-                      "function": "minecraft:set_count"
+                      "add": false
                     },
                     {
                       "function": "minecraft:explosion_decay"
@@ -73,9 +72,7 @@
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/amethyst_cluster"
+  ]
 }

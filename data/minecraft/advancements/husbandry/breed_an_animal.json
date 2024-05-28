@@ -1,26 +1,29 @@
 {
   "parent": "minecraft:husbandry/root",
-  "criteria": {
-    "bred": {
-      "trigger": "minecraft:bred_animals"
-    }
-  },
   "display": {
-    "description": {
-      "translate": "advancements.husbandry.breed_an_animal.description"
-    },
     "icon": {
-      "count": 1,
-      "id": "minecraft:wheat"
+      "item": "minecraft:wheat"
     },
     "title": {
       "translate": "advancements.husbandry.breed_an_animal.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.breed_an_animal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {}
     }
   },
   "requirements": [
     [
       "bred"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lime_dye"
+            "items": [
+              "minecraft:lime_dye"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_needed_dye"
+      "has_needed_dye",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:dye_lime_carpet"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

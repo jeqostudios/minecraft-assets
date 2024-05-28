@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:polished_blackstone_slab"
+            "items": [
+              "minecraft:polished_blackstone_slab"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_polished_blackstone_slab"
+      "has_polished_blackstone_slab",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:chiseled_polished_blackstone"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

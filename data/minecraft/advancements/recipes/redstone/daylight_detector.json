@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz"
+            "items": [
+              "minecraft:quartz"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_quartz"
+      "has_quartz",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:daylight_detector"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

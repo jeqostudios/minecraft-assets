@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:mutton"
+            "items": [
+              "minecraft:mutton"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_mutton"
+      "has_mutton",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cooked_mutton"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

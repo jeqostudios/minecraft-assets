@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:rabbit_hide"
+            "items": [
+              "minecraft:rabbit_hide"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_rabbit_hide"
+      "has_rabbit_hide",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:leather"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

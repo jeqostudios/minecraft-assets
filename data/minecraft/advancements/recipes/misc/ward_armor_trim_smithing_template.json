@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ward_armor_trim_smithing_template"
+            "items": [
+              "minecraft:ward_armor_trim_smithing_template"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_ward_armor_trim_smithing_template"
+      "has_ward_armor_trim_smithing_template",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:ward_armor_trim_smithing_template"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

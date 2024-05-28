@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:wet_sponge"
   },
-  "result": {
-    "id": "minecraft:sponge"
-  }
+  "result": "minecraft:sponge"
 }

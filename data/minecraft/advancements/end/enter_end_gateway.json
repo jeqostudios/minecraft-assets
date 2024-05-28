@@ -13,8 +13,7 @@
       "translate": "advancements.end.enter_end_gateway.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:ender_pearl"
+      "item": "minecraft:ender_pearl"
     },
     "title": {
       "translate": "advancements.end.enter_end_gateway.title"

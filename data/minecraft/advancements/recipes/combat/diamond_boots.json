@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond"
+            "items": [
+              "minecraft:diamond"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_diamond"
+      "has_diamond",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:diamond_boots"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

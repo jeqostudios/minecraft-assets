@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:polished_andesite"
+            "items": [
+              "minecraft:polished_andesite"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_polished_andesite"
+      "has_polished_andesite",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:polished_andesite_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

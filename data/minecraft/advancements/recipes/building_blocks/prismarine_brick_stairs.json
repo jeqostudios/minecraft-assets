@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:prismarine_bricks"
+            "items": [
+              "minecraft:prismarine_bricks"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_prismarine_bricks"
+      "has_prismarine_bricks",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:prismarine_brick_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

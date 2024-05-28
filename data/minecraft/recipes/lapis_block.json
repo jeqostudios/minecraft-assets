@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:lapis_block"
-  }
+    "item": "minecraft:lapis_block"
+  },
+  "show_notification": true
 }

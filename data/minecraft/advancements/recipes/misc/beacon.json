@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nether_star"
+            "items": [
+              "minecraft:nether_star"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_nether_star"
+      "has_nether_star",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:beacon"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

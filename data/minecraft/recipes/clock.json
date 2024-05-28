@@ -15,7 +15,7 @@
     " # "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:clock"
-  }
+    "item": "minecraft:clock"
+  },
+  "show_notification": true
 }

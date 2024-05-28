@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nether_quartz_ore"
+            "items": [
+              "minecraft:nether_quartz_ore"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_nether_quartz_ore"
+      "has_nether_quartz_ore",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:quartz_from_blasting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

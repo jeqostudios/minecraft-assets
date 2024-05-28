@@ -2,6 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -13,7 +14,7 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:shears"
+                    "item": "minecraft:shears"
                   }
                 }
               ],
@@ -23,13 +24,13 @@
               "type": "minecraft:item",
               "functions": [
                 {
-                  "add": false,
+                  "function": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 2.0,
-                    "min": 0.0
+                    "min": 0.0,
+                    "max": 2.0
                   },
-                  "function": "minecraft:set_count"
+                  "add": false
                 },
                 {
                   "function": "minecraft:explosion_decay"
@@ -39,9 +40,7 @@
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/dead_bush"
+  ]
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "equipment",
   "ingredients": [
     {
       "item": "minecraft:iron_ingot"
@@ -10,7 +9,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:flint_and_steel"
+    "item": "minecraft:flint_and_steel"
   }
 }

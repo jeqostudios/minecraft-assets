@@ -6,7 +6,6 @@
       "minecraft:canyon"
     ]
   },
-  "creature_spawn_probability": 0.04,
   "downfall": 0.0,
   "effects": {
     "fog_color": 12638463,
@@ -107,20 +106,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:armadillo",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 6
-      },
-      {
-        "type": "minecraft:wolf",
-        "maxCount": 8,
-        "minCount": 4,
-        "weight": 2
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {

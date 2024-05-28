@@ -22,8 +22,7 @@
     },
     "frame": "goal",
     "icon": {
-      "count": 1,
-      "id": "minecraft:carved_pumpkin"
+      "item": "minecraft:carved_pumpkin"
     },
     "title": {
       "translate": "advancements.adventure.summon_iron_golem.title"

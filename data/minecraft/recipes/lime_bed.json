@@ -15,7 +15,6 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:lime_bed"
+    "item": "minecraft:lime_bed"
   }
 }

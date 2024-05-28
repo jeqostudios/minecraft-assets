@@ -1,6 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "#X#"
+  ],
   "key": {
     "#": {
       "item": "minecraft:wheat"
@@ -9,11 +11,8 @@
       "item": "minecraft:cocoa_beans"
     }
   },
-  "pattern": [
-    "#X#"
-  ],
   "result": {
-    "count": 8,
-    "id": "minecraft:cookie"
+    "item": "minecraft:cookie",
+    "count": 8
   }
 }

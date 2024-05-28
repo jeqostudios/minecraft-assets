@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
   "group": "waxed_copper_block",
   "ingredients": [
     {
@@ -11,7 +10,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:waxed_copper_block"
+    "item": "minecraft:waxed_copper_block"
   }
 }

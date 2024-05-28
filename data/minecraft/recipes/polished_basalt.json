@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "S": {
       "item": "minecraft:basalt"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:polished_basalt"
+    "item": "minecraft:polished_basalt"
   }
 }

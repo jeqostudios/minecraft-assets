@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:nether_brick"
@@ -15,6 +14,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:nether_brick_fence"
+    "item": "minecraft:nether_brick_fence"
   }
 }

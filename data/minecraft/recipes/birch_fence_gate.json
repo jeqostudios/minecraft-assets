@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "group": "wooden_fence_gate",
   "key": {
     "#": {
@@ -15,7 +14,6 @@
     "#W#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:birch_fence_gate"
+    "item": "minecraft:birch_fence_gate"
   }
 }

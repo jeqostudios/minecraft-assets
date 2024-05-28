@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "equipment",
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -15,7 +14,6 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:stone_sword"
+    "item": "minecraft:stone_sword"
   }
 }

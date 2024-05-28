@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "wooden_stairs",
   "key": {
     "#": {
@@ -14,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:jungle_stairs"
+    "item": "minecraft:jungle_stairs"
   }
 }

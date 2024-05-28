@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:iron_ingot"
@@ -12,6 +11,6 @@
   ],
   "result": {
     "count": 16,
-    "id": "minecraft:iron_bars"
+    "item": "minecraft:iron_bars"
   }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
   "group": "concrete_powder",
   "ingredients": [
     {
@@ -33,6 +32,6 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:light_blue_concrete_powder"
+    "item": "minecraft:light_blue_concrete_powder"
   }
 }

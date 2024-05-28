@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cooked_rabbit"
+            "items": [
+              "minecraft:cooked_rabbit"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cooked_rabbit"
+      "has_cooked_rabbit",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

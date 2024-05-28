@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "N": {
       "item": "minecraft:nether_brick"
@@ -14,7 +13,6 @@
     "WN"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:red_nether_bricks"
+    "item": "minecraft:red_nether_bricks"
   }
 }

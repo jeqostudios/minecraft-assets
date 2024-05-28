@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "#": {
       "item": "minecraft:redstone_torch"
@@ -18,7 +17,6 @@
     "III"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:comparator"
+    "item": "minecraft:comparator"
   }
 }

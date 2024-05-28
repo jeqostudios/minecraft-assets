@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:basalt"
+            "items": [
+              "minecraft:basalt"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_basalt"
+      "has_basalt",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

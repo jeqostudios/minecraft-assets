@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:chest"
@@ -15,7 +14,6 @@
     "-"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:shulker_box"
+    "item": "minecraft:shulker_box"
   }
 }

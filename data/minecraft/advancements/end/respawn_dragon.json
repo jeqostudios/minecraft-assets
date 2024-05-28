@@ -17,14 +17,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.respawn_dragon.description"
     },
     "frame": "goal",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:end_crystal"
+      "item": "minecraft:end_crystal"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.end.respawn_dragon.title"
     }
@@ -33,6 +35,5 @@
     [
       "summoned_dragon"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

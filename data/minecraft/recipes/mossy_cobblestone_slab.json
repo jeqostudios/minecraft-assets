@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:mossy_cobblestone"
@@ -11,6 +10,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:mossy_cobblestone_slab"
+    "item": "minecraft:mossy_cobblestone_slab"
   }
 }

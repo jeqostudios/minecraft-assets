@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
   "key": {
     "C": {
       "item": "minecraft:chest"
@@ -15,7 +14,6 @@
     " I "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:hopper"
+    "item": "minecraft:hopper"
   }
 }

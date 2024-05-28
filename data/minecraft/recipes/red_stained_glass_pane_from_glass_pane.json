@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "stained_glass_pane",
   "key": {
     "#": {
@@ -17,6 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "id": "minecraft:red_stained_glass_pane"
+    "item": "minecraft:red_stained_glass_pane"
   }
 }

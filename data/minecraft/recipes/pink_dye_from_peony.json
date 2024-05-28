@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "group": "pink_dye",
   "ingredients": [
     {
@@ -9,6 +8,6 @@
   ],
   "result": {
     "count": 2,
-    "id": "minecraft:pink_dye"
+    "item": "minecraft:pink_dye"
   }
 }

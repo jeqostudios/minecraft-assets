@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "key": {
     "#": {
       "item": "minecraft:red_sand"
@@ -11,7 +10,6 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:red_sandstone"
+    "item": "minecraft:red_sandstone"
   }
 }

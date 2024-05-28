@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:blackstone"
+            "items": [
+              "minecraft:blackstone"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_blackstone"
+      "has_blackstone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

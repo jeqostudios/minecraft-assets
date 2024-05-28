@@ -11,7 +11,6 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:acacia_pressure_plate"
+    "item": "minecraft:acacia_pressure_plate"
   }
 }

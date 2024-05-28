@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:egg"
+            "items": [
+              "minecraft:egg"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_egg"
+      "has_egg",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

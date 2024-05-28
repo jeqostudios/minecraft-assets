@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cut_copper_slab"
+            "items": [
+              "minecraft:cut_copper_slab"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cut_copper_slab"
+      "has_cut_copper_slab",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

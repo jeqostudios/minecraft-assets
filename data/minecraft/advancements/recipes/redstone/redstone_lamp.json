@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glowstone"
+            "items": [
+              "minecraft:glowstone"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_glowstone"
+      "has_glowstone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

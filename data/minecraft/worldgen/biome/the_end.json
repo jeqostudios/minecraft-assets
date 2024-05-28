@@ -22,7 +22,7 @@
       "minecraft:end_spike"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
     "ambient": [],

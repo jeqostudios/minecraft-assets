@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pointed_dripstone"
+            "items": [
+              "minecraft:pointed_dripstone"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_pointed_dripstone"
+      "has_pointed_dripstone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

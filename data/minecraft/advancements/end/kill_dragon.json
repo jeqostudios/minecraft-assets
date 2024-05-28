@@ -17,13 +17,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.end.kill_dragon.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:dragon_head"
+      "item": "minecraft:dragon_head"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.end.kill_dragon.title"
     }
@@ -32,6 +35,5 @@
     [
       "killed_dragon"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

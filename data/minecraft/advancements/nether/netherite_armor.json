@@ -5,16 +5,24 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_helmet"
+            "items": [
+              "minecraft:netherite_helmet"
+            ]
           },
           {
-            "items": "minecraft:netherite_chestplate"
+            "items": [
+              "minecraft:netherite_chestplate"
+            ]
           },
           {
-            "items": "minecraft:netherite_leggings"
+            "items": [
+              "minecraft:netherite_leggings"
+            ]
           },
           {
-            "items": "minecraft:netherite_boots"
+            "items": [
+              "minecraft:netherite_boots"
+            ]
           }
         ]
       },
@@ -22,14 +30,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.netherite_armor.description"
     },
     "frame": "challenge",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:netherite_chestplate"
+      "item": "minecraft:netherite_chestplate",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.netherite_armor.title"
     }
@@ -41,6 +52,5 @@
   ],
   "rewards": {
     "experience": 100
-  },
-  "sends_telemetry_event": true
+  }
 }

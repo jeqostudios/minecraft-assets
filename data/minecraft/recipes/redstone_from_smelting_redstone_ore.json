@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:redstone_ore"
   },
-  "result": {
-    "id": "minecraft:redstone"
-  }
+  "result": "minecraft:redstone"
 }

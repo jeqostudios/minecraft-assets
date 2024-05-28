@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_smelts_to_glass": {
+    "has_sand": {
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:smelts_to_glass"
+            "tag": "minecraft:sand"
           }
         ]
       },
@@ -20,8 +20,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_smelts_to_glass"
+      "has_sand",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

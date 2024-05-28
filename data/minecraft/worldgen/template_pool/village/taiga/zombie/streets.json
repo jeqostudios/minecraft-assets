@@ -145,5 +145,6 @@
       "weight": 3
     }
   ],
-  "fallback": "minecraft:village/taiga/terminators"
+  "fallback": "minecraft:village/taiga/terminators",
+  "name": "minecraft:village/taiga/zombie/streets"
 }

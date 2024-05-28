@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:peony"
+            "items": [
+              "minecraft:peony"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_peony"
+      "has_peony",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

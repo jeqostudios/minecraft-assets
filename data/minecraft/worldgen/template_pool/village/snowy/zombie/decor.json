@@ -58,5 +58,6 @@
       "weight": 7
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:village/snowy/zombie/decor"
 }

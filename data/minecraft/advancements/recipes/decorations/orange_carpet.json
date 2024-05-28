@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:orange_wool"
+            "items": [
+              "minecraft:orange_wool"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_orange_wool"
+      "has_orange_wool",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bowl"
+            "items": [
+              "minecraft:bowl"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:brown_mushroom"
+            "items": [
+              "minecraft:brown_mushroom"
+            ]
           }
         ]
       },
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:mushroom_stew"
+            "items": [
+              "minecraft:mushroom_stew"
+            ]
           }
         ]
       },
@@ -35,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_mushroom"
+            "items": [
+              "minecraft:red_mushroom"
+            ]
           }
         ]
       },
@@ -50,11 +58,11 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_mushroom_stew",
       "has_bowl",
       "has_brown_mushroom",
-      "has_red_mushroom"
+      "has_red_mushroom",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

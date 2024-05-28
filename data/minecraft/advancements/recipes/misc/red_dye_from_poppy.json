@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:poppy"
+            "items": [
+              "minecraft:poppy"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_poppy"
+      "has_poppy",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

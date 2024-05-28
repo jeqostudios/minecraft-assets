@@ -11,13 +11,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.create_beacon.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:beacon"
+      "item": "minecraft:beacon"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.create_beacon.title"
     }
@@ -26,6 +29,5 @@
     [
       "beacon"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

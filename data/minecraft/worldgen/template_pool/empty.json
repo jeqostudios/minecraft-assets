@@ -1,4 +1,5 @@
 {
   "elements": [],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:empty"
 }

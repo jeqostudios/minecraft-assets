@@ -40,5 +40,6 @@
       "weight": 2
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:village/plains/zombie/decor"
 }

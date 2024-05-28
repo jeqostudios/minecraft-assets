@@ -58,7 +58,7 @@
       "minecraft:red_mushroom_normal"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
     "ambient": [],

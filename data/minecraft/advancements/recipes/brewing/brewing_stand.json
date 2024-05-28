@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:blaze_rod"
+            "items": [
+              "minecraft:blaze_rod"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_blaze_rod"
+      "has_blaze_rod",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

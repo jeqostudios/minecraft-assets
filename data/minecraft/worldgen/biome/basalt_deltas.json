@@ -62,7 +62,7 @@
       "minecraft:ore_debris_small"
     ]
   ],
-  "has_precipitation": false,
+  "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
     "ambient": [],

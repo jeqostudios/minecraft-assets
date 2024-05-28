@@ -259,5 +259,6 @@
       "weight": 5
     }
   ],
-  "fallback": "minecraft:village/desert/zombie/terminators"
+  "fallback": "minecraft:village/desert/zombie/terminators",
+  "name": "minecraft:village/desert/zombie/houses"
 }

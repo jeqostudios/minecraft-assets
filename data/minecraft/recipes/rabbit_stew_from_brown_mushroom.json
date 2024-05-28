@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "group": "rabbit_stew",
   "ingredients": [
     {
@@ -20,7 +19,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:rabbit_stew"
+    "item": "minecraft:rabbit_stew"
   }
 }

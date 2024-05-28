@@ -1,7 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "stained_terracotta",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:terracotta"
@@ -10,13 +14,8 @@
       "item": "minecraft:magenta_dye"
     }
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "result": {
-    "count": 8,
-    "id": "minecraft:magenta_terracotta"
+    "item": "minecraft:magenta_terracotta",
+    "count": 8
   }
 }

@@ -15,7 +15,7 @@
     "#R#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:dropper"
-  }
+    "item": "minecraft:dropper"
+  },
+  "show_notification": true
 }

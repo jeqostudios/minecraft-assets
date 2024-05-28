@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:chest"
-  }
+    "item": "minecraft:chest"
+  },
+  "show_notification": true
 }

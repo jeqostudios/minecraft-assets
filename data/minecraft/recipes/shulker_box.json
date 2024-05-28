@@ -15,7 +15,7 @@
     "-"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:shulker_box"
-  }
+    "item": "minecraft:shulker_box"
+  },
+  "show_notification": true
 }

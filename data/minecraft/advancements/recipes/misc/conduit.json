@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:heart_of_the_sea"
+            "items": [
+              "minecraft:heart_of_the_sea"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:nautilus_shell"
+            "items": [
+              "minecraft:nautilus_shell"
+            ]
           }
         ]
       },
@@ -30,9 +34,9 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_nautilus_core",
-      "has_nautilus_shell"
+      "has_nautilus_shell",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

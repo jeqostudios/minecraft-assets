@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:birch_slab"
-  }
+    "item": "minecraft:birch_slab"
+  },
+  "show_notification": true
 }

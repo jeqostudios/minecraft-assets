@@ -16,7 +16,9 @@
           "offsetY": 1,
           "predicate": {
             "block": {
-              "blocks": "minecraft:large_fern",
+              "blocks": [
+                "minecraft:large_fern"
+              ],
               "state": {
                 "half": "upper"
               }
@@ -34,7 +36,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:shears"
+                    "items": [
+                      "minecraft:shears"
+                    ]
                   }
                 }
               ],
@@ -80,7 +84,9 @@
           "offsetY": -1,
           "predicate": {
             "block": {
-              "blocks": "minecraft:large_fern",
+              "blocks": [
+                "minecraft:large_fern"
+              ],
               "state": {
                 "half": "lower"
               }
@@ -98,7 +104,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:shears"
+                    "items": [
+                      "minecraft:shears"
+                    ]
                   }
                 }
               ],
@@ -129,6 +137,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:blocks/large_fern"
+  ]
 }

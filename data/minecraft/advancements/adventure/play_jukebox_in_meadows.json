@@ -3,35 +3,32 @@
   "criteria": {
     "play_jukebox_in_meadows": {
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "biomes": "minecraft:meadow",
-              "block": {
-                "blocks": "minecraft:jukebox"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "#minecraft:music_discs"
-            }
+        "item": {
+          "tag": "minecraft:music_discs"
+        },
+        "location": {
+          "biome": "minecraft:meadow",
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ]
           }
-        ]
+        }
       },
       "trigger": "minecraft:item_used_on_block"
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.play_jukebox_in_meadows.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:jukebox"
+      "item": "minecraft:jukebox"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.play_jukebox_in_meadows.title"
     }
@@ -40,6 +37,5 @@
     [
       "play_jukebox_in_meadows"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

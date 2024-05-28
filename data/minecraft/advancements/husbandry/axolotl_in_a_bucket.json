@@ -4,20 +4,25 @@
     "axolotl_bucket": {
       "conditions": {
         "item": {
-          "items": "minecraft:axolotl_bucket"
+          "items": [
+            "minecraft:axolotl_bucket"
+          ]
         }
       },
       "trigger": "minecraft:filled_bucket"
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.axolotl_in_a_bucket.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:axolotl_bucket"
+      "item": "minecraft:axolotl_bucket"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.axolotl_in_a_bucket.title"
     }
@@ -26,6 +31,5 @@
     [
       "axolotl_bucket"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

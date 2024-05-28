@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:white_tulip"
+            "items": [
+              "minecraft:white_tulip"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_white_tulip"
+      "has_white_tulip",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

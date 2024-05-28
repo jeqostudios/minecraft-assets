@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:dark_oak_slab"
-  }
+    "item": "minecraft:dark_oak_slab"
+  },
+  "show_notification": true
 }

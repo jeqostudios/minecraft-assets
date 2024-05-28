@@ -1,9 +1,11 @@
 {
   "criteria": {
     "killed_by_something": {
+      "conditions": {},
       "trigger": "minecraft:entity_killed_player"
     },
     "killed_something": {
+      "conditions": {},
       "trigger": "minecraft:player_killed_entity"
     }
   },
@@ -13,9 +15,10 @@
     "description": {
       "translate": "advancements.adventure.root.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:map"
+      "item": "minecraft:map"
     },
     "show_toast": false,
     "title": {
@@ -27,6 +30,5 @@
       "killed_something",
       "killed_by_something"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

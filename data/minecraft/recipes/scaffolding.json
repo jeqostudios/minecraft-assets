@@ -16,6 +16,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:scaffolding"
-  }
+    "item": "minecraft:scaffolding"
+  },
+  "show_notification": true
 }

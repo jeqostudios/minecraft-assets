@@ -1,6 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "pattern": [
+    "A",
+    "B"
+  ],
   "key": {
     "A": {
       "item": "minecraft:carved_pumpkin"
@@ -9,12 +12,7 @@
       "item": "minecraft:torch"
     }
   },
-  "pattern": [
-    "A",
-    "B"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:jack_o_lantern"
+    "item": "minecraft:jack_o_lantern"
   }
 }

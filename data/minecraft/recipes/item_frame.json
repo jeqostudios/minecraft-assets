@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -9,13 +13,7 @@
       "item": "minecraft:leather"
     }
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:item_frame"
+    "item": "minecraft:item_frame"
   }
 }

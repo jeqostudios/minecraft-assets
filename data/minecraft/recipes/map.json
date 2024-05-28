@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:paper"
@@ -9,13 +13,7 @@
       "item": "minecraft:compass"
     }
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:map"
+    "item": "minecraft:map"
   }
 }

@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:mangrove_planks"
     }
   },
-  "pattern": [
-    "###"
-  ],
   "result": {
-    "count": 6,
-    "id": "minecraft:mangrove_slab"
+    "item": "minecraft:mangrove_slab",
+    "count": 6
   }
 }

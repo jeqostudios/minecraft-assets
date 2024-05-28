@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:tnt"
@@ -10,7 +9,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:tnt_minecart"
+    "item": "minecraft:tnt_minecart"
   }
 }

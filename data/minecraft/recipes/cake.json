@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
   "key": {
     "A": {
       "item": "minecraft:milk_bucket"
@@ -15,13 +19,7 @@
       "item": "minecraft:egg"
     }
   },
-  "pattern": [
-    "AAA",
-    "BEB",
-    "CCC"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:cake"
+    "item": "minecraft:cake"
   }
 }

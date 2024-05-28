@@ -2,39 +2,41 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": {
+        "min": 2.0,
+        "max": 10.0,
+        "type": "minecraft:uniform"
+      },
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 20,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 1.0,
                 "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:book",
-          "weight": 20
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
+          "weight": 20,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "min": 2.0,
                 "max": 7.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
+                "type": "minecraft:uniform"
+              }
             }
           ],
-          "name": "minecraft:paper",
-          "weight": 20
+          "name": "minecraft:paper"
         },
         {
           "type": "minecraft:item",
@@ -46,33 +48,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 30.0,
+              "levels": 30,
               "treasure": true
             }
           ],
-          "name": "minecraft:book",
-          "weight": 10
+          "name": "minecraft:book"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 10.0,
-        "min": 2.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:eye_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/stronghold_library"
+  ]
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "redstone",
   "ingredients": [
     {
       "item": "minecraft:chest"
@@ -10,7 +9,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:trapped_chest"
+    "item": "minecraft:trapped_chest"
   }
 }

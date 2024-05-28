@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "minecraft:dandelion",
     "minecraft:poppy",
@@ -12,7 +13,6 @@
     "minecraft:oxeye_daisy",
     "minecraft:cornflower",
     "minecraft:lily_of_the_valley",
-    "minecraft:wither_rose",
-    "minecraft:torchflower"
+    "minecraft:wither_rose"
   ]
 }

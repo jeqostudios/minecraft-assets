@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wet_sponge"
+            "items": [
+              "minecraft:wet_sponge"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_wet_sponge"
+      "has_wet_sponge",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:sponge"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

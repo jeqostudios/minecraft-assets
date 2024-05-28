@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:wheat"
+            "items": [
+              "minecraft:wheat"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_wheat"
+      "has_wheat",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:bread"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

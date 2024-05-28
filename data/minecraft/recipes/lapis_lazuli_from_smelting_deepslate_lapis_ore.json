@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:deepslate_lapis_ore"
   },
-  "result": {
-    "id": "minecraft:lapis_lazuli"
-  }
+  "result": "minecraft:lapis_lazuli"
 }

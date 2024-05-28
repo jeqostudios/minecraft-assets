@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:oxeye_daisy"
+            "items": [
+              "minecraft:oxeye_daisy"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_oxeye_daisy"
+      "has_oxeye_daisy",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:flower_banner_pattern"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

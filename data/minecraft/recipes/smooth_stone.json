@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:stone"
   },
-  "result": {
-    "id": "minecraft:smooth_stone"
-  }
+  "result": "minecraft:smooth_stone"
 }

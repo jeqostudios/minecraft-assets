@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_ore"
+            "items": [
+              "minecraft:iron_ore"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_iron_ore"
+      "has_iron_ore",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:iron_ingot_from_smelting_iron_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smooth_stone_slab"
+            "items": [
+              "minecraft:smooth_stone_slab"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_stone_slab"
+      "has_stone_slab",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:armor_stand"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

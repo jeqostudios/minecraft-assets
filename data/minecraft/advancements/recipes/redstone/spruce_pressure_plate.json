@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:spruce_planks"
+            "items": [
+              "minecraft:spruce_planks"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_planks"
+      "has_planks",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:spruce_pressure_plate"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

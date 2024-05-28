@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:birch_log"
+            "items": [
+              "minecraft:birch_log"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_log"
+      "has_log",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:birch_wood"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stripped_warped_stem"
+            "items": [
+              "minecraft:stripped_warped_stem"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_log"
+      "has_log",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:stripped_warped_hyphae"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

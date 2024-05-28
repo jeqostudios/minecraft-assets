@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:mud_bricks"
-  }
+    "item": "minecraft:mud_bricks"
+  },
+  "show_notification": true
 }

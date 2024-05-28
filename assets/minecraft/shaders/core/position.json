@@ -6,6 +6,8 @@
     },
     "vertex": "position",
     "fragment": "position",
+    "attributes": [
+    ],
     "samplers": [
     ],
     "uniforms": [

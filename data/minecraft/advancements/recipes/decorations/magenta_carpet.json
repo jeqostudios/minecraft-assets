@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:magenta_wool"
+            "items": [
+              "minecraft:magenta_wool"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_magenta_wool"
+      "has_magenta_wool",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:magenta_carpet"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

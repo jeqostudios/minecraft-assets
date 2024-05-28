@@ -10,7 +10,6 @@
     }
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:magma_cream"
+    "item": "minecraft:magma_cream"
   }
 }

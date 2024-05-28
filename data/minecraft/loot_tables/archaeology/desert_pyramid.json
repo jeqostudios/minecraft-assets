@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:archer_pottery_sherd"
+          "name": "minecraft:archer_pottery_shard"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:miner_pottery_sherd"
+          "name": "minecraft:miner_pottery_shard"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prize_pottery_sherd"
+          "name": "minecraft:prize_pottery_shard"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:skull_pottery_sherd"
+          "name": "minecraft:skull_pottery_shard"
         },
         {
           "type": "minecraft:item",
@@ -39,6 +39,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:archaeology/desert_pyramid"
+  ]
 }

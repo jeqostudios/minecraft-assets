@@ -3,8 +3,7 @@
 	"textures": {
         "particle": "block/pitcher_crop_top",
         "pitcher_top": "block/pitcher_crop_top",
-        "pitcher_side": "block/pitcher_crop_side",
-        "pitcher_bottom": "block/pitcher_crop_bottom"
+        "pitcher_side": "block/pitcher_crop_side"
 	},
 	"elements": [
 		{
@@ -16,8 +15,7 @@
 				"east": {"uv": [3, 10, 9, 14], "texture": "#pitcher_side"},
 				"south": {"uv": [3, 10, 9, 14], "texture": "#pitcher_side"},
 				"west": {"uv": [3, 10, 9, 14], "texture": "#pitcher_side"},
-				"up": {"uv": [5, 5, 11, 11], "texture": "#pitcher_top"},
-				"down": {"uv": [5, 5, 11, 11], "texture": "#pitcher_bottom"}
+				"up": {"uv": [5, 5, 11, 11], "texture": "#pitcher_top"}
 			}
 		}
 	]

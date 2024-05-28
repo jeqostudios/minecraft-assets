@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:warped_fungus"
+            "items": [
+              "minecraft:warped_fungus"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_warped_fungus"
+      "has_warped_fungus",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

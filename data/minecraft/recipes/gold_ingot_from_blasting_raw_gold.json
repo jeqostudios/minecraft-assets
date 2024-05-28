@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:raw_gold"
   },
-  "result": {
-    "id": "minecraft:gold_ingot"
-  }
+  "result": "minecraft:gold_ingot"
 }

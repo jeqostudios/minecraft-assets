@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:soul_fire_base_blocks"
+            "tag": "minecraft:soul_fire_base_blocks"
           }
         ]
       },
@@ -20,8 +20,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_soul_sand"
+      "has_soul_sand",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

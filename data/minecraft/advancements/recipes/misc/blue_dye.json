@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lapis_lazuli"
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_lapis_lazuli"
+      "has_lapis_lazuli",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

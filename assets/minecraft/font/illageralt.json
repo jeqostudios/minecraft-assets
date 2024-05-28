@@ -1,8 +1,10 @@
 {
     "providers": [
         {
-            "type": "reference",
-            "id": "minecraft:include/space"
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
         },
         {
             "type": "bitmap",

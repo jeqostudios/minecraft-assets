@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:bamboo_slab"
-  }
+    "item": "minecraft:bamboo_slab"
+  },
+  "show_notification": true
 }

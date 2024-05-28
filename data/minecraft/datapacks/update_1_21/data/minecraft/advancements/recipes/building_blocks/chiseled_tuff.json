@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:tuff_slab"
+            "items": [
+              "minecraft:tuff_slab"
+            ]
           }
         ]
       },

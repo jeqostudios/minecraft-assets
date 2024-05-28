@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:packed_mud"
+            "items": [
+              "minecraft:packed_mud"
+            ]
           }
         ]
       },

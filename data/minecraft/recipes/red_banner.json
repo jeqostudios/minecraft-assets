@@ -16,7 +16,6 @@
     " | "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:red_banner"
+    "item": "minecraft:red_banner"
   }
 }

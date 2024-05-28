@@ -15,7 +15,6 @@
     "PPP"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:beehive"
+    "item": "minecraft:beehive"
   }
 }

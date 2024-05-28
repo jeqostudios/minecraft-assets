@@ -12,7 +12,6 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:lightning_rod"
+    "item": "minecraft:lightning_rod"
   }
 }

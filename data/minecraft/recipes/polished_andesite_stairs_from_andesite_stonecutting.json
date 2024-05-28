@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:andesite"
   },
-  "result": {
-    "count": 1,
-    "id": "minecraft:polished_andesite_stairs"
-  }
+  "result": "minecraft:polished_andesite_stairs",
+  "count": 1
 }

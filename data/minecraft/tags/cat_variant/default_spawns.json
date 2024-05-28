@@ -1,10 +1,11 @@
 {
+  "replace": false,
   "values": [
     "minecraft:tabby",
     "minecraft:black",
     "minecraft:red",
     "minecraft:siamese",
-    "minecraft:british_shorthair",
+    "minecraft:british",
     "minecraft:calico",
     "minecraft:persian",
     "minecraft:ragdoll",

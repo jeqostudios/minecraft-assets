@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:weathered_copper"
   },
-  "result": {
-    "count": 4,
-    "id": "minecraft:weathered_cut_copper"
-  }
+  "result": "minecraft:weathered_cut_copper",
+  "count": 4
 }

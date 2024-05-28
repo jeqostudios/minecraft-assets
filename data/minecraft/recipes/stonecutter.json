@@ -14,7 +14,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:stonecutter"
-  }
+    "item": "minecraft:stonecutter"
+  },
+  "show_notification": true
 }

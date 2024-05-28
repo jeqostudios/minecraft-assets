@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:porkchop"
+            "items": [
+              "minecraft:porkchop"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_porkchop"
+      "has_porkchop",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

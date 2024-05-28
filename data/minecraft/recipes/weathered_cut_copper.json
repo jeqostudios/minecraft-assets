@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:weathered_cut_copper"
-  }
+    "item": "minecraft:weathered_cut_copper"
+  },
+  "show_notification": true
 }

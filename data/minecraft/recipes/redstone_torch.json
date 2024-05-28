@@ -14,7 +14,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:redstone_torch"
-  }
+    "item": "minecraft:redstone_torch"
+  },
+  "show_notification": true
 }

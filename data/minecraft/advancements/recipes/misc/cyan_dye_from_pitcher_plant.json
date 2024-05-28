@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pitcher_plant"
+            "items": [
+              "minecraft:pitcher_plant"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_pitcher_plant"
+      "has_pitcher_plant",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

@@ -16,11 +16,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:entities/sheep"
+          "name": "minecraft:entities/sheep"
         }
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:entities/sheep/cyan"
+  ]
 }

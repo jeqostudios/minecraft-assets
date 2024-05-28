@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "tag": "minecraft:smelts_to_glass"
+    "tag": "minecraft:sand"
   },
-  "result": {
-    "id": "minecraft:glass"
-  }
+  "result": "minecraft:glass"
 }

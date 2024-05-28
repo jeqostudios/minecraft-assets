@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_tulip"
+            "items": [
+              "minecraft:pink_tulip"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_pink_tulip"
+      "has_pink_tulip",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

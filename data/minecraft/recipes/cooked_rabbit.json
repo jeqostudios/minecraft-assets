@@ -6,7 +6,5 @@
   "ingredient": {
     "item": "minecraft:rabbit"
   },
-  "result": {
-    "id": "minecraft:cooked_rabbit"
-  }
+  "result": "minecraft:cooked_rabbit"
 }

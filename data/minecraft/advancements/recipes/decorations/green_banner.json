@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:green_wool"
+            "items": [
+              "minecraft:green_wool"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:green_banner"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

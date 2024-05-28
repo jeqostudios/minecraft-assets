@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:cut_sandstone"
-  }
+    "item": "minecraft:cut_sandstone"
+  },
+  "show_notification": true
 }

@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:polished_blackstone_bricks"
-  }
+    "item": "minecraft:polished_blackstone_bricks"
+  },
+  "show_notification": true
 }

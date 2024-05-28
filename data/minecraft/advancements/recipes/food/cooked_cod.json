@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cod"
+            "items": [
+              "minecraft:cod"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:cooked_cod"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -11,6 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:snow"
-  }
+    "item": "minecraft:snow"
+  },
+  "show_notification": true
 }

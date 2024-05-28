@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sandstone"
+            "items": [
+              "minecraft:sandstone"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:chiseled_sandstone_from_sandstone_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

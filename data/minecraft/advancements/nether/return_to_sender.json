@@ -33,8 +33,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "count": 1,
-      "id": "minecraft:fire_charge"
+      "item": "minecraft:fire_charge"
     },
     "title": {
       "translate": "advancements.nether.return_to_sender.title"

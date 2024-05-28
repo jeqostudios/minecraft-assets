@@ -6,6 +6,12 @@
     },
     "vertex": "position_color_tex_lightmap",
     "fragment": "position_color_tex_lightmap",
+    "attributes": [
+        "Position",
+        "Color",
+        "UV0",
+        "UV2"
+    ],
     "samplers": [
         { "name": "Sampler0" }
     ],

@@ -35,8 +35,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "count": 1,
-      "id": "minecraft:arrow"
+      "item": "minecraft:arrow"
     },
     "title": {
       "translate": "advancements.adventure.sniper_duel.title"

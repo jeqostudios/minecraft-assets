@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "###",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:bricks"
     }
   },
-  "pattern": [
-    "###",
-    "###"
-  ],
   "result": {
-    "count": 6,
-    "id": "minecraft:brick_wall"
+    "item": "minecraft:brick_wall",
+    "count": 6
   }
 }

@@ -1,24 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "X": {
-      "item": "minecraft:bow"
-    }
-  },
   "pattern": [
     "###",
     "#X#",
     "#R#"
   ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:bow"
+    }
+  },
   "result": {
-    "count": 1,
-    "id": "minecraft:dispenser"
+    "item": "minecraft:dispenser"
   }
 }

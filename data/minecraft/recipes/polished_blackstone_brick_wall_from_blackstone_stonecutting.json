@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:blackstone"
   },
-  "result": {
-    "count": 1,
-    "id": "minecraft:polished_blackstone_brick_wall"
-  }
+  "result": "minecraft:polished_blackstone_brick_wall",
+  "count": 1
 }

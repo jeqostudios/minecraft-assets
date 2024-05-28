@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "group": "gold_ingot",
   "ingredients": [
     {
@@ -8,7 +7,7 @@
     }
   ],
   "result": {
-    "count": 9,
-    "id": "minecraft:gold_ingot"
+    "item": "minecraft:gold_ingot",
+    "count": 9
   }
 }

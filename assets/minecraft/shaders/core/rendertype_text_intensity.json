@@ -6,6 +6,12 @@
     },
     "vertex": "rendertype_text_intensity",
     "fragment": "rendertype_text_intensity",
+    "attributes": [
+        "Position",
+        "Color",
+        "UV0",
+        "UV2"
+    ],
     "samplers": [
         { "name": "Sampler0" },
         { "name": "Sampler2" }
@@ -16,7 +22,6 @@
         { "name": "ColorModulator", "type": "float", "count": 4, "values": [ 1.0, 1.0, 1.0, 1.0 ] },
         { "name": "FogStart", "type": "float", "count": 1, "values": [ 0.0 ] },
         { "name": "FogEnd", "type": "float", "count": 1, "values": [ 1.0 ] },
-        { "name": "FogColor", "type": "float", "count": 4, "values": [ 0.0, 0.0, 0.0, 0.0 ] },
-        { "name": "FogShape", "type": "int", "count": 1, "values": [ 0 ] }
+        { "name": "FogColor", "type": "float", "count": 4, "values": [ 0.0, 0.0, 0.0, 0.0 ] }
     ]
 }

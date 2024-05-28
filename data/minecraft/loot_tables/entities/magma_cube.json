@@ -2,6 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -20,34 +21,34 @@
             },
             {
               "condition": "minecraft:entity_properties",
-              "entity": "this",
               "predicate": {
                 "type_specific": {
-                  "type": "minecraft:slime",
                   "size": {
                     "min": 2
-                  }
+                  },
+                  "type": "slime"
                 }
-              }
+              },
+              "entity": "this"
             }
           ],
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": -2.0
+                "min": -2.0,
+                "max": 1.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             },
             {
+              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:looting_enchant"
+                "min": 0.0,
+                "max": 1.0
+              }
             }
           ],
           "name": "minecraft:magma_cream"
@@ -61,8 +62,8 @@
                 "source_entity": {
                   "type": "minecraft:frog",
                   "type_specific": {
-                    "type": "minecraft:frog",
-                    "variant": "minecraft:warm"
+                    "variant": "minecraft:warm",
+                    "type": "frog"
                   }
                 }
               }
@@ -70,9 +71,9 @@
           ],
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:pearlescent_froglight"
@@ -86,8 +87,8 @@
                 "source_entity": {
                   "type": "minecraft:frog",
                   "type_specific": {
-                    "type": "minecraft:frog",
-                    "variant": "minecraft:cold"
+                    "variant": "minecraft:cold",
+                    "type": "frog"
                   }
                 }
               }
@@ -95,9 +96,9 @@
           ],
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:verdant_froglight"
@@ -111,8 +112,8 @@
                 "source_entity": {
                   "type": "minecraft:frog",
                   "type_specific": {
-                    "type": "minecraft:frog",
-                    "variant": "minecraft:temperate"
+                    "variant": "minecraft:temperate",
+                    "type": "frog"
                   }
                 }
               }
@@ -120,16 +121,14 @@
           ],
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:ochre_froglight"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:entities/magma_cube"
+  ]
 }

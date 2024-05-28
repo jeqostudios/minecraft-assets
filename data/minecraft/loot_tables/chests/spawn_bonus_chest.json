@@ -2,6 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -10,13 +11,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_axe",
-          "weight": 3
+          "weight": 3,
+          "name": "minecraft:wooden_axe"
         }
-      ],
-      "rolls": 1.0
+      ]
     },
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -25,216 +26,214 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_pickaxe",
-          "weight": 3
+          "weight": 3,
+          "name": "minecraft:wooden_pickaxe"
         }
-      ],
-      "rolls": 1.0
+      ]
     },
     {
+      "rolls": 3.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 2.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:apple",
-          "weight": 5
+          "name": "minecraft:apple"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 2.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:bread",
-          "weight": 3
+          "name": "minecraft:bread"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 2.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:salmon",
-          "weight": 3
+          "name": "minecraft:salmon"
         }
-      ],
-      "rolls": 3.0
+      ]
     },
     {
+      "rolls": 4.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 12.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:stick",
-          "weight": 10
+          "name": "minecraft:stick"
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 12.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:oak_planks",
-          "weight": 10
+          "name": "minecraft:oak_planks"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:oak_log",
-          "weight": 3
+          "name": "minecraft:oak_log"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:spruce_log",
-          "weight": 3
+          "name": "minecraft:spruce_log"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:birch_log",
-          "weight": 3
+          "name": "minecraft:birch_log"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:jungle_log",
-          "weight": 3
+          "name": "minecraft:jungle_log"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:acacia_log",
-          "weight": 3
+          "name": "minecraft:acacia_log"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:dark_oak_log",
-          "weight": 3
+          "name": "minecraft:dark_oak_log"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:mangrove_log",
-          "weight": 3
+          "name": "minecraft:mangrove_log"
         }
-      ],
-      "rolls": 4.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/spawn_bonus_chest"
+  ]
 }

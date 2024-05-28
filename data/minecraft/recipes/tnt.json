@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
   "key": {
     "#": [
       {
@@ -14,13 +18,7 @@
       "item": "minecraft:gunpowder"
     }
   },
-  "pattern": [
-    "X#X",
-    "#X#",
-    "X#X"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:tnt"
+    "item": "minecraft:tnt"
   }
 }

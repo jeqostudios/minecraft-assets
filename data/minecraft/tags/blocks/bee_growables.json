@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "#minecraft:crops",
     "minecraft:sweet_berry_bush",

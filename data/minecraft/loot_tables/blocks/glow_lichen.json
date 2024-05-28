@@ -2,6 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -10,99 +11,101 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "items": "minecraft:shears"
+                "items": [
+                  "minecraft:shears"
+                ]
               }
             }
           ],
           "functions": [
             {
-              "add": true,
+              "function": "minecraft:set_count",
               "conditions": [
                 {
-                  "block": "minecraft:glow_lichen",
                   "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "down": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
                   "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "up": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "north": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "south": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "west": "true"
-                  }
-                }
-              ],
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": true,
-              "conditions": [
-                {
-                  "block": "minecraft:glow_lichen",
-                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "east": "true"
                   }
                 }
               ],
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": true
             },
             {
-              "add": true,
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:glow_lichen",
+                  "properties": {
+                    "west": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:glow_lichen",
+                  "properties": {
+                    "north": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:glow_lichen",
+                  "properties": {
+                    "south": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:glow_lichen",
+                  "properties": {
+                    "up": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:glow_lichen",
+                  "properties": {
+                    "down": "true"
+                  }
+                }
+              ],
+              "count": 1.0,
+              "add": true
+            },
+            {
+              "function": "minecraft:set_count",
               "count": -1.0,
-              "function": "minecraft:set_count"
+              "add": true
             },
             {
               "function": "minecraft:explosion_decay"
@@ -110,9 +113,7 @@
           ],
           "name": "minecraft:glow_lichen"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/glow_lichen"
+  ]
 }

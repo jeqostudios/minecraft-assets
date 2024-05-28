@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:rabbit"
+            "items": [
+              "minecraft:rabbit"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_rabbit"
+      "has_rabbit",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

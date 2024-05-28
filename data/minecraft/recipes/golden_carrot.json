@@ -15,7 +15,6 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:golden_carrot"
+    "item": "minecraft:golden_carrot"
   }
 }

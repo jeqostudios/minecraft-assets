@@ -2,32 +2,36 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_components",
-              "include": [
-                "minecraft:custom_name",
-                "minecraft:item_name",
-                "minecraft:hide_additional_tooltip",
-                "minecraft:banner_patterns"
-              ],
+              "function": "minecraft:copy_name",
               "source": "block_entity"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Patterns",
+                  "target": "BlockEntityTag.Patterns",
+                  "op": "replace"
+                }
+              ]
             }
           ],
           "name": "minecraft:cyan_banner"
         }
       ],
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/cyan_banner"
+  ]
 }

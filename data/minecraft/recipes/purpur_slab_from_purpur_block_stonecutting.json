@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:purpur_block"
   },
-  "result": {
-    "count": 2,
-    "id": "minecraft:purpur_slab"
-  }
+  "result": "minecraft:purpur_slab",
+  "count": 2
 }

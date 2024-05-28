@@ -13,7 +13,9 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "items": "minecraft:shears"
+                    "items": [
+                      "minecraft:shears"
+                    ]
                   }
                 }
               ],
@@ -42,6 +44,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "minecraft:blocks/dead_bush"
+  ]
 }

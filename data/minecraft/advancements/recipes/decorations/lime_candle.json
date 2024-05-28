@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lime_dye"
+            "items": [
+              "minecraft:lime_dye"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_lime_dye"
+      "has_lime_dye",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

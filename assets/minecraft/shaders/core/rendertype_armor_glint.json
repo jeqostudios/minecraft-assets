@@ -6,6 +6,10 @@
     },
     "vertex": "rendertype_armor_glint",
     "fragment": "rendertype_armor_glint",
+    "attributes": [
+        "Position",
+        "UV0"
+    ],
     "samplers": [
         { "name": "Sampler0" }
     ],

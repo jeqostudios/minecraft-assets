@@ -13,9 +13,10 @@
     "description": {
       "translate": "advancements.nether.root.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:red_nether_bricks"
+      "item": "minecraft:red_nether_bricks"
     },
     "show_toast": false,
     "title": {
@@ -26,6 +27,5 @@
     [
       "entered_nether"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

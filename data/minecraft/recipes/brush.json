@@ -3,22 +3,19 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:string"
     },
     "I": {
       "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "minecraft:feather"
     }
   },
   "pattern": [
-    "X",
-    "#",
-    "I"
+    "###",
+    " I ",
+    " I "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:brush"
-  }
+    "item": "minecraft:brush"
+  },
+  "show_notification": true
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:end_stone_bricks"
+            "items": [
+              "minecraft:end_stone_bricks"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_end_stone_brick"
+      "has_end_stone_brick",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

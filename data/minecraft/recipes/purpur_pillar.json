@@ -11,7 +11,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:purpur_pillar"
-  }
+    "item": "minecraft:purpur_pillar"
+  },
+  "show_notification": true
 }

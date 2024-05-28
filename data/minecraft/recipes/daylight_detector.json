@@ -18,7 +18,7 @@
     "WWW"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:daylight_detector"
-  }
+    "item": "minecraft:daylight_detector"
+  },
+  "show_notification": true
 }

@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:prismarine_wall"
-  }
+    "item": "minecraft:prismarine_wall"
+  },
+  "show_notification": true
 }

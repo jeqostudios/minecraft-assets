@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:cobbled_deepslate_wall"
-  }
+    "item": "minecraft:cobbled_deepslate_wall"
+  },
+  "show_notification": true
 }

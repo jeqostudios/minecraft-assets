@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:tide_armor_trim_smithing_template"
+            "items": [
+              "minecraft:tide_armor_trim_smithing_template"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_tide_armor_trim_smithing_template"
+      "has_tide_armor_trim_smithing_template",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

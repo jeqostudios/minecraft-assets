@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:blue_dye"
+            "items": [
+              "minecraft:blue_dye"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_dye"
+            "items": [
+              "minecraft:red_dye"
+            ]
           }
         ]
       },
@@ -31,7 +35,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:white_dye"
+            "items": [
+              "minecraft:white_dye"
+            ]
           }
         ]
       },
@@ -40,10 +46,10 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_blue_dye",
       "has_rose_red",
-      "has_white_dye"
+      "has_white_dye",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

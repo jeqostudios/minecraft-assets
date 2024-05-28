@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:conduit"
-  }
+    "item": "minecraft:conduit"
+  },
+  "show_notification": true
 }

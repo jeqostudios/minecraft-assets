@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:painting"
-  }
+    "item": "minecraft:painting"
+  },
+  "show_notification": true
 }

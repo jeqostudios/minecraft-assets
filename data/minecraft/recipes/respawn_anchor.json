@@ -15,7 +15,7 @@
     "OOO"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:respawn_anchor"
-  }
+    "item": "minecraft:respawn_anchor"
+  },
+  "show_notification": true
 }

@@ -3,35 +3,32 @@
   "criteria": {
     "safely_harvest_honey": {
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "#minecraft:beehives"
-              },
-              "smokey": true
-            }
+        "item": {
+          "items": [
+            "minecraft:glass_bottle"
+          ]
+        },
+        "location": {
+          "block": {
+            "tag": "minecraft:beehives"
           },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:glass_bottle"
-            }
-          }
-        ]
+          "smokey": true
+        }
       },
       "trigger": "minecraft:item_used_on_block"
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.safely_harvest_honey.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:honey_bottle"
+      "item": "minecraft:honey_bottle"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.safely_harvest_honey.title"
     }
@@ -40,6 +37,5 @@
     [
       "safely_harvest_honey"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

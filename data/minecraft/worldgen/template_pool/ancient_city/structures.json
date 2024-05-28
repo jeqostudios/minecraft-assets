@@ -193,9 +193,7 @@
           {
             "element_type": "minecraft:single_pool_element",
             "location": "minecraft:ancient_city/structures/ice_box_1",
-            "processors": {
-              "processors": []
-            },
+            "processors": "minecraft:empty",
             "projection": "rigid"
           }
         ],
@@ -204,5 +202,6 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:ancient_city/structures"
 }

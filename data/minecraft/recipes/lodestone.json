@@ -15,7 +15,6 @@
     "SSS"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:lodestone"
+    "item": "minecraft:lodestone"
   }
 }

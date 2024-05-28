@@ -277,5 +277,6 @@
       "weight": 6
     }
   ],
-  "fallback": "minecraft:village/snowy/terminators"
+  "fallback": "minecraft:village/snowy/terminators",
+  "name": "minecraft:village/snowy/zombie/houses"
 }

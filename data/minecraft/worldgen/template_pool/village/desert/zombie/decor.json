@@ -32,5 +32,6 @@
       "weight": 10
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:village/desert/zombie/decor"
 }

@@ -250,5 +250,6 @@
       "weight": 6
     }
   ],
-  "fallback": "minecraft:village/taiga/terminators"
+  "fallback": "minecraft:village/taiga/terminators",
+  "name": "minecraft:village/taiga/houses"
 }

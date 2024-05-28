@@ -172,5 +172,6 @@
       "weight": 3
     }
   ],
-  "fallback": "minecraft:village/savanna/terminators"
+  "fallback": "minecraft:village/savanna/terminators",
+  "name": "minecraft:village/savanna/streets"
 }

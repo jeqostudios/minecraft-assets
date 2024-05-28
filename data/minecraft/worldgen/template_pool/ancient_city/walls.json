@@ -145,5 +145,6 @@
       "weight": 3
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:ancient_city/walls"
 }

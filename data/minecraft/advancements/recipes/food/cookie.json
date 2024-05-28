@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cocoa_beans"
+            "items": [
+              "minecraft:cocoa_beans"
+            ]
           }
         ]
       },
@@ -20,8 +22,8 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cocoa"
+      "has_cocoa",
+      "has_the_recipe"
     ]
   ],
   "rewards": {

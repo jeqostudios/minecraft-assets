@@ -4,9 +4,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "minecraft:bastion/mobs/melee_piglin",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
@@ -15,9 +13,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "minecraft:bastion/mobs/sword_piglin",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 4
@@ -26,9 +22,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "minecraft:bastion/mobs/crossbow_piglin",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 4
@@ -37,13 +31,12 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "minecraft:bastion/mobs/empty",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "rigid"
       },
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:bastion/mobs/piglin"
 }

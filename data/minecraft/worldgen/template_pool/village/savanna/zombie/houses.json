@@ -286,5 +286,6 @@
       "weight": 5
     }
   ],
-  "fallback": "minecraft:village/savanna/zombie/terminators"
+  "fallback": "minecraft:village/savanna/zombie/terminators",
+  "name": "minecraft:village/savanna/zombie/houses"
 }

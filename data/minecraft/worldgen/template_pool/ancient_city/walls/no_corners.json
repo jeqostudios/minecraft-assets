@@ -73,5 +73,6 @@
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:ancient_city/walls/no_corners"
 }

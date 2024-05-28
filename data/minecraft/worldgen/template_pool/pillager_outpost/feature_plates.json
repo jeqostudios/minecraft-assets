@@ -4,13 +4,12 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:pillager_outpost/feature_plate",
-        "processors": {
-          "processors": []
-        },
+        "processors": "minecraft:empty",
         "projection": "terrain_matching"
       },
       "weight": 1
     }
   ],
-  "fallback": "minecraft:empty"
+  "fallback": "minecraft:empty",
+  "name": "minecraft:pillager_outpost/feature_plates"
 }

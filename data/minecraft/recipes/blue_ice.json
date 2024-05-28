@@ -1,37 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "ingredients": [
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
-      "item": "minecraft:packed_ice"
-    },
-    {
+  "key": {
+    "#": {
       "item": "minecraft:packed_ice"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:blue_ice"
+    "item": "minecraft:blue_ice"
   }
 }

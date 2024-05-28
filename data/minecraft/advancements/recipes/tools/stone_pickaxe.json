@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:stone_tool_materials"
+            "tag": "minecraft:stone_tool_materials"
           }
         ]
       },
@@ -20,13 +20,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_cobblestone"
+      "has_cobblestone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:stone_pickaxe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:purpur_block"
+            "items": [
+              "minecraft:purpur_block"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_purpur_block"
+      "has_purpur_block",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:purpur_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

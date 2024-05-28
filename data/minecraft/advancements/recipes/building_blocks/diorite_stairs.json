@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diorite"
+            "items": [
+              "minecraft:diorite"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_diorite"
+      "has_diorite",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:diorite_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

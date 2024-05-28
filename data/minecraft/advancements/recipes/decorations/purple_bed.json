@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:purple_wool"
+            "items": [
+              "minecraft:purple_wool"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_purple_wool"
+      "has_purple_wool",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:purple_bed"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:purple_dye"
+            "items": [
+              "minecraft:purple_dye"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_purple_dye"
+      "has_purple_dye",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:purple_candle"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

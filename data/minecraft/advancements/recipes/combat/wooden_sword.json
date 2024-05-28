@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stick"
+            "items": [
+              "minecraft:stick"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_stick"
+      "has_stick",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:wooden_sword"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

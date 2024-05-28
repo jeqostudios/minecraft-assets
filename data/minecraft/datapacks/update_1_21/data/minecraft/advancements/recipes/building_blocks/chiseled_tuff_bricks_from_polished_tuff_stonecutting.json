@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:polished_tuff"
+            "items": [
+              "minecraft:polished_tuff"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:chiseled_tuff_bricks_from_polished_tuff_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

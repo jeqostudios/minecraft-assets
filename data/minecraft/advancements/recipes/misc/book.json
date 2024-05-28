@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:paper"
+            "items": [
+              "minecraft:paper"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:book"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

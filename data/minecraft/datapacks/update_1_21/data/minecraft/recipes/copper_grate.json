@@ -13,6 +13,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:copper_grate"
-  }
+    "item": "minecraft:copper_grate"
+  },
+  "show_notification": true
 }

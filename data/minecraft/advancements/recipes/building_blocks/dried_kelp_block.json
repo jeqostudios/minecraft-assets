@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:dried_kelp"
+            "items": [
+              "minecraft:dried_kelp"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dried_kelp_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:blaze_rod"
+            "items": [
+              "minecraft:blaze_rod"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:brewing_stand"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

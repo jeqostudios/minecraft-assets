@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:deepslate_iron_ore"
+            "items": [
+              "minecraft:deepslate_iron_ore"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

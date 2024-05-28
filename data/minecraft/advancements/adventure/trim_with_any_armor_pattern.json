@@ -99,13 +99,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.trim_with_any_armor_pattern.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:dune_armor_trim_smithing_template"
+      "item": "minecraft:dune_armor_trim_smithing_template"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.trim_with_any_armor_pattern.title"
     }

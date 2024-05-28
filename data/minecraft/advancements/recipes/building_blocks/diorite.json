@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz"
+            "items": [
+              "minecraft:quartz"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:diorite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

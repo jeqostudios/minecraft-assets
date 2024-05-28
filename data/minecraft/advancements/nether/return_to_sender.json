@@ -28,14 +28,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.return_to_sender.description"
     },
     "frame": "challenge",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:fire_charge"
+      "item": "minecraft:fire_charge"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.return_to_sender.title"
     }

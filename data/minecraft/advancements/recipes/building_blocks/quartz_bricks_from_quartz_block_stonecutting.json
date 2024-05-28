@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz_block"
+            "items": [
+              "minecraft:quartz_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:quartz_bricks_from_quartz_block_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

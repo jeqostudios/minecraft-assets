@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:yellow_stained_glass"
+            "items": [
+              "minecraft:yellow_stained_glass"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:yellow_stained_glass_pane"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

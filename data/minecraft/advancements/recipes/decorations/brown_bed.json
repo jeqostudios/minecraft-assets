@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:brown_wool"
+            "items": [
+              "minecraft:brown_wool"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:brown_bed"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:oxeye_daisy"
+            "items": [
+              "minecraft:oxeye_daisy"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:flower_banner_pattern"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

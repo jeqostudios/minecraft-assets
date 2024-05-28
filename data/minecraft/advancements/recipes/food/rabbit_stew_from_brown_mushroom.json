@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cooked_rabbit"
+            "items": [
+              "minecraft:cooked_rabbit"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:rabbit_stew_from_brown_mushroom"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

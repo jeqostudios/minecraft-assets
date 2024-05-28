@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:deepslate_diamond_ore"
+            "items": [
+              "minecraft:deepslate_diamond_ore"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:diamond_from_blasting_deepslate_diamond_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

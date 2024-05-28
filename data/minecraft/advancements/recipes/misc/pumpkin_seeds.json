@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pumpkin"
+            "items": [
+              "minecraft:pumpkin"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:pumpkin_seeds"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

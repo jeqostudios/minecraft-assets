@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:mangrove_planks"
+            "items": [
+              "minecraft:mangrove_planks"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:mangrove_fence_gate"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

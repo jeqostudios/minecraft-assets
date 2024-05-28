@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sniffer_egg"
+            "items": [
+              "minecraft:sniffer_egg"
+            ]
           }
         ]
       },
@@ -13,14 +15,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.obtain_sniffer_egg.description"
     },
+    "frame": "task",
     "hidden": true,
     "icon": {
-      "count": 1,
-      "id": "minecraft:sniffer_egg"
+      "item": "minecraft:sniffer_egg"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.obtain_sniffer_egg.title"
     }

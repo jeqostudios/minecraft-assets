@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diorite"
+            "items": [
+              "minecraft:diorite"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:diorite_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

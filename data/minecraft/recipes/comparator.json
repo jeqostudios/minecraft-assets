@@ -18,7 +18,7 @@
     "III"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:comparator"
-  }
+    "item": "minecraft:comparator"
+  },
+  "show_notification": true
 }

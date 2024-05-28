@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:polished_blackstone"
-  }
+    "item": "minecraft:polished_blackstone"
+  },
+  "show_notification": true
 }

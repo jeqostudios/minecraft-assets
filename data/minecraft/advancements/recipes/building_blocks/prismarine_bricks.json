@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:prismarine_shard"
+            "items": [
+              "minecraft:prismarine_shard"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:prismarine_bricks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

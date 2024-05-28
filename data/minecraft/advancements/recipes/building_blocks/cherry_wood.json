@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cherry_log"
+            "items": [
+              "minecraft:cherry_log"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:cherry_wood"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

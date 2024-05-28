@@ -43,8 +43,7 @@
     "frame": "challenge",
     "hidden": true,
     "icon": {
-      "count": 1,
-      "id": "minecraft:bucket"
+      "item": "minecraft:bucket"
     },
     "title": {
       "translate": "advancements.nether.all_effects.title"

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherrack"
+            "items": [
+              "minecraft:netherrack"
+            ]
           }
         ]
       },

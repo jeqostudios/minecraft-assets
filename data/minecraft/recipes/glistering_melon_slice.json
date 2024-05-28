@@ -1,6 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:gold_nugget"
@@ -9,13 +13,7 @@
       "item": "minecraft:melon_slice"
     }
   },
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:glistering_melon_slice"
+    "item": "minecraft:glistering_melon_slice"
   }
 }

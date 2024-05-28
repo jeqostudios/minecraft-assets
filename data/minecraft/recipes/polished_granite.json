@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
   "key": {
     "S": {
       "item": "minecraft:granite"
     }
   },
-  "pattern": [
-    "SS",
-    "SS"
-  ],
   "result": {
-    "count": 4,
-    "id": "minecraft:polished_granite"
+    "item": "minecraft:polished_granite",
+    "count": 4
   }
 }

@@ -18,13 +18,3 @@ float linear_fog_fade(float vertexDistance, float fogStart, float fogEnd) {
 
     return smoothstep(fogEnd, fogStart, vertexDistance);
 }
-
-float fog_distance(vec3 pos, int shape) {
-    if (shape == 0) {
-        return length(pos);
-    } else {
-        float distXZ = length(pos.xz);
-        float distY = abs(pos.y);
-        return max(distXZ, distY);
-    }
-}

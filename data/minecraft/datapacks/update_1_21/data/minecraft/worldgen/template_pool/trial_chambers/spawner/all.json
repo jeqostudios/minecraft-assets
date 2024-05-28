@@ -2,6 +2,12 @@
   "elements": [
     {
       "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "minecraft:trial_chambers/spawner/connectors/ranged",
         "processors": {

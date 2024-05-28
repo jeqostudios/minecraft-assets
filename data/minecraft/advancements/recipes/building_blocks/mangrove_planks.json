@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:mangrove_logs"
+            "tag": "minecraft:mangrove_logs"
           }
         ]
       },

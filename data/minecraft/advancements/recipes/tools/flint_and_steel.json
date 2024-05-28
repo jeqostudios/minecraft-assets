@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:flint"
+            "items": [
+              "minecraft:flint"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian"
+            "items": [
+              "minecraft:obsidian"
+            ]
           }
         ]
       },

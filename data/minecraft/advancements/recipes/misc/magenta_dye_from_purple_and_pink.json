@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_dye"
+            "items": [
+              "minecraft:pink_dye"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:purple_dye"
+            "items": [
+              "minecraft:purple_dye"
+            ]
           }
         ]
       },

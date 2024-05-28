@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:smelts_to_glass"
+            "tag": "minecraft:smelts_to_glass"
           }
         ]
       },
@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:glass"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

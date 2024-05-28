@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:mangrove_log"
+            "items": [
+              "minecraft:mangrove_log"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:mangrove_wood"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

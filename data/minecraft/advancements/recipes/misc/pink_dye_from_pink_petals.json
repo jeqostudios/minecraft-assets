@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pink_petals"
+            "items": [
+              "minecraft:pink_petals"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:pink_dye_from_pink_petals"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

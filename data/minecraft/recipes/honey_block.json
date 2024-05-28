@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:honey_block"
-  }
+    "item": "minecraft:honey_block"
+  },
+  "show_notification": true
 }

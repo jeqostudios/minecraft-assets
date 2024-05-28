@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:blue_dye"
+            "items": [
+              "minecraft:blue_dye"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:dye_blue_wool"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

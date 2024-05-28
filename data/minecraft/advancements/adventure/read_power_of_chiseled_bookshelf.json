@@ -16,7 +16,9 @@
                 "offsetZ": 1,
                 "predicate": {
                   "block": {
-                    "blocks": "minecraft:comparator",
+                    "blocks": [
+                      "minecraft:comparator"
+                    ],
                     "state": {
                       "facing": "north"
                     }
@@ -28,7 +30,9 @@
                 "offsetZ": -1,
                 "predicate": {
                   "block": {
-                    "blocks": "minecraft:comparator",
+                    "blocks": [
+                      "minecraft:comparator"
+                    ],
                     "state": {
                       "facing": "south"
                     }
@@ -40,7 +44,9 @@
                 "offsetX": 1,
                 "predicate": {
                   "block": {
-                    "blocks": "minecraft:comparator",
+                    "blocks": [
+                      "minecraft:comparator"
+                    ],
                     "state": {
                       "facing": "west"
                     }
@@ -52,7 +58,9 @@
                 "offsetX": -1,
                 "predicate": {
                   "block": {
-                    "blocks": "minecraft:comparator",
+                    "blocks": [
+                      "minecraft:comparator"
+                    ],
                     "state": {
                       "facing": "east"
                     }
@@ -86,7 +94,9 @@
                     "offsetZ": -1,
                     "predicate": {
                       "block": {
-                        "blocks": "minecraft:chiseled_bookshelf"
+                        "blocks": [
+                          "minecraft:chiseled_bookshelf"
+                        ]
                       }
                     }
                   }
@@ -107,7 +117,9 @@
                     "offsetZ": 1,
                     "predicate": {
                       "block": {
-                        "blocks": "minecraft:chiseled_bookshelf"
+                        "blocks": [
+                          "minecraft:chiseled_bookshelf"
+                        ]
                       }
                     }
                   }
@@ -128,7 +140,9 @@
                     "offsetX": -1,
                     "predicate": {
                       "block": {
-                        "blocks": "minecraft:chiseled_bookshelf"
+                        "blocks": [
+                          "minecraft:chiseled_bookshelf"
+                        ]
                       }
                     }
                   }
@@ -149,7 +163,9 @@
                     "offsetX": 1,
                     "predicate": {
                       "block": {
-                        "blocks": "minecraft:chiseled_bookshelf"
+                        "blocks": [
+                          "minecraft:chiseled_bookshelf"
+                        ]
                       }
                     }
                   }
@@ -163,13 +179,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.read_power_from_chiseled_bookshelf.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:chiseled_bookshelf"
+      "item": "minecraft:chiseled_bookshelf"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.read_power_from_chiseled_bookshelf.title"
     }

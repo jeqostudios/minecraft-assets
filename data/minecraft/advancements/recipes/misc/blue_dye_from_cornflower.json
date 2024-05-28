@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cornflower"
+            "items": [
+              "minecraft:cornflower"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:blue_dye_from_cornflower"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

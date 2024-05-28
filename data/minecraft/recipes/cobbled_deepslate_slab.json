@@ -11,6 +11,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:cobbled_deepslate_slab"
-  }
+    "item": "minecraft:cobbled_deepslate_slab"
+  },
+  "show_notification": true
 }

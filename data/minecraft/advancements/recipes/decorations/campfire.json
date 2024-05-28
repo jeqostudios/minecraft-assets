@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:coals"
+            "tag": "minecraft:coals"
           }
         ]
       },
@@ -15,7 +15,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stick"
+            "items": [
+              "minecraft:stick"
+            ]
           }
         ]
       },
@@ -39,5 +41,6 @@
     "recipes": [
       "minecraft:campfire"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

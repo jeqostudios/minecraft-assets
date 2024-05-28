@@ -52,7 +52,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "minecraft:honeycomb"
+              "items": [
+                "minecraft:honeycomb"
+              ]
             }
           }
         ]
@@ -65,8 +67,7 @@
       "translate": "advancements.husbandry.wax_on.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:honeycomb"
+      "item": "minecraft:honeycomb"
     },
     "title": {
       "translate": "advancements.husbandry.wax_on.title"

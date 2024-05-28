@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:copper_grate"
+            "items": [
+              "minecraft:copper_grate"
+            ]
           }
         ]
       },

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond_boots"
+            "items": [
+              "minecraft:diamond_boots"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond_chestplate"
+            "items": [
+              "minecraft:diamond_chestplate"
+            ]
           }
         ]
       },
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond_helmet"
+            "items": [
+              "minecraft:diamond_helmet"
+            ]
           }
         ]
       },
@@ -35,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:diamond_leggings"
+            "items": [
+              "minecraft:diamond_leggings"
+            ]
           }
         ]
       },
@@ -47,8 +55,8 @@
       "translate": "advancements.story.shiny_gear.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:diamond_chestplate"
+      "item": "minecraft:diamond_chestplate",
+      "nbt": "{Damage:0}"
     },
     "title": {
       "translate": "advancements.story.shiny_gear.title"

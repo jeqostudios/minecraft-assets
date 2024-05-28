@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:decorated_pot_sherds"
+            "tag": "minecraft:decorated_pot_sherds"
           }
         ]
       },
@@ -49,13 +49,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.salvage_sherd.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:brush"
+      "item": "minecraft:brush",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.salvage_sherd.title"
     }
@@ -72,6 +76,5 @@
     [
       "has_sherd"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

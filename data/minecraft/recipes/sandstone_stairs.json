@@ -21,6 +21,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:sandstone_stairs"
-  }
+    "item": "minecraft:sandstone_stairs"
+  },
+  "show_notification": true
 }

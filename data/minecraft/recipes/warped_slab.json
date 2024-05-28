@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
   "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:warped_planks"
     }
   },
-  "pattern": [
-    "###"
-  ],
   "result": {
-    "count": 6,
-    "id": "minecraft:warped_slab"
+    "item": "minecraft:warped_slab",
+    "count": 6
   }
 }

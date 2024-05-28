@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:mossy_cobblestone"
   },
-  "result": {
-    "count": 1,
-    "id": "minecraft:mossy_cobblestone_stairs"
-  }
+  "result": "minecraft:mossy_cobblestone_stairs",
+  "count": 1
 }

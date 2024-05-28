@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
   "key": {
     "#": {
       "item": "minecraft:birch_planks"
     }
   },
-  "pattern": [
-    "# #",
-    "###"
-  ],
   "result": {
-    "count": 1,
-    "id": "minecraft:birch_boat"
+    "item": "minecraft:birch_boat"
   }
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:planks"
+            "tag": "minecraft:planks"
           }
         ]
       },
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:wooden_slabs"
+            "tag": "minecraft:wooden_slabs"
           }
         ]
       },
@@ -30,14 +30,15 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_planks",
-      "has_wood_slab"
+      "has_wood_slab",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:barrel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

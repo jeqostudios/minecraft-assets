@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "carpet",
+  "group": "black_carpet",
   "ingredients": [
     {
       "item": "minecraft:black_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:black_carpet"
+    "item": "minecraft:black_carpet"
   }
 }

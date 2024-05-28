@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:flint"
+            "items": [
+              "minecraft:flint"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian"
+            "items": [
+              "minecraft:obsidian"
+            ]
           }
         ]
       },
@@ -30,14 +34,15 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_flint",
-      "has_obsidian"
+      "has_obsidian",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:flint_and_steel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

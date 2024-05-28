@@ -15,7 +15,7 @@
     "XXX"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:black_bed"
-  }
+    "item": "minecraft:black_bed"
+  },
+  "show_notification": true
 }

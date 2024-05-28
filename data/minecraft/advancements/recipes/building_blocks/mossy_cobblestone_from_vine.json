@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:vine"
+            "items": [
+              "minecraft:vine"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_vine"
+      "has_vine",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:mossy_cobblestone_from_vine"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

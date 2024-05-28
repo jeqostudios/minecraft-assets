@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "wool",
+  "group": "yellow_wool",
   "ingredients": [
     {
       "item": "minecraft:yellow_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:yellow_wool"
+    "item": "minecraft:yellow_wool"
   }
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "carpet",
+  "group": "orange_carpet",
   "ingredients": [
     {
       "item": "minecraft:orange_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:orange_carpet"
+    "item": "minecraft:orange_carpet"
   }
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chiseled_sandstone"
+            "items": [
+              "minecraft:chiseled_sandstone"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sandstone"
+            "items": [
+              "minecraft:sandstone"
+            ]
           }
         ]
       },
@@ -30,14 +34,15 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_sandstone",
-      "has_chiseled_sandstone"
+      "has_chiseled_sandstone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:sandstone_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

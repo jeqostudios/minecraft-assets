@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:red_nether_bricks"
+            "items": [
+              "minecraft:red_nether_bricks"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_red_nether_bricks"
+      "has_red_nether_bricks",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:red_nether_brick_wall"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

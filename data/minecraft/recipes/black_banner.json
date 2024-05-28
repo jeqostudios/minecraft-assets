@@ -16,7 +16,7 @@
     " | "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:black_banner"
-  }
+    "item": "minecraft:black_banner"
+  },
+  "show_notification": true
 }

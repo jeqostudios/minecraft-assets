@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "carpet",
+  "group": "purple_carpet",
   "ingredients": [
     {
       "item": "minecraft:purple_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:purple_carpet"
+    "item": "minecraft:purple_carpet"
   }
 }

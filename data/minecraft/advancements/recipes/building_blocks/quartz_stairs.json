@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chiseled_quartz_block"
+            "items": [
+              "minecraft:chiseled_quartz_block"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz_block"
+            "items": [
+              "minecraft:quartz_block"
+            ]
           }
         ]
       },
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz_pillar"
+            "items": [
+              "minecraft:quartz_pillar"
+            ]
           }
         ]
       },
@@ -40,15 +46,16 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_chiseled_quartz_block",
       "has_quartz_block",
-      "has_quartz_pillar"
+      "has_quartz_pillar",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:quartz_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

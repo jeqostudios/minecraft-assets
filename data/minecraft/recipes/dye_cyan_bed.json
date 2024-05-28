@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "bed",
+  "group": "cyan_bed",
   "ingredients": [
     {
       "item": "minecraft:cyan_dye"
@@ -55,7 +55,6 @@
     ]
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:cyan_bed"
+    "item": "minecraft:cyan_bed"
   }
 }

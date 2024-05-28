@@ -1,12 +1,9 @@
 {
   "type": "minecraft:campfire_cooking",
-  "category": "food",
-  "cookingtime": 600,
-  "experience": 0.35,
   "ingredient": {
     "item": "minecraft:rabbit"
   },
-  "result": {
-    "id": "minecraft:cooked_rabbit"
-  }
+  "result": "minecraft:cooked_rabbit",
+  "experience": 0.35,
+  "cookingtime": 600
 }

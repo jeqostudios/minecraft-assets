@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "key": {
-    "#": {
-      "item": "minecraft:polished_andesite"
-    }
-  },
   "pattern": [
     "#  ",
     "## ",
     "###"
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
   "result": {
-    "count": 4,
-    "id": "minecraft:polished_andesite_stairs"
+    "item": "minecraft:polished_andesite_stairs",
+    "count": 4
   }
 }

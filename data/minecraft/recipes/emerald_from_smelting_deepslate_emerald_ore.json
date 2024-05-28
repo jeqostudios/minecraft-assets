@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:deepslate_emerald_ore"
   },
-  "result": {
-    "id": "minecraft:emerald"
-  }
+  "result": "minecraft:emerald"
 }

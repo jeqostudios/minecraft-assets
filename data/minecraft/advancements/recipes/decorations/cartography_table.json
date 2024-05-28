@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:paper"
+            "items": [
+              "minecraft:paper"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_paper"
+      "has_paper",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:cartography_table"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

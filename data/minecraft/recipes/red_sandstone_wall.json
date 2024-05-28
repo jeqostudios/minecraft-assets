@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:red_sandstone_wall"
-  }
+    "item": "minecraft:red_sandstone_wall"
+  },
+  "show_notification": true
 }

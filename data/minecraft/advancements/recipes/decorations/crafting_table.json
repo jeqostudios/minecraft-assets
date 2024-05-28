@@ -8,18 +8,20 @@
       "trigger": "minecraft:recipe_unlocked"
     },
     "unlock_right_away": {
+      "conditions": {},
       "trigger": "minecraft:tick"
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "unlock_right_away"
+      "unlock_right_away",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:crafting_table"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

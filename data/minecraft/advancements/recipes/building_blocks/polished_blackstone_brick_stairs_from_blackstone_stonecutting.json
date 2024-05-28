@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:blackstone"
+            "items": [
+              "minecraft:blackstone"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_blackstone"
+      "has_blackstone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:polished_blackstone_brick_stairs_from_blackstone_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

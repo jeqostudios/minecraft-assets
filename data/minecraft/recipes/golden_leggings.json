@@ -12,7 +12,7 @@
     "X X"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:golden_leggings"
-  }
+    "item": "minecraft:golden_leggings"
+  },
+  "show_notification": true
 }

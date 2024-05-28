@@ -4,7 +4,9 @@
     "used_warped_fungus_on_a_stick": {
       "conditions": {
         "item": {
-          "items": "minecraft:warped_fungus_on_a_stick"
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ]
         },
         "player": [
           {
@@ -22,13 +24,17 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.nether.ride_strider.description"
     },
+    "frame": "task",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:warped_fungus_on_a_stick"
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{Damage:0}"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.nether.ride_strider.title"
     }

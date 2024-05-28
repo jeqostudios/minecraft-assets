@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:black_terracotta"
+            "items": [
+              "minecraft:black_terracotta"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_black_terracotta"
+      "has_black_terracotta",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:black_glazed_terracotta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

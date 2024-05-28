@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:smooth_stone"
+            "items": [
+              "minecraft:smooth_stone"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_smooth_stone"
+      "has_smooth_stone",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:blast_furnace"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

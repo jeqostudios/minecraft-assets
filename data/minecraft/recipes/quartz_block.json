@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:quartz_block"
-  }
+    "item": "minecraft:quartz_block"
+  },
+  "show_notification": true
 }

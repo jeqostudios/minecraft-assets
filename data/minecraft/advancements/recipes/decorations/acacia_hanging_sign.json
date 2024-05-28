@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stripped_acacia_log"
+            "items": [
+              "minecraft:stripped_acacia_log"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_stripped_logs"
+      "has_stripped_logs",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:acacia_hanging_sign"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

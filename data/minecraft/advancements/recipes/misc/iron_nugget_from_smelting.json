@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chainmail_boots"
+            "items": [
+              "minecraft:chainmail_boots"
+            ]
           }
         ]
       },
@@ -15,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chainmail_chestplate"
+            "items": [
+              "minecraft:chainmail_chestplate"
+            ]
           }
         ]
       },
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chainmail_helmet"
+            "items": [
+              "minecraft:chainmail_helmet"
+            ]
           }
         ]
       },
@@ -35,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:chainmail_leggings"
+            "items": [
+              "minecraft:chainmail_leggings"
+            ]
           }
         ]
       },
@@ -45,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_axe"
+            "items": [
+              "minecraft:iron_axe"
+            ]
           }
         ]
       },
@@ -55,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_boots"
+            "items": [
+              "minecraft:iron_boots"
+            ]
           }
         ]
       },
@@ -65,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_chestplate"
+            "items": [
+              "minecraft:iron_chestplate"
+            ]
           }
         ]
       },
@@ -75,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_helmet"
+            "items": [
+              "minecraft:iron_helmet"
+            ]
           }
         ]
       },
@@ -85,7 +101,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_hoe"
+            "items": [
+              "minecraft:iron_hoe"
+            ]
           }
         ]
       },
@@ -95,7 +113,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_horse_armor"
+            "items": [
+              "minecraft:iron_horse_armor"
+            ]
           }
         ]
       },
@@ -105,7 +125,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_leggings"
+            "items": [
+              "minecraft:iron_leggings"
+            ]
           }
         ]
       },
@@ -115,7 +137,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_pickaxe"
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
           }
         ]
       },
@@ -125,7 +149,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_shovel"
+            "items": [
+              "minecraft:iron_shovel"
+            ]
           }
         ]
       },
@@ -135,7 +161,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_sword"
+            "items": [
+              "minecraft:iron_sword"
+            ]
           }
         ]
       },
@@ -150,7 +178,6 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_iron_pickaxe",
       "has_iron_shovel",
       "has_iron_axe",
@@ -164,12 +191,14 @@
       "has_chainmail_helmet",
       "has_chainmail_chestplate",
       "has_chainmail_leggings",
-      "has_chainmail_boots"
+      "has_chainmail_boots",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:iron_nugget_from_smelting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

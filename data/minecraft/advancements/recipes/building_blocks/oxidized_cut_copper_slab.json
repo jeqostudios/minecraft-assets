@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:oxidized_cut_copper"
+            "items": [
+              "minecraft:oxidized_cut_copper"
+            ]
           }
         ]
       },
@@ -20,13 +22,14 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_oxidized_cut_copper"
+      "has_oxidized_cut_copper",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:oxidized_cut_copper_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

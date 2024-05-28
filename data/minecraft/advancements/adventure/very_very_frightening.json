@@ -23,8 +23,8 @@
       "translate": "advancements.adventure.very_very_frightening.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:trident"
+      "item": "minecraft:trident",
+      "nbt": "{Damage:0}"
     },
     "title": {
       "translate": "advancements.adventure.very_very_frightening.title"

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:poppy"
+            "items": [
+              "minecraft:poppy"
+            ]
           }
         ]
       },

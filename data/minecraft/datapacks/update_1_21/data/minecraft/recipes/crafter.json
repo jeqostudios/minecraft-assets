@@ -21,7 +21,6 @@
     "RDR"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:crafter"
+    "item": "minecraft:crafter"
   }
 }

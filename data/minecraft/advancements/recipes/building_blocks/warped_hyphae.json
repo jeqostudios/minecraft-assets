@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:warped_stem"
+            "items": [
+              "minecraft:warped_stem"
+            ]
           }
         ]
       },

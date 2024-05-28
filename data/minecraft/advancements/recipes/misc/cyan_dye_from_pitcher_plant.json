@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pitcher_plant"
+            "items": [
+              "minecraft:pitcher_plant"
+            ]
           }
         ]
       },

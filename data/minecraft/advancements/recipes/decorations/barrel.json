@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:planks"
+            "tag": "minecraft:planks"
           }
         ]
       },
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:wooden_slabs"
+            "tag": "minecraft:wooden_slabs"
           }
         ]
       },

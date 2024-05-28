@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lapis_block"
+            "items": [
+              "minecraft:lapis_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:lapis_lazuli"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -12,6 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "id": "minecraft:polished_granite"
-  }
+    "item": "minecraft:polished_granite"
+  },
+  "show_notification": true
 }

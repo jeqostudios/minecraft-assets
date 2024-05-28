@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bamboo"
+            "items": [
+              "minecraft:bamboo"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:scaffolding"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

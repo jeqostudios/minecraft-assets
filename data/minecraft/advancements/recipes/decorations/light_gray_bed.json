@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:light_gray_wool"
+            "items": [
+              "minecraft:light_gray_wool"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:light_gray_bed"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:clay"
+            "items": [
+              "minecraft:clay"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:terracotta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

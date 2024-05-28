@@ -6,14 +6,16 @@
     }
   },
   "display": {
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.adventure.kill_mob_near_sculk_catalyst.description"
     },
     "frame": "challenge",
+    "hidden": false,
     "icon": {
-      "count": 1,
-      "id": "minecraft:sculk_catalyst"
+      "item": "minecraft:sculk_catalyst"
     },
+    "show_toast": true,
     "title": {
       "translate": "advancements.adventure.kill_mob_near_sculk_catalyst.title"
     }

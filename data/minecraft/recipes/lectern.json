@@ -15,7 +15,7 @@
     " S "
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:lectern"
-  }
+    "item": "minecraft:lectern"
+  },
+  "show_notification": true
 }

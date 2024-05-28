@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:redstone_block"
+            "items": [
+              "minecraft:redstone_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:redstone"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

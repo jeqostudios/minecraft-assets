@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:copper_block"
+            "items": [
+              "minecraft:copper_block"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:waxed_copper_block_from_honeycomb"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

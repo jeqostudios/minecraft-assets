@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:gunpowder"
+            "items": [
+              "minecraft:gunpowder"
+            ]
           }
         ]
       },
@@ -28,5 +30,6 @@
     "recipes": [
       "minecraft:tnt"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

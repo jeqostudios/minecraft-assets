@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:polished_granite"
   },
-  "result": {
-    "count": 1,
-    "id": "minecraft:polished_granite_stairs"
-  }
+  "result": "minecraft:polished_granite_stairs",
+  "count": 1
 }

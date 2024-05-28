@@ -1,32 +1,32 @@
 {
   "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "minecraft:skull_banner_pattern"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_wither_skeleton_skull": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:wither_skeleton_skull"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    }
-  },
-  "requirements": [
-    [
-      "has_the_recipe",
-      "has_wither_skeleton_skull"
-    ]
-  ],
   "rewards": {
     "recipes": [
       "minecraft:skull_banner_pattern"
     ]
-  }
+  },
+  "criteria": {
+    "has_wither_skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:skull_banner_pattern"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wither_skeleton_skull",
+      "has_the_recipe"
+    ]
+  ]
 }

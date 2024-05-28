@@ -2,19 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:binomial",
                 "n": 3.0,
                 "p": 0.53333336
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:pumpkin_seeds"
@@ -24,9 +25,7 @@
         {
           "function": "minecraft:explosion_decay"
         }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:blocks/attached_pumpkin_stem"
+  ]
 }

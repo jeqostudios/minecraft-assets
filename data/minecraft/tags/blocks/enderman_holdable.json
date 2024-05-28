@@ -1,7 +1,9 @@
 {
+  "replace": false,
   "values": [
     "#minecraft:small_flowers",
     "#minecraft:dirt",
+    "minecraft:grass_block",
     "minecraft:sand",
     "minecraft:red_sand",
     "minecraft:gravel",
@@ -13,6 +15,7 @@
     "minecraft:pumpkin",
     "minecraft:carved_pumpkin",
     "minecraft:melon",
+    "minecraft:mycelium",
     "minecraft:crimson_fungus",
     "minecraft:crimson_nylium",
     "minecraft:crimson_roots",

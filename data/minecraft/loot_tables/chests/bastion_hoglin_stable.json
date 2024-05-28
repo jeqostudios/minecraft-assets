@@ -2,156 +2,161 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 15,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.8,
-                "min": 0.15
+                "min": 0.15,
+                "max": 0.8
               },
-              "function": "minecraft:set_damage"
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_shovel",
-          "weight": 15
+          "name": "minecraft:diamond_shovel"
         },
         {
           "type": "minecraft:item",
+          "weight": 12,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
-                "max": 0.95,
-                "min": 0.15
+                "min": 0.15,
+                "max": 0.95
               },
-              "function": "minecraft:set_damage"
+              "add": false
             },
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "minecraft:diamond_pickaxe",
-          "weight": 12
+          "name": "minecraft:diamond_pickaxe"
         },
         {
           "type": "minecraft:item",
+          "weight": 8,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:netherite_scrap",
-          "weight": 8
+          "name": "minecraft:netherite_scrap"
         },
         {
           "type": "minecraft:item",
+          "weight": 12,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:ancient_debris",
-          "weight": 12
+          "name": "minecraft:ancient_debris"
         },
         {
           "type": "minecraft:item",
+          "weight": 5,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 2.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:ancient_debris",
-          "weight": 5
+          "name": "minecraft:ancient_debris"
         },
         {
           "type": "minecraft:item",
+          "weight": 12,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:saddle",
-          "weight": 12
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
+          "weight": 16,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 4.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:gold_block",
-          "weight": 16
+          "name": "minecraft:gold_block"
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 17.0,
-                "min": 8.0
+                "min": 8.0,
+                "max": 17.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:golden_carrot",
-          "weight": 10
+          "name": "minecraft:golden_carrot"
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
-          "name": "minecraft:golden_apple",
-          "weight": 10
+          "name": "minecraft:golden_apple"
         }
-      ],
-      "rolls": 1.0
+      ]
     },
     {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3.0,
+        "max": 4.0
+      },
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
@@ -163,13 +168,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 5.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:crying_obsidian"
@@ -178,13 +183,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "min": 3.0,
+                "max": 6.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:glowstone"
@@ -193,13 +198,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 5.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:gilded_blackstone"
@@ -208,13 +213,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 7.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:soul_sand"
@@ -223,13 +228,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 7.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:crimson_nylium"
@@ -238,13 +243,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 8.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:gold_nugget"
@@ -253,13 +258,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "min": 1.0,
+                "max": 3.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:leather"
@@ -268,13 +273,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 17.0,
-                "min": 5.0
+                "min": 5.0,
+                "max": 17.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:arrow"
@@ -283,13 +288,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 3.0
+                "min": 3.0,
+                "max": 8.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:string"
@@ -298,13 +303,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 5.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:porkchop"
@@ -313,13 +318,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 5.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:cooked_porkchop"
@@ -328,13 +333,13 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 7.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:crimson_fungus"
@@ -343,52 +348,18 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
+                "min": 2.0,
+                "max": 7.0
               },
-              "function": "minecraft:set_count"
+              "add": false
             }
           ],
           "name": "minecraft:crimson_roots"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 3.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 11
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:snout_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 9
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_upgrade_smithing_template"
-        }
-      ],
-      "rolls": 1.0
+      ]
     }
-  ],
-  "random_sequence": "minecraft:chests/bastion_hoglin_stable"
+  ]
 }

@@ -4,7 +4,9 @@
     "cod_bucket": {
       "conditions": {
         "item": {
-          "items": "minecraft:cod_bucket"
+          "items": [
+            "minecraft:cod_bucket"
+          ]
         }
       },
       "trigger": "minecraft:filled_bucket"
@@ -12,7 +14,9 @@
     "pufferfish_bucket": {
       "conditions": {
         "item": {
-          "items": "minecraft:pufferfish_bucket"
+          "items": [
+            "minecraft:pufferfish_bucket"
+          ]
         }
       },
       "trigger": "minecraft:filled_bucket"
@@ -20,7 +24,9 @@
     "salmon_bucket": {
       "conditions": {
         "item": {
-          "items": "minecraft:salmon_bucket"
+          "items": [
+            "minecraft:salmon_bucket"
+          ]
         }
       },
       "trigger": "minecraft:filled_bucket"
@@ -28,7 +34,9 @@
     "tropical_fish_bucket": {
       "conditions": {
         "item": {
-          "items": "minecraft:tropical_fish_bucket"
+          "items": [
+            "minecraft:tropical_fish_bucket"
+          ]
         }
       },
       "trigger": "minecraft:filled_bucket"
@@ -39,8 +47,7 @@
       "translate": "advancements.husbandry.tactical_fishing.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:pufferfish_bucket"
+      "item": "minecraft:pufferfish_bucket"
     },
     "title": {
       "translate": "advancements.husbandry.tactical_fishing.title"

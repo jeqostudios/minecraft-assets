@@ -12,7 +12,6 @@
     "X X"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:leather_leggings"
+    "item": "minecraft:leather_leggings"
   }
 }

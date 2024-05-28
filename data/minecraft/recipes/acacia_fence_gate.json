@@ -15,7 +15,6 @@
     "#W#"
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:acacia_fence_gate"
+    "item": "minecraft:acacia_fence_gate"
   }
 }

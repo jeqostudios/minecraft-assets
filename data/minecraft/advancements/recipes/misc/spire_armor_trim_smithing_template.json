@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:spire_armor_trim_smithing_template"
+            "items": [
+              "minecraft:spire_armor_trim_smithing_template"
+            ]
           }
         ]
       },

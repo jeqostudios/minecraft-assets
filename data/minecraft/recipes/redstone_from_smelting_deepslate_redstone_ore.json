@@ -7,7 +7,5 @@
   "ingredient": {
     "item": "minecraft:deepslate_redstone_ore"
   },
-  "result": {
-    "id": "minecraft:redstone"
-  }
+  "result": "minecraft:redstone"
 }

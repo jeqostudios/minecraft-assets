@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "minecraft:basalt"
   },
-  "result": {
-    "count": 1,
-    "id": "minecraft:polished_basalt"
-  }
+  "result": "minecraft:polished_basalt",
+  "count": 1
 }
